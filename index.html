@@ -1081,7 +1081,7 @@
             <span class="alx-badge">Personal Knowledge Studio · Stored Locally in Browser</span>
             <h1 class="font-serif-editorial text-2xl sm:text-4xl font-bold mt-1">My Library, Notes &amp; Mental Models</h1>
             <p class="text-xs sm:text-sm alx-text-secondary max-w-3xl">
-              Track your reading statuses, write multi-part personal synthesis summaries, capture page-referenced insights and verbatim quotes, and build a cross-disciplinary Mental Models Repository.
+              Track reading, write summaries and notes, and save mental models. Remove books from your shelf without losing notes, or delete/reset individual entries when needed. Personal data stays in this browser.
             </p>
           </div>
           <div class="flex flex-wrap items-center gap-2">
@@ -1093,6 +1093,9 @@
             </button>
             <button type="button" onclick="openExportModal()" class="alx-btn-secondary px-3.5 py-2 text-xs">
               Backup / Export
+            </button>
+            <button type="button" onclick="resetEntireLibrary()" class="alx-btn-secondary px-3.5 py-2 text-xs" style="color:var(--accent-warm)" title="Remove all personal library data after confirmation">
+              Reset Entire Library
             </button>
           </div>
         </div>
@@ -1208,7 +1211,7 @@
             <div>
               <label for="studio-status-select" class="block text-xs font-semibold mb-1">Reading Status</label>
               <select id="studio-status-select" onchange="saveStudioStatus()" class="alx-input w-full text-sm">
-                <option value="">Not in Library Yet</option>
+                <option value="">Not in Library (notes can be kept)</option>
                 <option value="Want to Read">Want to Read</option>
                 <option value="Reading">Currently Reading</option>
                 <option value="Completed">Completed</option>
@@ -1240,6 +1243,14 @@
             <label for="studio-personal-tags" class="block text-xs font-semibold mb-1">Personal Shelf Tags (comma-separated)</label>
             <input id="studio-personal-tags" type="text" oninput="saveStudioStatus()" placeholder="e.g., 2026 Reading Club, Favorite Translations, Epistemology..." class="alx-input w-full text-sm" />
           </div>
+          <div class="alx-subtle rounded-xl p-3 space-y-2">
+            <p class="text-xs alx-text-muted">Removing a book from your shelf keeps your notes and summaries. Deleting its personal data removes them permanently.</p>
+            <div class="flex flex-wrap gap-2">
+              <button type="button" onclick="unsaveStudioBook()" class="alx-btn-secondary px-3 py-1.5 text-xs">Remove from Library</button>
+              <button type="button" onclick="resetStudioReadingData()" class="alx-btn-secondary px-3 py-1.5 text-xs">Reset Reading Data</button>
+              <button type="button" onclick="deleteBookAndPersonalData()" class="alx-btn-secondary px-3 py-1.5 text-xs" style="color:var(--accent-warm)">Delete Book &amp; Personal Data</button>
+            </div>
+          </div>
         </div>
 
         <!-- Tab 4: Personal Synthesis Summary (with Auto-Save Draft Timestamp) -->
@@ -1249,7 +1260,10 @@
               <h3 class="font-serif-editorial text-xl font-bold">Personal Synthesis Summary</h3>
               <p class="text-xs alx-text-muted">Distill the book's thesis, structure, and personal resonance in your own words. Auto-saves as you type.</p>
             </div>
-            <span id="studio-autosave-indicator" class="alx-badge">Auto-Save Ready</span>
+            <div class="flex flex-wrap items-center gap-2">
+              <span id="studio-autosave-indicator" class="alx-badge">Auto-Save Ready</span>
+              <button type="button" onclick="clearStudioSummary()" class="alx-btn-secondary px-3 py-1.5 text-xs" style="color:var(--accent-warm)">Clear Summary</button>
+            </div>
           </div>
           <div>
             <label for="studio-sum-thesis" class="block text-xs font-semibold mb-1">1. Core Thesis, Central Question &amp; Emotional Heart</label>
@@ -1303,11 +1317,14 @@
               <input id="studio-note-tags" type="text" placeholder="Concept tags (e.g., Epistemology, Complexity, Irony)" class="alx-input text-xs flex-1" />
               <div class="flex items-center gap-2">
                 <button type="button" id="studio-note-cancel-btn" onclick="cancelEditStudioNote()" class="hidden alx-btn-secondary px-3 py-1.5 text-xs">Cancel Edit</button>
+                <button type="button" onclick="cancelEditStudioNote()" class="alx-btn-secondary px-3 py-1.5 text-xs">Clear Form</button>
                 <button type="button" onclick="saveStudioNote()" class="alx-btn-primary px-4 py-1.5 text-xs">Save Note</button>
               </div>
             </div>
           </div>
-
+          <div class="flex justify-end">
+            <button type="button" onclick="clearAllStudioNotes()" class="alx-btn-secondary px-3 py-1.5 text-xs" style="color:var(--accent-warm)">Delete All Notes for This Book</button>
+          </div>
           <div id="studio-notes-list" class="space-y-2.5"></div>
         </div>
       </div>
@@ -1416,6 +1433,7 @@
         <h2 id="custom-book-modal-title" class="font-serif-editorial text-2xl font-bold">Add a Custom Book to My Library</h2>
         <button type="button" onclick="closeCustomBookModal()" class="alx-btn-secondary px-2.5 py-1 text-xs">✕</button>
       </div>
+      <input type="hidden" id="cb-editing-work-id" value="" />
       <div class="space-y-3 text-xs sm:text-sm">
         <div>
           <label for="cb-title" class="block text-xs font-semibold mb-1">Book Title *</label>
@@ -1453,7 +1471,7 @@
       </div>
       <div class="flex justify-end gap-2 pt-2">
         <button type="button" onclick="closeCustomBookModal()" class="alx-btn-secondary px-4 py-2 text-xs">Cancel</button>
-        <button type="button" onclick="saveCustomBook()" class="alx-btn-primary px-4 py-2 text-xs">Save to My Library</button>
+        <button type="button" id="cb-save-btn" onclick="saveCustomBook()" class="alx-btn-primary px-4 py-2 text-xs">Save to My Library</button>
       </div>
     </div>
   </div>
@@ -1894,7 +1912,7 @@
     function savePersistedState() {
       try {
         const payload = {
-          version: "4.1.0",
+          version: "4.2.0",
           demoModeActive: STATE.demoModeActive,
           userLibrary: STATE.userLibrary,
           customBooks: STATE.customBooks
@@ -1914,7 +1932,7 @@
       return STATE.userLibrary[workId] || null;
     }
 
-    function ensureUserRecord(workId) {
+    function ensureUserRecord(workId, initialStatus = "Want to Read") {
       if (!STATE.userLibrary[workId]) {
         const catBook = WORK_BY_ID.get(workId) || {};
         STATE.userLibrary[workId] = {
@@ -1922,7 +1940,7 @@
           title: catBook.title || "Untitled",
           author: catBook.author || "Unknown",
           year: catBook.year || "",
-          status: "Want to Read",
+          status: initialStatus,
           rating: 0,
           dateStarted: "",
           dateFinished: "",
@@ -1935,7 +1953,7 @@
     }
 
     function updateNavLibraryBadge() {
-      const count = Object.values(STATE.userLibrary).filter(r => r && (r.status || (r.notes && r.notes.length > 0) || (r.summary && (r.summary.thesis || r.summary.takeaways || r.summary.reflection)))).length;
+      const count = Object.values(STATE.userLibrary).filter(r => r && r.status).length;
       const el = document.getElementById("nav-library-badge");
       if (el) el.textContent = String(count);
       const demoBtn = document.getElementById("demo-mode-toggle-btn");
@@ -2172,8 +2190,8 @@
             </button>
             <div class="flex items-center gap-1.5">
               ${externalAction}
-              <button type="button" onclick="event.stopPropagation(); quickToggleWantToRead('${escapeHtml(b.workId)}')" class="alx-btn-primary px-2.5 py-1 text-xs" title="Save or update in My Library">
-                ${uRec && uRec.status ? "Saved" : "+ Library"}
+              <button type="button" onclick="event.stopPropagation(); quickToggleWantToRead('${escapeHtml(b.workId)}')" class="${uRec && uRec.status ? 'alx-btn-secondary' : 'alx-btn-primary'} px-2.5 py-1 text-xs" title="${uRec && uRec.status ? 'Remove from shelf; keep notes and summaries' : 'Save to My Library'}" aria-pressed="${Boolean(uRec && uRec.status)}">
+                ${uRec && uRec.status ? "− Remove" : "+ Library"}
               </button>
             </div>
           </div>
@@ -2181,11 +2199,27 @@
       `;
     }
 
-    function quickToggleWantToRead(workId) {
-      const rec = ensureUserRecord(workId);
-      if (!rec.status) rec.status = "Want to Read";
-      savePersistedState();
-      // Refresh active view
+    function hasUserContent(rec) {
+      return Boolean(rec && (
+        rec.rating || rec.dateStarted || rec.dateFinished || rec.personalTags ||
+        (rec.notes && rec.notes.length) ||
+        (rec.summary && (rec.summary.thesis || rec.summary.takeaways || rec.summary.reflection))
+      ));
+    }
+
+    function isCustomWork(workId) {
+      return STATE.customBooks.some(b => b.workId === workId);
+    }
+
+    function pruneEmptyUserRecord(workId) {
+      const rec = getUserRecord(workId);
+      if (rec && !rec.status && !hasUserContent(rec) && !isCustomWork(workId)) {
+        delete STATE.userLibrary[workId];
+      }
+    }
+
+    function refreshAfterLibraryChange() {
+      updateNavLibraryBadge();
       if (STATE.routeMain === "discover") renderDiscoverView();
       else if (STATE.routeMain === "literature") {
         if (STATE.routeSub === "world") renderActiveCountryBooks();
@@ -2195,7 +2229,153 @@
         else if (STATE.routeSub === "science-fiction") renderScifi();
         else if (STATE.routeSub === "non-novel") renderNonNovel();
       } else if (STATE.routeMain === "knowledge") renderKnowledge();
-      else if (STATE.routeMain === "library") renderLibraryShelf();
+      else if (STATE.routeMain === "library") {
+        renderLibraryKPIs();
+        if (STATE.routeSub === "notes") renderMyNotesView();
+        else if (STATE.routeSub === "mental-models") renderMentalModelsView();
+        else renderLibraryShelf();
+      }
+    }
+
+    function quickToggleWantToRead(workId) {
+      const existing = getUserRecord(workId);
+      if (existing && existing.status) {
+        // A reversible shelf action: keep any notes, summaries, tags or ratings.
+        existing.status = "";
+        delete existing.isDemo;
+        pruneEmptyUserRecord(workId);
+      } else {
+        const rec = ensureUserRecord(workId);
+        rec.status = "Want to Read";
+        delete rec.isDemo;
+      }
+      savePersistedState();
+      refreshAfterLibraryChange();
+    }
+
+    function unsaveStudioBook() {
+      const workId = STATE.activeStudioWorkId;
+      if (!workId) return;
+      const rec = getUserRecord(workId);
+      if (rec && rec.status) {
+        rec.status = "";
+        delete rec.isDemo;
+        pruneEmptyUserRecord(workId);
+        savePersistedState();
+        refreshAfterLibraryChange();
+      }
+      document.getElementById("studio-status-select").value = "";
+    }
+
+    function resetStudioReadingData() {
+      const workId = STATE.activeStudioWorkId;
+      const rec = getUserRecord(workId);
+      if (!rec) return;
+      if (!confirm("Reset reading status, rating, dates and shelf tags for this book? Notes and summaries will be kept.")) return;
+      rec.status = "";
+      rec.rating = 0;
+      rec.dateStarted = "";
+      rec.dateFinished = "";
+      rec.personalTags = "";
+      delete rec.isDemo;
+      pruneEmptyUserRecord(workId);
+      savePersistedState();
+      for (const id of ["studio-status-select", "studio-date-started", "studio-date-finished", "studio-personal-tags"]) {
+        document.getElementById(id).value = "";
+      }
+      document.getElementById("studio-rating-select").value = "0";
+      refreshAfterLibraryChange();
+    }
+
+    function clearStudioSummary() {
+      const workId = STATE.activeStudioWorkId;
+      const rec = getUserRecord(workId);
+      if (!rec || !rec.summary || !(rec.summary.thesis || rec.summary.takeaways || rec.summary.reflection)) return;
+      if (!confirm("Delete the entire personal synthesis summary for this book? This cannot be undone.")) return;
+      rec.summary = { thesis: "", takeaways: "", reflection: "", updatedAt: "" };
+      delete rec.isDemo;
+      pruneEmptyUserRecord(workId);
+      savePersistedState();
+      for (const id of ["studio-sum-thesis", "studio-sum-takeaways", "studio-sum-reflection"]) {
+        document.getElementById(id).value = "";
+      }
+      document.getElementById("studio-autosave-indicator").textContent = "Summary Cleared";
+      refreshAfterLibraryChange();
+    }
+
+    function clearAllStudioNotes() {
+      const workId = STATE.activeStudioWorkId;
+      const rec = getUserRecord(workId);
+      if (!rec || !Array.isArray(rec.notes) || !rec.notes.length) return;
+      if (!confirm(`Delete all ${rec.notes.length} notes and mental models for this book? This cannot be undone.`)) return;
+      rec.notes = [];
+      delete rec.isDemo;
+      cancelEditStudioNote();
+      pruneEmptyUserRecord(workId);
+      savePersistedState();
+      renderStudioNotesList();
+      refreshAfterLibraryChange();
+    }
+
+    function deleteBookAndPersonalData(workId = STATE.activeStudioWorkId) {
+      if (!workId) return;
+      const book = WORK_BY_ID.get(workId) || getUserRecord(workId);
+      if (!book) return;
+      const custom = isCustomWork(workId);
+      if (!confirm(`Permanently delete ${book.title} ${custom ? "(including the custom book itself)" : "from your personal data"}, including its reading progress, notes, ratings and summaries?\n\nThis cannot be undone.`)) return;
+      delete STATE.userLibrary[workId];
+      if (custom) {
+        STATE.customBooks = STATE.customBooks.filter(b => b.workId !== workId);
+        for (let i = ALL_PLACEMENTS.length - 1; i >= 0; i--) {
+          if (ALL_PLACEMENTS[i].workId === workId && ALL_PLACEMENTS[i]._collectionId === "custom") ALL_PLACEMENTS.splice(i, 1);
+        }
+        WORK_BY_ID.delete(workId);
+      }
+      savePersistedState();
+      if (STATE.activeStudioWorkId === workId) closeBookStudio();
+      refreshAfterLibraryChange();
+    }
+
+    function deleteNoteFromLibrary(workId, noteId) {
+      const rec = getUserRecord(workId);
+      if (!rec || !Array.isArray(rec.notes)) return;
+      const note = rec.notes.find(n => n.id === noteId);
+      if (!note) return;
+      if (!confirm("Delete this saved note? This cannot be undone.")) return;
+      rec.notes = rec.notes.filter(n => n.id !== noteId);
+      delete rec.isDemo;
+      pruneEmptyUserRecord(workId);
+      savePersistedState();
+      refreshAfterLibraryChange();
+    }
+
+    function editNoteFromLibrary(workId, noteId) {
+      openBookStudio(workId, true, "notes");
+      editStudioNote(noteId);
+    }
+
+    function clearSummaryFromLibrary(workId) {
+      openBookStudio(workId, true, "summary");
+      clearStudioSummary();
+    }
+
+    function resetEntireLibrary() {
+      if (prompt("This will permanently delete ALL personal reading data, custom books, notes, summaries and mental models in this browser. Export a backup first if needed.\n\nType RESET to confirm:") !== "RESET") return;
+      for (const cb of STATE.customBooks) {
+        WORK_BY_ID.delete(cb.workId);
+      }
+      for (let i = ALL_PLACEMENTS.length - 1; i >= 0; i--) {
+        if (ALL_PLACEMENTS[i]._collectionId === "custom") ALL_PLACEMENTS.splice(i, 1);
+      }
+      STATE.userLibrary = {};
+      STATE.customBooks = [];
+      STATE.demoModeActive = false;
+      STATE.libStatusFilter = "ALL";
+      document.querySelectorAll("#lib-status-pills .alx-pill").forEach(btn => {
+        btn.classList.toggle("active", btn.getAttribute("data-lib-filter") === "ALL");
+      });
+      savePersistedState();
+      refreshAfterLibraryChange();
     }
 
     /* ========================================================================
@@ -2804,8 +2984,8 @@
             <p class="text-xs alx-text-secondary leading-relaxed">${escapeHtml(b.note || "")}</p>
             <div class="pt-1 flex items-center justify-between">
               <span class="text-[11px] alx-accent-text font-medium">Open Book Studio &amp; Notes →</span>
-              <button type="button" onclick="event.stopPropagation(); quickToggleWantToRead('${escapeHtml(b.workId)}')" class="alx-btn-secondary px-2 py-0.5 text-[11px]">
-                ${uRec && uRec.status ? "✓ Saved" : "+ Library"}
+              <button type="button" onclick="event.stopPropagation(); quickToggleWantToRead('${escapeHtml(b.workId)}')" class="alx-btn-secondary px-2 py-0.5 text-[11px]" aria-pressed="${Boolean(uRec && uRec.status)}" title="${uRec && uRec.status ? 'Remove from shelf; keep personal notes' : 'Save to Library'}">
+                ${uRec && uRec.status ? "− Remove" : "+ Library"}
               </button>
             </div>
           </div>
@@ -3406,8 +3586,8 @@
 
       const q = ((document.getElementById("lib-shelf-search") || {}).value || "").trim().toLowerCase();
       const records = Object.values(STATE.userLibrary).filter(r => {
-        const hasActivity = Boolean(r.status || (r.notes && r.notes.length) || (r.summary && (r.summary.thesis || r.summary.takeaways || r.summary.reflection)));
-        if (!hasActivity) return false;
+        // A shelf entry requires an explicit reading status; notes remain accessible in the Notes tab after unsaving.
+        if (!r.status) return false;
         if (STATE.libStatusFilter !== "ALL" && r.status !== STATE.libStatusFilter) return false;
         if (q && !(r.title.toLowerCase().includes(q) || r.author.toLowerCase().includes(q) || (r.personalTags || "").toLowerCase().includes(q))) return false;
         return true;
@@ -3445,9 +3625,13 @@
               ${r.personalTags ? `<div class="text-[11px] alx-text-muted">Tags: ${escapeHtml(r.personalTags)}</div>` : ""}
               ${hasSum ? `<p class="text-xs alx-text-secondary line-clamp-2 italic">"${escapeHtml(r.summary.thesis || r.summary.takeaways)}"</p>` : `<p class="text-xs alx-text-muted">${escapeHtml(catBook.note || catBook.why || "Open Book Studio to write your synthesis summary and notes.")}</p>`}
             </div>
-            <div class="pt-2 border-t border-[var(--border-subtle)] flex items-center justify-between text-xs">
+            <div class="pt-2 border-t border-[var(--border-subtle)] flex flex-wrap items-center justify-between gap-2 text-xs">
               <span class="alx-text-muted">${hasSum ? "✓ Synthesis Summary" : "No Summary Yet"} · ${notesCount} ${notesCount === 1 ? "Note" : "Notes"}</span>
-              <span class="alx-accent-text font-semibold">Open Studio →</span>
+              <div class="flex flex-wrap items-center gap-2">
+                ${isCustomWork(r.workId) ? `<button type="button" onclick="event.stopPropagation(); editCustomBook('${escapeHtml(r.workId)}')" class="alx-btn-secondary px-2 py-1 text-xs">Edit Book</button>` : ""}
+                <button type="button" onclick="event.stopPropagation(); quickToggleWantToRead('${escapeHtml(r.workId)}')" class="alx-btn-secondary px-2 py-1 text-xs">Remove from Shelf</button>
+                <button type="button" onclick="event.stopPropagation(); deleteBookAndPersonalData('${escapeHtml(r.workId)}')" class="alx-btn-secondary px-2 py-1 text-xs" style="color:var(--accent-warm)">Delete Data</button>
+              </div>
             </div>
           </article>
         `;
@@ -3501,7 +3685,11 @@
                   <span class="alx-badge">Personal Synthesis Summary</span>
                   <button type="button" onclick="openBookStudio('${escapeHtml(r.workId)}', true, 'summary')" class="font-serif-editorial text-lg font-bold hover:underline">${escapeHtml(r.title)} — ${escapeHtml(r.author)}</button>
                 </div>
-                <span class="text-[11px] alx-text-muted">${escapeHtml(r.summary.updatedAt || "")}</span>
+                <div class="flex flex-wrap items-center gap-2">
+                  <span class="text-[11px] alx-text-muted">${escapeHtml(r.summary.updatedAt || "")}</span>
+                  <button type="button" onclick="openBookStudio('${escapeHtml(r.workId)}', true, 'summary')" class="alx-btn-secondary px-2 py-1 text-xs">Edit</button>
+                  <button type="button" onclick="clearSummaryFromLibrary('${escapeHtml(r.workId)}')" class="alx-btn-secondary px-2 py-1 text-xs" style="color:var(--accent-warm)">Delete Summary</button>
+                </div>
               </div>
               ${r.summary.thesis ? `<p class="text-xs sm:text-sm alx-text-secondary"><strong>Core Thesis:</strong> ${escapeHtml(r.summary.thesis)}</p>` : ""}
               ${r.summary.takeaways ? `<p class="text-xs sm:text-sm alx-text-secondary"><strong>Key Takeaways:</strong> ${escapeHtml(r.summary.takeaways)}</p>` : ""}
@@ -3519,7 +3707,11 @@
                   <span class="alx-badge">${escapeHtml(n.mode || "Paraphrase")}</span>
                   ${n.page ? `<span class="text-xs font-mono-code alx-text-muted">${escapeHtml(n.page)}</span>` : ""}
                 </div>
-                <button type="button" onclick="openBookStudio('${escapeHtml(r.workId)}', true, 'notes')" class="text-xs alx-accent-text font-medium hover:underline">${escapeHtml(r.title)} →</button>
+                <div class="flex flex-wrap items-center gap-2">
+                  <button type="button" onclick="editNoteFromLibrary('${escapeHtml(r.workId)}', '${escapeHtml(n.id)}')" class="alx-btn-secondary px-2 py-1 text-xs">Edit</button>
+                  <button type="button" onclick="deleteNoteFromLibrary('${escapeHtml(r.workId)}', '${escapeHtml(n.id)}')" class="alx-btn-secondary px-2 py-1 text-xs" style="color:var(--accent-warm)">Delete</button>
+                  <button type="button" onclick="openBookStudio('${escapeHtml(r.workId)}', true, 'notes')" class="text-xs alx-accent-text font-medium hover:underline">${escapeHtml(r.title)} →</button>
+                </div>
               </div>
               <p class="text-xs sm:text-sm ${n.mode === 'Verbatim Quote' ? 'italic border-l-2 border-[var(--accent-primary)] pl-3' : ''} alx-text-primary">${escapeHtml(n.text)}</p>
               ${n.tags ? `<div class="text-[11px] alx-text-muted">Tags: ${escapeHtml(n.tags)}</div>` : ""}
@@ -3546,6 +3738,7 @@
               discipline: r.personalTags || "Personal Mental Model",
               bookTitle: `${r.title} (${r.author})`,
               workId: r.workId,
+              noteId: n.id,
               summary: n.text,
               application: n.page ? `Reference: ${n.page}` : "Saved in Personal Book Studio"
             });
@@ -3572,7 +3765,13 @@
           </div>
           <div class="pt-2 border-t border-[var(--border-subtle)] flex items-center justify-between text-xs">
             <span class="alx-text-muted truncate">Source: <strong>${escapeHtml(m.bookTitle)}</strong></span>
-            <button type="button" onclick="openBookStudio('${escapeHtml(m.workId)}', true, 'notes')" class="alx-accent-text font-semibold shrink-0">Inspect Book →</button>
+            <div class="flex flex-wrap gap-2 items-center">
+              ${m.isUser ? `
+                <button type="button" onclick="editNoteFromLibrary('${escapeHtml(m.workId)}', '${escapeHtml(m.noteId)}')" class="alx-btn-secondary px-2 py-1 text-xs">Edit</button>
+                <button type="button" onclick="deleteNoteFromLibrary('${escapeHtml(m.workId)}', '${escapeHtml(m.noteId)}')" class="alx-btn-secondary px-2 py-1 text-xs" style="color:var(--accent-warm)">Delete</button>
+              ` : ""}
+              <button type="button" onclick="openBookStudio('${escapeHtml(m.workId)}', true, 'notes')" class="alx-accent-text font-semibold shrink-0">Inspect Book →</button>
+            </div>
           </div>
         </div>
       `).join("");
@@ -3693,20 +3892,23 @@
 
     function saveStudioStatus() {
       if (!STATE.activeStudioWorkId) return;
-      const rec = ensureUserRecord(STATE.activeStudioWorkId);
+      const workId = STATE.activeStudioWorkId;
+      const rec = ensureUserRecord(workId);
       rec.status = document.getElementById("studio-status-select").value;
       rec.rating = Number(document.getElementById("studio-rating-select").value || 0);
       rec.dateStarted = document.getElementById("studio-date-started").value;
       rec.dateFinished = document.getElementById("studio-date-finished").value;
       rec.personalTags = document.getElementById("studio-personal-tags").value.trim();
       delete rec.isDemo;
+      pruneEmptyUserRecord(workId);
       savePersistedState();
+      refreshAfterLibraryChange();
     }
 
     function autoSaveStudioSummary() {
       if (!STATE.activeStudioWorkId) return;
-      const rec = ensureUserRecord(STATE.activeStudioWorkId);
-      if (!rec.status) rec.status = "Reading";
+      const rec = ensureUserRecord(STATE.activeStudioWorkId, "");
+      // A summary may be drafted without adding the book to the reading shelf.
       const nowStr = new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", second: "2-digit" });
       rec.summary = {
         thesis: document.getElementById("studio-sum-thesis").value,
@@ -3718,6 +3920,7 @@
       savePersistedState();
       const ind = document.getElementById("studio-autosave-indicator");
       if (ind) ind.textContent = `Draft Auto-Saved ${nowStr}`;
+      refreshAfterLibraryChange();
     }
 
     function saveStudioNote() {
@@ -3726,8 +3929,8 @@
       const text = textEl.value.trim();
       if (!text) return;
 
-      const rec = ensureUserRecord(STATE.activeStudioWorkId);
-      if (!rec.status) rec.status = "Reading";
+      const rec = ensureUserRecord(STATE.activeStudioWorkId, "");
+      // Notes do not automatically change the reader's explicit reading status.
       if (!Array.isArray(rec.notes)) rec.notes = [];
 
       const editingId = document.getElementById("studio-editing-note-id").value;
@@ -3752,6 +3955,7 @@
       savePersistedState();
       cancelEditStudioNote();
       renderStudioNotesList();
+      refreshAfterLibraryChange();
     }
 
     function editStudioNote(noteId) {
@@ -3784,9 +3988,14 @@
       if (!STATE.activeStudioWorkId) return;
       const rec = getUserRecord(STATE.activeStudioWorkId);
       if (!rec || !Array.isArray(rec.notes)) return;
+      if (!confirm("Delete this saved note? This cannot be undone.")) return;
       rec.notes = rec.notes.filter(n => n.id !== noteId);
+      if (document.getElementById("studio-editing-note-id").value === noteId) cancelEditStudioNote();
+      delete rec.isDemo;
+      pruneEmptyUserRecord(STATE.activeStudioWorkId);
       savePersistedState();
       renderStudioNotesList();
+      refreshAfterLibraryChange();
     }
 
     function renderStudioNotesList() {
@@ -3942,39 +4151,68 @@
        CUSTOM BOOK CREATION & PRIVACY-SAFE EXPORT / IMPORT
        ======================================================================== */
     function openCustomBookModal() {
+      document.getElementById("cb-editing-work-id").value = "";
+      for (const id of ["cb-title", "cb-author", "cb-year", "cb-category", "cb-note"]) {
+        document.getElementById(id).value = "";
+      }
+      document.getElementById("cb-status").value = "Reading";
+      document.getElementById("custom-book-modal-title").textContent = "Add a Custom Book to My Library";
+      document.getElementById("cb-save-btn").textContent = "Save to My Library";
       document.getElementById("custom-book-modal").classList.remove("hidden");
     }
     function closeCustomBookModal() {
       document.getElementById("custom-book-modal").classList.add("hidden");
     }
-
+    function editCustomBook(workId) {
+      const b = STATE.customBooks.find(x => x.workId === workId);
+      if (!b) return;
+      openCustomBookModal();
+      document.getElementById("cb-editing-work-id").value = workId;
+      document.getElementById("cb-title").value = b.title || "";
+      document.getElementById("cb-author").value = b.author || "";
+      document.getElementById("cb-year").value = b.year === "Custom" ? "" : (b.year || "");
+      document.getElementById("cb-category").value = b._subCategory || "Personal Shelf";
+      document.getElementById("cb-note").value = b.note || "";
+      document.getElementById("cb-status").value = (getUserRecord(workId) || {}).status || "Want to Read";
+      document.getElementById("custom-book-modal-title").textContent = "Edit Custom Book";
+      document.getElementById("cb-save-btn").textContent = "Save Changes";
+    }
     function saveCustomBook() {
       const title = document.getElementById("cb-title").value.trim();
       const author = document.getElementById("cb-author").value.trim();
-      if (!title || !author) return;
+      if (!title || !author) { alert("Please enter both a book title and author."); return; }
       const year = document.getElementById("cb-year").value.trim() || "Custom";
       const cat = document.getElementById("cb-category").value.trim() || "Personal Shelf";
-      const status = document.getElementById("cb-status").value || "Reading";
+      const status = document.getElementById("cb-status").value || "Want to Read";
       const note = document.getElementById("cb-note").value.trim() || "Added to personal Alexandria library.";
-      const wid = normalizeWorkKey(title, author);
-
+      const editingId = document.getElementById("cb-editing-work-id").value;
+      const duplicate = STATE.customBooks.find(x => x.workId !== editingId && normalizeWorkKey(x.title, x.author) === normalizeWorkKey(title, author));
+      if (duplicate) { alert("This custom book is already in your library. Edit its existing entry instead."); return; }
+      const wid = editingId || `custom__${normalizeWorkKey(title, author)}__${Date.now()}`;
       const customEntry = {
-        workId: wid,
-        title,
-        author,
-        year,
-        note,
+        workId: wid, title, author, year, note,
         _collectionId: "custom",
         _collectionLabel: "Personal Custom Book",
         _subCategory: cat,
         collections: [{ collectionId: "custom", collectionLabel: "Personal Custom Book", subLabel: cat }]
       };
-      STATE.customBooks.push(customEntry);
+      if (editingId) {
+        const idx = STATE.customBooks.findIndex(x => x.workId === editingId);
+        if (idx < 0) return;
+        STATE.customBooks[idx] = customEntry;
+        const placement = ALL_PLACEMENTS.findIndex(x => x.workId === wid && x._collectionId === "custom");
+        if (placement >= 0) ALL_PLACEMENTS[placement] = customEntry;
+      } else {
+        STATE.customBooks.push(customEntry);
+        ALL_PLACEMENTS.push(customEntry);
+      }
       WORK_BY_ID.set(wid, customEntry);
-      ALL_PLACEMENTS.push(customEntry);
-
       const rec = ensureUserRecord(wid);
+      rec.title = title;
+      rec.author = author;
+      rec.year = year;
       rec.status = status;
+      delete rec.isDemo;
       savePersistedState();
       closeCustomBookModal();
       navigateTo("library", "shelf");
@@ -4013,7 +4251,7 @@
     function exportPersonalBackupJSON() {
       const data = {
         app: "Alexandria — A Literary & Intellectual Atlas",
-        version: "4.1.0",
+        version: "4.2.0",
         exportedAt: new Date().toISOString(),
         userLibrary: STATE.userLibrary,
         customBooks: STATE.customBooks
@@ -4094,7 +4332,7 @@
       let docHtml = pristinePublicHTML || ("<!DOCTYPE html>\n" + document.documentElement.outerHTML);
       docHtml = docHtml.replace(/<script id="alexandria-preloaded-personal">[\s\S]*?<\/script>/g, "");
       if (includePersonalData) {
-        const backup = JSON.stringify({ version: "4.1.0", userLibrary: STATE.userLibrary, customBooks: STATE.customBooks });
+        const backup = JSON.stringify({ version: "4.2.0", userLibrary: STATE.userLibrary, customBooks: STATE.customBooks });
         const safePayload = JSON.stringify(backup).replace(/</g, "\\u003c");
         const preloadScript = `<script id="alexandria-preloaded-personal">try{localStorage.setItem("${STORAGE_KEY}", ${safePayload});}catch(e){}<\/script>`;
         docHtml = docHtml.replace("</head>", preloadScript + "\n</head>");
