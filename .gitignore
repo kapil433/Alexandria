@@ -1,0 +1,3 @@
+*.personal.json
+*personal-export*.html
+.DS_Store
