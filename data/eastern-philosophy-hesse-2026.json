@@ -1,0 +1,398 @@
+{
+  "subject": {
+    "id": "eastern-nonduality",
+    "cluster": "Philosophy, Logic & Ethics",
+    "subject": "Non-Duality & Eastern Philosophy — Deep Reading Path (25 Books)",
+    "tagline": "Advaita Vedānta · Kashmir Śaivism · Buddhism · Daoism",
+    "desc": "A five-stage comparative reading route through Indian non-dual Vedānta, Kashmir Śaiva recognition, Buddhist emptiness and non-self (Madhyamaka, Chan/Zen, Dzogchen), and Daoist non-striving. These traditions disagree about self, consciousness and ultimate reality; similarities should be studied, not assumed. Read classical texts with serious translations, and distinguish ancient source texts from modern edition dates.",
+    "pathwayScale": "25-Book Deep Pathway",
+    "prerequisites": "Start with accessible primary translations and commentaries. For the advanced stages, learn basic Sanskrit philosophical vocabulary, the Buddhist self/non-self debate and the difference between metaphysical claims and contemplative instructions. Edition years are not original composition dates.",
+    "books": [
+      {
+        "level": "Beginner",
+        "title": "The Upanishads",
+        "author": "Ancient Vedic sages",
+        "type": "Advaita / early Vedānta",
+        "why": "Start with the Isha, Kena, Katha and Chandogya selections. Study the identity of self and ultimate reality without assuming every Upanishad teaches a single doctrine.",
+        "year": "Classical; Easwaran edition 1987",
+        "stage": "1. Orientation",
+        "stageRole": "Accessible Introduction",
+        "translator": "Eknath Easwaran; introductory edition",
+        "workId": "theupanishads__ancientvedicsages",
+        "authorGuideId": null
+      },
+      {
+        "level": "Beginner",
+        "title": "The Bhagavad Gita",
+        "author": "Traditionally attributed to Vyasa",
+        "type": "Vedānta / yoga",
+        "why": "Examine action, knowledge and devotion together. Read the Gita as a contested foundational source, not as a standalone manual of modern non-duality.",
+        "year": "Classical Sanskrit text",
+        "stage": "1. Orientation",
+        "stageRole": "Accessible Introduction",
+        "translator": "Eknath Easwaran; compare a commentary",
+        "workId": "thebhagavadgita__traditionallyattributedtovyasa",
+        "authorGuideId": null
+      },
+      {
+        "level": "Beginner",
+        "title": "Be As You Are: The Teachings of Sri Ramana Maharshi",
+        "author": "Sri Ramana Maharshi; edited by David Godman",
+        "type": "Modern Advaita / self-inquiry",
+        "why": "Accessible conversations on investigating the sense of 'I'. Distinguish the practice of self-inquiry from a philosophical proof of metaphysical monism.",
+        "year": "1985",
+        "stage": "1. Orientation",
+        "stageRole": "Accessible Introduction",
+        "translator": "Edited by David Godman",
+        "workId": "beasyouaretheteachingsofsriramanamaharshi__sriramanamaharshieditedbydavidgodman",
+        "authorGuideId": null
+      },
+      {
+        "level": "Beginner",
+        "title": "I Am That: Talks with Sri Nisargadatta Maharaj",
+        "author": "Sri Nisargadatta Maharaj",
+        "type": "Modern Advaita / dialogue",
+        "why": "Dialogues about awareness, identity and direct understanding; productive next step after Ramana, while noting that oral teachings are mediated through translation and editing.",
+        "year": "1973",
+        "stage": "1. Orientation",
+        "stageRole": "Accessible Introduction",
+        "translator": "Translated/edited by Maurice Frydman",
+        "workId": "iamthattalkswithsrinisargadattamaharaj__srinisargadattamaharaj",
+        "authorGuideId": null
+      },
+      {
+        "level": "Beginner",
+        "title": "Zen Mind, Beginner's Mind",
+        "author": "Shunryu Suzuki",
+        "type": "Sōtō Zen / practice",
+        "why": "An approachable entry to Zen meditation and non-grasping. Zen's Buddhist account of non-self should not be equated with Advaita's identity of ātman and brahman.",
+        "year": "1970",
+        "stage": "1. Orientation",
+        "stageRole": "Accessible Introduction",
+        "translator": "Edited by Trudy Dixon",
+        "workId": "zenmindbeginnersmind__shunryusuzuki",
+        "authorGuideId": null
+      },
+      {
+        "level": "Foundations",
+        "title": "The Principal Upanishads",
+        "author": "Ancient Vedic sages",
+        "type": "Upaniṣadic philosophy",
+        "why": "Read selected passages comparatively and pay attention to competing voices, historical layers and the interpretive choices of later Vedānta schools.",
+        "year": "1953 English edition",
+        "stage": "2. Foundations",
+        "stageRole": "Conceptual & Historical Foundation",
+        "translator": "Translated/edited by S. Radhakrishnan",
+        "workId": "theprincipalupanishads__ancientvedicsages",
+        "authorGuideId": null
+      },
+      {
+        "level": "Foundations",
+        "title": "Mandukya Upanishad with Gaudapada's Karika",
+        "author": "Gaudapada; Mandukya Upanishad",
+        "type": "Early Advaita / consciousness",
+        "why": "Four states of consciousness, including turīya, and Gaudapāda's reasoning about non-origination. Pair with commentary instead of reading the terse verses alone.",
+        "year": "Classical text",
+        "stage": "2. Foundations",
+        "stageRole": "Conceptual & Historical Foundation",
+        "translator": "Swami Nikhilananda translation with commentary",
+        "workId": "mandukyaupanishadwithgaudapadaskarika__gaudapadamandukyaupanishad",
+        "authorGuideId": null
+      },
+      {
+        "level": "Foundations",
+        "title": "The Heart of Awareness: A Translation of the Ashtavakra Gita",
+        "author": "Traditionally attributed to Ashtavakra",
+        "type": "Advaita / radical non-duality",
+        "why": "A strikingly direct poetic vision of awareness beyond attachment and identification. Interpret as a later non-dual teaching, not as a text from the historical Vedic period.",
+        "year": "1990 translation",
+        "stage": "2. Foundations",
+        "stageRole": "Conceptual & Historical Foundation",
+        "translator": "Translated by Thomas Byrom; poetic rendering",
+        "workId": "theheartofawarenessatranslationoftheashtavakragita__traditionallyattributedtoashtavakra",
+        "authorGuideId": null
+      },
+      {
+        "level": "Foundations",
+        "title": "Tao Te Ching",
+        "author": "Traditionally attributed to Laozi",
+        "type": "Daoism / non-striving",
+        "why": "Explore the Dao, naturalness and effortless action. Daoist critique of rigid distinctions belongs in dialogue with other traditions without being relabeled as Advaita.",
+        "year": "Classical Daoist text",
+        "stage": "2. Foundations",
+        "stageRole": "Conceptual & Historical Foundation",
+        "translator": "D. C. Lau translation; compare variants",
+        "workId": "taoteching__traditionallyattributedtolaozi",
+        "authorGuideId": null
+      },
+      {
+        "level": "Foundations",
+        "title": "The Heart Sutra: The Womb of Buddhas",
+        "author": "Prajñāpāramitā tradition; commentary by Red Pine",
+        "type": "Mahāyāna Buddhism / emptiness",
+        "why": "Introduce form and emptiness, dependent arising and the non-substantiality of phenomena. Buddhist śūnyatā is not a doctrine of an eternal underlying Self.",
+        "year": "2004 English edition",
+        "stage": "2. Foundations",
+        "stageRole": "Conceptual & Historical Foundation",
+        "translator": "Red Pine translation and commentary",
+        "workId": "theheartsutrathewombofbuddhas__prajnaparamitatraditioncommentarybyredpine",
+        "authorGuideId": null
+      },
+      {
+        "level": "Intermediate",
+        "title": "A Thousand Teachings (Upadesasahasri)",
+        "author": "Adi Shankara",
+        "type": "Classical Advaita / primary argument",
+        "why": "One of Shankara's securely attributed independent works. Trace scripture, argument and liberating knowledge in his own systematic presentation.",
+        "year": "8th-century author; 1992 translation",
+        "stage": "3. Core Understanding",
+        "stageRole": "Primary Text & Interpretive Core",
+        "translator": "Translated and critically introduced by Sengaku Mayeda",
+        "workId": "athousandteachingsupadesasahasri__adishankara",
+        "authorGuideId": null
+      },
+      {
+        "level": "Intermediate",
+        "title": "The Concise Yoga Vasistha",
+        "author": "Traditionally attributed to Valmiki",
+        "type": "Advaita-influenced narrative philosophy",
+        "why": "Stories, dreams and thought experiments about mind, appearance and liberation. Contrast its imaginative pedagogy with Shankara's more argument-driven method.",
+        "year": "1984 abridgment",
+        "stage": "3. Core Understanding",
+        "stageRole": "Primary Text & Interpretive Core",
+        "translator": "Translated/abridged by Swami Venkatesananda",
+        "workId": "theconciseyogavasistha__traditionallyattributedtovalmiki",
+        "authorGuideId": null
+      },
+      {
+        "level": "Intermediate",
+        "title": "Shiva Sutras: The Yoga of Supreme Identity",
+        "author": "Vasugupta",
+        "type": "Kashmir Śaivism / recognition",
+        "why": "Foundational aphorisms of non-dual Śaiva thought, emphasizing consciousness, agency and recognition; its metaphysics is distinct from Shankara's Advaita.",
+        "year": "Classical Kashmir Śaiva text",
+        "stage": "3. Core Understanding",
+        "stageRole": "Primary Text & Interpretive Core",
+        "translator": "Jaideva Singh translation/commentary",
+        "workId": "shivasutrastheyogaofsupremeidentity__vasugupta",
+        "authorGuideId": null
+      },
+      {
+        "level": "Intermediate",
+        "title": "The Zen Teaching of Huang Po: On the Transmission of Mind",
+        "author": "Huangbo Xiyun; compiled by Pei Xiu",
+        "type": "Chan / Zen Buddhism",
+        "why": "Encounter the rhetoric of 'one mind', immediacy and the limits of conceptualization. Read it within Chan Buddhism, not as proof of a universal perennial philosophy.",
+        "year": "1958 English translation",
+        "stage": "3. Core Understanding",
+        "stageRole": "Primary Text & Interpretive Core",
+        "translator": "Translated by John Blofeld",
+        "workId": "thezenteachingofhuangpoonthetransmissionofmind__huangboxiyuncompiledbypeixiu",
+        "authorGuideId": null
+      },
+      {
+        "level": "Intermediate",
+        "title": "The Fundamental Wisdom of the Middle Way",
+        "author": "Nagarjuna",
+        "type": "Madhyamaka / emptiness",
+        "why": "Root verses on dependent origination, inherent existence and the two truths. Crucial counterpoint to substantialist interpretations of non-duality.",
+        "year": "2nd–3rd c. CE text; 1995 translation",
+        "stage": "3. Core Understanding",
+        "stageRole": "Primary Text & Interpretive Core",
+        "translator": "Translated and commented by Jay L. Garfield",
+        "workId": "thefundamentalwisdomofthemiddleway__nagarjuna",
+        "authorGuideId": null
+      },
+      {
+        "level": "Advanced",
+        "title": "Pratyabhijnahrdayam: The Secret of Self-Recognition",
+        "author": "Ksemaraja",
+        "type": "Pratyabhijñā / Kashmir Śaivism",
+        "why": "A compact map of recognition philosophy: how contracted awareness comes to recognize its own nature. Compare its affirmation of Śiva consciousness to Buddhist critiques of essence.",
+        "year": "Classical Kashmir Śaiva text",
+        "stage": "4. Advanced Study",
+        "stageRole": "Advanced Textual & Comparative Study",
+        "translator": "Jaideva Singh translation/commentary",
+        "workId": "pratyabhijnahrdayamthesecretofselfrecognition__ksemaraja",
+        "authorGuideId": null
+      },
+      {
+        "level": "Advanced",
+        "title": "Vijnana Bhairava",
+        "author": "Anonymous; Kashmir Śaiva tradition",
+        "type": "Kashmir Śaivism / contemplative methods",
+        "why": "A traditional compilation of contemplative approaches that use breath, sensation and awareness as points of inquiry. Study its context, not as a decontextualized self-help list.",
+        "year": "Classical tantric text",
+        "stage": "4. Advanced Study",
+        "stageRole": "Advanced Textual & Comparative Study",
+        "translator": "Jaideva Singh translation/commentary",
+        "workId": "vijnanabhairava__anonymouskashmirsaivatradition",
+        "authorGuideId": null
+      },
+      {
+        "level": "Advanced",
+        "title": "The Doctrine of Vibration: An Analysis of the Doctrines and Practices of Kashmir Shaivism",
+        "author": "Mark S. G. Dyczkowski",
+        "type": "Kashmir Śaivism / academic study",
+        "why": "Scholarly account of spanda, consciousness and textual lineages. Builds historical and conceptual depth before approaching Abhinavagupta.",
+        "year": "1987",
+        "stage": "4. Advanced Study",
+        "stageRole": "Advanced Textual & Comparative Study",
+        "translator": "SUNY Press academic monograph",
+        "workId": "thedoctrineofvibrationananalysisofthedoctrinesandpracticesofkashmirshaivism__marksgdyczkowski",
+        "authorGuideId": null
+      },
+      {
+        "level": "Advanced",
+        "title": "The Platform Sutra of the Sixth Patriarch",
+        "author": "Attributed to Huineng; compiled in Chan tradition",
+        "type": "Chan Buddhism / awakening",
+        "why": "Explore sudden awakening, non-attachment and the rhetoric of 'no-thought'; keep its historical and sectarian construction in view.",
+        "year": "Classical Chan text; 2006 translation",
+        "stage": "4. Advanced Study",
+        "stageRole": "Advanced Textual & Comparative Study",
+        "translator": "Translated by Red Pine",
+        "workId": "theplatformsutraofthesixthpatriarch__attributedtohuinengcompiledinchantradition",
+        "authorGuideId": null
+      },
+      {
+        "level": "Advanced",
+        "title": "The Complete Works of Zhuangzi",
+        "author": "Zhuangzi and later contributors",
+        "type": "Classical Daoism / comparative philosophy",
+        "why": "Parables that unsettle fixed perspectives and conceptual oppositions. Ask where Daoist spontaneity genuinely resembles—and differs from—Buddhist emptiness.",
+        "year": "2013 translation",
+        "stage": "4. Advanced Study",
+        "stageRole": "Advanced Textual & Comparative Study",
+        "translator": "Translated by Burton Watson, Columbia University Press",
+        "workId": "thecompleteworksofzhuangzi__zhuangziandlatercontributors",
+        "authorGuideId": null
+      },
+      {
+        "level": "Research",
+        "title": "Brahma Sutra Bhasya",
+        "author": "Adi Shankara, commenting on Badarayana",
+        "type": "Advaita Vedānta / systematic exegesis",
+        "why": "Study the sophisticated argumentative basis of Advaita's Brahman–self identity, including disputes with rival Vedānta, Buddhist and other schools.",
+        "year": "Classical Advaita commentary",
+        "stage": "5. Mastery / Research",
+        "stageRole": "Scholarly Reference & Research",
+        "translator": "English translation by Swami Gambhirananda",
+        "workId": "brahmasutrabhasya__adishankaracommentingonbadarayana",
+        "authorGuideId": null
+      },
+      {
+        "level": "Research",
+        "title": "Tantrasara (Essence of Tantra)",
+        "author": "Abhinavagupta",
+        "type": "Trika Śaivism / advanced synthesis",
+        "why": "Abhinavagupta's condensed exposition of non-dual Trika metaphysics and practice. Read alongside a scholarly introduction to its technical terminology.",
+        "year": "Classical Kashmir Śaiva synthesis",
+        "stage": "5. Mastery / Research",
+        "stageRole": "Scholarly Reference & Research",
+        "translator": "H. N. Chakravarty translation; Boris Marjanovic edition",
+        "workId": "tantrasaraessenceoftantra__abhinavagupta",
+        "authorGuideId": null
+      },
+      {
+        "level": "Research",
+        "title": "Treasury of the True Dharma Eye (Shobogenzo)",
+        "author": "Eihei Dogen",
+        "type": "Sōtō Zen / Buddhist philosophy",
+        "why": "Dōgen's essays on practice-realization, time-being and Buddha-nature provide a demanding Buddhist account of reality that resists easy metaphysical equivalences.",
+        "year": "13th-century Japanese text; 2012 edition",
+        "stage": "5. Mastery / Research",
+        "stageRole": "Scholarly Reference & Research",
+        "translator": "Edited by Kazuaki Tanahashi; selected fascicles first",
+        "workId": "treasuryofthetruedharmaeyeshobogenzo__eiheidogen",
+        "authorGuideId": null
+      },
+      {
+        "level": "Research",
+        "title": "The Crystal and the Way of Light: Sutra, Tantra, and Dzogchen",
+        "author": "Chogyal Namkhai Norbu",
+        "type": "Tibetan Dzogchen / awareness",
+        "why": "A tradition-specific introduction to the Dzogchen view and transmission of awareness. Its practice is embedded in a living lineage and should not be flattened into generic Advaita.",
+        "year": "1999 edition",
+        "stage": "5. Mastery / Research",
+        "stageRole": "Scholarly Reference & Research",
+        "translator": "Edited by John Shane; Shambhala/Snow Lion",
+        "workId": "thecrystalandthewayoflightsutratantraanddzogchen__chogyalnamkhainorbu",
+        "authorGuideId": null
+      },
+      {
+        "level": "Research",
+        "title": "Nonduality: A Study in Comparative Philosophy",
+        "author": "David R. Loy",
+        "type": "Comparative philosophy / critical synthesis",
+        "why": "A rigorous cross-tradition inquiry into subject–object duality in Asian philosophies. Use it to compare conceptual structures while preserving distinct ontologies and methods.",
+        "year": "1988",
+        "stage": "5. Mastery / Research",
+        "stageRole": "Scholarly Reference & Research",
+        "translator": "Scholarly comparative monograph",
+        "workId": "nondualityastudyincomparativephilosophy__davidrloy",
+        "authorGuideId": null
+      }
+    ]
+  },
+  "author": {
+    "id": 101,
+    "name": "Hermann Hesse",
+    "country": "Germany / Switzerland",
+    "era": "1877–1962",
+    "genre": "Literary Modernism · Philosophical Bildungsroman",
+    "bio": "German-born, later Swiss novelist and poet (Nobel Prize in Literature, 1946). Hesse wrote about individual spiritual development, alienation, the tension between intellect and experience, and the encounter between European modernity and Indian/Buddhist thought; his fiction is not a substitute for Indian or Buddhist primary philosophical texts.",
+    "autobiography": "Read selections from Autobiographical Writings and his letters; place the novels alongside his experiences of schooling, psychoanalysis, pacifism, and residence in Montagnola.",
+    "startBook": "Siddhartha (1922) first: a compact spiritual quest that makes the recurring tension between teachings and lived experience immediately accessible. Then Demian (1919), which introduces his language of self-discovery, divided identity and psychological transformation.",
+    "middleWorks": [
+      "Beneath the Wheel (1906) — institutions and education against individual development",
+      "Steppenwolf (1927) — alienation, split identity, humour and the Magic Theater",
+      "Narcissus and Goldmund (1930) — discipline, sensual life, art and mortality",
+      "The Journey to the East (1932) — memory, community and the mystery of a spiritual journey"
+    ],
+    "endBook": "The Glass Bead Game (1943; also Magister Ludi): Hesse's most ambitious synthesis of music, mathematics, intellectual tradition and the responsibilities of the life of the mind. Read last, after the shorter works.",
+    "translationGuide": "German originals. For Siddhartha consider Joachim Neugroschel (Penguin Classics) or Sherab Chödzin Kohn (Shambhala); for Demian, Damion Searls (Penguin Classics, 2013); for Steppenwolf, David Horrocks (Penguin Classics, 2025) or Basil Creighton; for The Glass Bead Game, Richard and Clara Winston. Compare introductions and textual editions rather than page counts.",
+    "companionBooks": "Ralph Freedman's Hermann Hesse: Pilgrim of Crisis; Hesse's Autobiographical Writings; selected correspondence with Thomas Mann. Pair Siddhartha with primary Upanishadic and Buddhist readings, noting that Hesse freely reimagines those ideas rather than presenting a faithful doctrinal summary.",
+    "pathway": [
+      "Siddhartha",
+      "Demian",
+      "Steppenwolf",
+      "Narcissus and Goldmund",
+      "The Journey to the East",
+      "The Glass Bead Game"
+    ],
+    "slug": "hermann-hesse",
+    "tradition": "German-language Modernism · Eastern–Western Philosophical Encounter",
+    "techniques": "Parable and allegorical pilgrimage; Jung-inflected doubles and individuation; an inward-facing Bildungsroman; alternating sobriety and dream imagery; motifs of music, apprenticeship, water, wandering and self-transcendence."
+  },
+  "researchSources": [
+    {
+      "label": "Stanford Encyclopedia of Philosophy — Śaṅkara",
+      "url": "https://plato.stanford.edu/entries/shankara/"
+    },
+    {
+      "label": "Internet Encyclopedia of Philosophy — Advaita Vedānta",
+      "url": "https://iep.utm.edu/advaita-vedanta/"
+    },
+    {
+      "label": "Stanford Encyclopedia of Philosophy — Nāgārjuna",
+      "url": "https://plato.stanford.edu/entries/nagarjuna/"
+    },
+    {
+      "label": "Columbia University Press — Zhuangzi (Burton Watson)",
+      "url": "https://cup.columbia.edu/book/the-complete-works-of-zhuangzi/9780231164740/"
+    },
+    {
+      "label": "Shambhala — The Crystal and the Way of Light",
+      "url": "https://www.shambhala.com/products/crystal-and-the-way-of-light-sutra-tantra-and-dzogchen"
+    },
+    {
+      "label": "Penguin Random House — Hermann Hesse",
+      "url": "https://www.penguinrandomhouse.com/authors/12806/hermann-hesse/"
+    },
+    {
+      "label": "Penguin Classics — Demian, translated by Damion Searls",
+      "url": "https://www.penguinrandomhouse.com/books/299804/demian-by-hermann-hesse-foreword-by-james-franco-introduction-by-ralph-freedman-translated-by-damion-searls/9780143106784/"
+    }
+  ]
+}
