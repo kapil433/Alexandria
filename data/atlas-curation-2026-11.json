@@ -1412,7 +1412,7 @@
         "year": "1912",
         "theme": "Existential & Absurd",
         "note": "Tolstoy's late account of resistance and empire in the Caucasus.",
-        "form": "Novella / Short Novel",
+        "form": "Novella",
         "sourceSection": "novellas:1900-1945",
         "workId": "hadjimurat__leotolstoy"
       },
@@ -1422,7 +1422,7 @@
         "year": "1911",
         "theme": "Existential & Absurd",
         "note": "A small wrongdoing creates an expanding chain of social consequences.",
-        "form": "Novella / Short Novel",
+        "form": "Novella",
         "sourceSection": "novellas:1900-1945",
         "workId": "theforgedcoupon__leotolstoy"
       },
@@ -1432,7 +1432,7 @@
         "year": "1859",
         "theme": "Existential & Absurd",
         "note": "Tolstoy examines changing feelings and expectations within marriage.",
-        "form": "Novella / Short Novel",
+        "form": "Novella",
         "sourceSection": "novellas:before-1900",
         "workId": "familyhappiness__leotolstoy"
       },
@@ -1442,7 +1442,7 @@
         "year": "1846",
         "theme": "Existential & Absurd",
         "note": "Dostoevsky's uncanny Petersburg study of identity and humiliation.",
-        "form": "Novella / Short Novel",
+        "form": "Novella",
         "sourceSection": "novellas:before-1900",
         "workId": "thedouble__fyodordostoevsky"
       },
@@ -1452,7 +1452,7 @@
         "year": "1846",
         "theme": "Existential & Absurd",
         "note": "An epistolary portrayal of poverty, love and wounded pride.",
-        "form": "Novella / Short Novel",
+        "form": "Novella",
         "sourceSection": "novellas:before-1900",
         "workId": "poorfolk__fyodordostoevsky"
       },
@@ -1462,7 +1462,7 @@
         "year": "1870",
         "theme": "Existential & Absurd",
         "note": "Dostoevsky's unsettling story of rivalry, jealousy and guilt.",
-        "form": "Novella / Short Novel",
+        "form": "Novella",
         "sourceSection": "novellas:before-1900",
         "workId": "theeternalhusband__fyodordostoevsky"
       },
@@ -1472,7 +1472,7 @@
         "year": "1876",
         "theme": "Existential & Absurd",
         "note": "A husband's monologue attempts to explain his wife's death.",
-        "form": "Novella / Short Novel",
+        "form": "Novella",
         "sourceSection": "novellas:before-1900",
         "workId": "agentlecreature__fyodordostoevsky"
       },
@@ -1482,7 +1482,7 @@
         "year": "1867",
         "theme": "Existential & Absurd",
         "note": "A compulsive gambler's hopes and humiliations revolve around roulette.",
-        "form": "Novella / Short Novel",
+        "form": "Novella",
         "sourceSection": "novellas:before-1900",
         "workId": "thegambler__fyodordostoevsky"
       },
@@ -1492,7 +1492,7 @@
         "year": "1956",
         "theme": "Existential & Absurd",
         "note": "Camus's confessional narrative investigates hypocrisy and judgment.",
-        "form": "Novella / Short Novel",
+        "form": "Novella",
         "sourceSection": "novellas:1946-1989",
         "workId": "thefall__albertcamus"
       },
@@ -1502,7 +1502,7 @@
         "year": "1971",
         "theme": "Existential & Absurd",
         "note": "An early, posthumously published Camus novel about mortality and happiness.",
-        "form": "Novella / Short Novel",
+        "form": "Novella",
         "sourceSection": "novellas:1946-1989",
         "workId": "ahappydeath__albertcamus"
       },
@@ -1512,7 +1512,7 @@
         "year": "1952",
         "theme": "Existential & Absurd",
         "note": "An ageing fisherman's struggle becomes a spare meditation on persistence.",
-        "form": "Novella / Short Novel",
+        "form": "Novella",
         "sourceSection": "novellas:1946-1989",
         "workId": "theoldmanandthesea__ernesthemingway"
       },
@@ -1522,7 +1522,7 @@
         "year": "1937",
         "theme": "Existential & Absurd",
         "note": "A tragedy of friendship and insecure lives during the Great Depression.",
-        "form": "Novella / Short Novel",
+        "form": "Novella",
         "sourceSection": "novellas:1900-1945",
         "workId": "ofmiceandmen__johnsteinbeck"
       },
@@ -1532,7 +1532,7 @@
         "year": "1947",
         "theme": "Existential & Absurd",
         "note": "A miraculous discovery transforms a family's hopes into misfortune.",
-        "form": "Novella / Short Novel",
+        "form": "Novella",
         "sourceSection": "novellas:1946-1989",
         "workId": "thepearl__johnsteinbeck"
       },
@@ -1542,7 +1542,7 @@
         "year": "1942",
         "theme": "Existential & Absurd",
         "note": "A short wartime novel of military occupation and civil resistance.",
-        "form": "Novella / Short Novel",
+        "form": "Novella",
         "sourceSection": "novellas:1900-1945",
         "workId": "themoonisdown__johnsteinbeck"
       }
@@ -1724,7 +1724,7 @@
         "year": "2014",
         "country": "North Korea",
         "theme": "Politics, Power & Resistance",
-        "form": "Short Story Collection",
+        "form": "Short Story",
         "note": "Seven clandestine stories from inside North Korea, published abroad.",
         "workId": "theaccusation__bandi"
       }
@@ -1746,7 +1746,7 @@
             "type": "Memoir",
             "why": "A North Korean defector recounts her childhood and escape through China.",
             "level": "Intermediate",
-            "stage": "Witness, memory & political life",
+            "stage": "2. Foundations",
             "stageRole": "Memoir",
             "workId": "inordertolive__yeonmipark"
           },
@@ -1757,7 +1757,7 @@
             "type": "Reportage",
             "why": "A journalist writes about teaching English to North Korea's privileged students.",
             "level": "Intermediate",
-            "stage": "Witness, memory & political life",
+            "stage": "2. Foundations",
             "stageRole": "Reportage",
             "workId": "withoutyouthereisnous__sukikim"
           },
@@ -1768,7 +1768,7 @@
             "type": "Narrative journalism",
             "why": "Six North Koreans' lives reveal the human consequences of famine and repression.",
             "level": "Intermediate",
-            "stage": "Witness, memory & political life",
+            "stage": "2. Foundations",
             "stageRole": "Narrative journalism",
             "workId": "nothingtoenvy__barbarademick"
           },
@@ -1779,7 +1779,7 @@
             "type": "Memoir",
             "why": "A former North Korean propaganda poet recalls his position and defection.",
             "level": "Intermediate",
-            "stage": "Witness, memory & political life",
+            "stage": "2. Foundations",
             "stageRole": "Memoir",
             "workId": "dearleader__jangjinsung"
           },
@@ -1790,7 +1790,7 @@
             "type": "Memoir",
             "why": "A memoir of childhood and racial classification in apartheid South Africa.",
             "level": "Intermediate",
-            "stage": "Witness, memory & political life",
+            "stage": "2. Foundations",
             "stageRole": "Memoir",
             "workId": "bornacrime__trevornoah"
           },
@@ -1801,7 +1801,7 @@
             "type": "Memoir",
             "why": "Literary discussion and women's intellectual lives in post-revolutionary Iran.",
             "level": "Intermediate",
-            "stage": "Witness, memory & political life",
+            "stage": "2. Foundations",
             "stageRole": "Memoir",
             "workId": "readinglolitaintehran__azarnafisi"
           },
@@ -1812,7 +1812,7 @@
             "type": "Literary reportage",
             "why": "Orwell's time in Burma becomes a lens on its later military rule.",
             "level": "Intermediate",
-            "stage": "Witness, memory & political life",
+            "stage": "2. Foundations",
             "stageRole": "Literary reportage",
             "workId": "findinggeorgeorwellinburma__emmalarkin"
           },
@@ -1823,7 +1823,7 @@
             "type": "Memoir",
             "why": "The city becomes a landscape of childhood, art and collective memory.",
             "level": "Intermediate",
-            "stage": "Witness, memory & political life",
+            "stage": "2. Foundations",
             "stageRole": "Memoir",
             "workId": "istanbulmemoriesandthecity__orhanpamuk"
           },
@@ -1834,7 +1834,7 @@
             "type": "Autobiography",
             "why": "An account of poverty, hunger and survival in northern Morocco.",
             "level": "Intermediate",
-            "stage": "Witness, memory & political life",
+            "stage": "2. Foundations",
             "stageRole": "Autobiography",
             "workId": "forbreadalone__mohamedchoukri"
           },
@@ -1845,7 +1845,7 @@
             "type": "Memoir",
             "why": "A feminist scholar recalls childhood life in 1940s Fez.",
             "level": "Intermediate",
-            "stage": "Witness, memory & political life",
+            "stage": "2. Foundations",
             "stageRole": "Memoir",
             "workId": "dreamsoftrespass__fatemamernissi"
           },
@@ -1856,7 +1856,7 @@
             "type": "Memoir",
             "why": "Recollections of anti-Tutsi persecution and relatives killed in Rwanda.",
             "level": "Intermediate",
-            "stage": "Witness, memory & political life",
+            "stage": "2. Foundations",
             "stageRole": "Memoir",
             "workId": "cockroaches__scholastiquemukasonga"
           },
@@ -1867,7 +1867,7 @@
             "type": "Memoir",
             "why": "A tribute to the author's mother and a Rwandan world destroyed by genocide.",
             "level": "Intermediate",
-            "stage": "Witness, memory & political life",
+            "stage": "2. Foundations",
             "stageRole": "Memoir",
             "workId": "thebarefootwoman__scholastiquemukasonga"
           },
@@ -1878,7 +1878,7 @@
             "type": "Eyewitness history",
             "why": "A UN commander's account of the 1994 Rwandan genocide and international failures.",
             "level": "Intermediate",
-            "stage": "Witness, memory & political life",
+            "stage": "2. Foundations",
             "stageRole": "Eyewitness history",
             "workId": "shakehandswiththedevil__romeodallaire"
           },
@@ -1889,7 +1889,7 @@
             "type": "Travel writing",
             "why": "Canetti's account of a visit to Marrakesh organized around its sounds and people.",
             "level": "Intermediate",
-            "stage": "Witness, memory & political life",
+            "stage": "2. Foundations",
             "stageRole": "Travel writing",
             "workId": "thevoicesofmarrakesh__eliascanetti"
           }
