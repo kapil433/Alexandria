@@ -6,7 +6,7 @@ Alexandria is an interactive digital library bringing together world literature,
 
 ## Explore
 
-- World fiction from 100 countries
+- World fiction from 101 country and regional sections
 - Short stories and novellas
 - Rediscovered and overlooked literary gems
 - Indian literary and civilizational canon
@@ -15,7 +15,7 @@ Alexandria is an interactive digital library bringing together world literature,
 - Individualized author guides
 - Polymath learning pathways and mental models
 
-The atlas contains **2,610 catalogue placements** representing **2,524 canonical work IDs**, with intentional overlap across collections. These are catalogue IDs, not independently verified bibliographic editions.
+The atlas contains **2,787 catalogue placements** representing **2,694 canonical work IDs**, with intentional overlap across collections. These are catalogue IDs, not independently verified bibliographic editions.
 
 ## Refinements
 
@@ -46,3 +46,16 @@ https://kapil433.github.io/Alexandria/
 ## Source and attribution
 
 This is a curated reading atlas, not a repository of book texts. Publication and edition details may differ; links to third-party works are informational.
+## Reading Atlas editorial enrichment (November 2026)
+
+The `content-atlas-curation-2026-11` branch includes a bibliography-only enrichment from Reading Atlas's 3D catalogue manifest. This changes **catalogue data only**, not Alexandria's interface or reading tools.
+
+- World Fiction: 739 placements across 101 country/regional sections (including North Korea).
+- India Canon: 173 placements, strengthening Hindi, Bengali, Urdu, Tamil, Telugu and other regional literatures.
+- Short Fiction: 264 placements, including cross-listed Bandi stories.
+- Used-Bookstore Gems: 364 placements.
+- Science Fiction: 108 placements.
+- Interdisciplinary pathways: 53 subjects, including a correctly categorized witness-literature and memoir pathway.
+- Author guides: 101, unchanged.
+
+The overall catalogue contains **2,787 placements and 2,694 canonical work IDs**, including intentional cross-listing. Exact title/author comparisons and unresolved candidates are recorded in `docs/atlas-source-comparison-2026-11.json`. Curated additions and provenance are in `data/atlas-curation-2026-11.json`; see `docs/atlas-content-audit-2026-11.md` for editorial limitations.

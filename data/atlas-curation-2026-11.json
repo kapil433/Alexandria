@@ -1,0 +1,1909 @@
+{
+  "version": 1,
+  "provenance": "Reading Atlas 3D manifest, curated and corrected",
+  "patch": {
+    "world": [
+      {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "country": "United States",
+        "year": "1960",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A young girl witnesses racial injustice and moral courage in Depression-era Alabama.",
+        "sourceSection": "world:usa",
+        "workId": "tokillamockingbird__harperlee"
+      },
+      {
+        "title": "The Grapes of Wrath",
+        "author": "John Steinbeck",
+        "country": "United States",
+        "year": "1939",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A displaced farming family travels west during the Dust Bowl, exposing economic exploitation and resilience.",
+        "sourceSection": "world:usa",
+        "workId": "thegrapesofwrath__johnsteinbeck"
+      },
+      {
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "country": "United States",
+        "year": "1851",
+        "period": "19th-Century & Fin-de-Siècle",
+        "cultureNote": "A whaling voyage becomes a vast exploration of obsession, knowledge, fate and the natural world.",
+        "sourceSection": "world:usa",
+        "workId": "mobydick__hermanmelville"
+      },
+      {
+        "title": "Their Eyes Were Watching God",
+        "author": "Zora Neale Hurston",
+        "country": "United States",
+        "year": "1937",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "Janie Crawford's search for love and autonomy is told in a distinctive Black Southern vernacular.",
+        "sourceSection": "world:usa",
+        "workId": "theireyeswerewatchinggod__zoranealehurston"
+      },
+      {
+        "title": "Catch-22",
+        "author": "Joseph Heller",
+        "country": "United States",
+        "year": "1961",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A darkly comic portrayal of the contradictions and bureaucratic absurdities of wartime military life.",
+        "sourceSection": "world:usa",
+        "workId": "catch22__josephheller"
+      },
+      {
+        "title": "Middlemarch",
+        "author": "George Eliot",
+        "country": "United Kingdom (England, Scotland, Wales)",
+        "year": "1871",
+        "period": "19th-Century & Fin-de-Siècle",
+        "cultureNote": "George Eliot's panoramic novel investigates marriage, reform, ambition and provincial English society.",
+        "sourceSection": "world:uk",
+        "workId": "middlemarch__georgeeliot"
+      },
+      {
+        "title": "Never Let Me Go",
+        "author": "Kazuo Ishiguro",
+        "country": "United Kingdom (England, Scotland, Wales)",
+        "year": "2005",
+        "period": "Contemporary Fiction",
+        "cultureNote": "An apparently ordinary boarding-school childhood reveals a society built on unsettling biomedical exploitation.",
+        "sourceSection": "world:uk",
+        "workId": "neverletmego__kazuoishiguro"
+      },
+      {
+        "title": "Atonement",
+        "author": "Ian McEwan",
+        "country": "United Kingdom (England, Scotland, Wales)",
+        "year": "2001",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A false accusation changes several lives, connecting narrative responsibility with the experience of war.",
+        "sourceSection": "world:uk",
+        "workId": "atonement__ianmcewan"
+      },
+      {
+        "title": "The First Circle",
+        "author": "Alexander Solzhenitsyn",
+        "country": "Russia",
+        "year": "1968",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A Soviet research prison becomes the stage for a profound investigation of compromise, dignity and power.",
+        "sourceSection": "world:rus",
+        "workId": "thefirstcircle__alexandersolzhenitsyn"
+      },
+      {
+        "title": "Quiet Flows the Don",
+        "author": "Mikhail Sholokhov",
+        "country": "Russia",
+        "year": "1928",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "An epic of Cossack society during war, revolution and civil conflict; published over several volumes through 1940.",
+        "sourceSection": "world:rus",
+        "workId": "quietflowsthedon__mikhailsholokhov"
+      },
+      {
+        "title": "Lolita",
+        "author": "Vladimir Nabokov",
+        "country": "Russia",
+        "year": "1955",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "Nabokov's deeply unreliable narrator exposes manipulation, predation and self-deception through elaborate prose.",
+        "sourceSection": "world:rus",
+        "workId": "lolita__vladimirnabokov"
+      },
+      {
+        "title": "The Gift",
+        "author": "Vladimir Nabokov",
+        "country": "Russia",
+        "year": "1937",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A Russian émigré writer in Berlin reflects on creativity, exile and his literary inheritance.",
+        "sourceSection": "world:rus",
+        "workId": "thegift__vladimirnabokov"
+      },
+      {
+        "title": "The Enchanted Wanderer",
+        "author": "Nikolai Leskov",
+        "country": "Russia",
+        "year": "1873",
+        "period": "19th-Century & Fin-de-Siècle",
+        "cultureNote": "Leskov's wandering protagonist encounters the diversity and moral contradictions of nineteenth-century Russia.",
+        "sourceSection": "world:rus",
+        "workId": "theenchantedwanderer__nikolaileskov"
+      },
+      {
+        "title": "The Adolescent",
+        "author": "Fyodor Dostoevsky",
+        "country": "Russia",
+        "year": "1875",
+        "period": "19th-Century & Fin-de-Siècle",
+        "cultureNote": "A young man's search for identity and independence unfolds amid family tension and social change.",
+        "sourceSection": "world:rus",
+        "workId": "theadolescent__fyodordostoevsky"
+      },
+      {
+        "title": "The Reader",
+        "author": "Bernhard Schlink",
+        "country": "Germany",
+        "year": "1995",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A postwar relationship becomes an investigation of complicity, memory and the ethics of judgment.",
+        "sourceSection": "world:ger",
+        "workId": "thereader__bernhardschlink"
+      },
+      {
+        "title": "The White Tiger",
+        "author": "Aravind Adiga",
+        "country": "India",
+        "year": "2008",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A driver's account of class mobility gives a darkly comic perspective on unequal opportunity in contemporary India.",
+        "sourceSection": "world:ind",
+        "workId": "thewhitetiger__aravindadiga"
+      },
+      {
+        "title": "Train to Pakistan",
+        "author": "Khushwant Singh",
+        "country": "India",
+        "year": "1956",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A Punjab border village is transformed by Partition and communal violence.",
+        "sourceSection": "world:ind",
+        "workId": "traintopakistan__khushwantsingh"
+      },
+      {
+        "title": "The Inheritance of Loss",
+        "author": "Kiran Desai",
+        "country": "India",
+        "year": "2006",
+        "period": "Contemporary Fiction",
+        "cultureNote": "Lives in the Himalayan foothills and New York reveal dislocation and unequal globalization.",
+        "sourceSection": "world:ind",
+        "workId": "theinheritanceofloss__kirandesai"
+      },
+      {
+        "title": "Untouchable",
+        "author": "Mulk Raj Anand",
+        "country": "India",
+        "year": "1935",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A single day in the life of a sweeper exposes caste humiliation in colonial India.",
+        "sourceSection": "world:ind",
+        "workId": "untouchable__mulkrajanand"
+      },
+      {
+        "title": "Such a Long Journey",
+        "author": "Rohinton Mistry",
+        "country": "India",
+        "year": "1991",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A Parsi bank clerk's troubles connect an intimate Bombay household to national political upheaval.",
+        "sourceSection": "world:ind",
+        "workId": "suchalongjourney__rohintonmistry"
+      },
+      {
+        "title": "Sea of Poppies",
+        "author": "Amitav Ghosh",
+        "country": "India",
+        "year": "2008",
+        "period": "Contemporary Fiction",
+        "cultureNote": "Lives entangled with the nineteenth-century opium trade meet aboard a ship bound across the Indian Ocean.",
+        "sourceSection": "world:ind",
+        "workId": "seaofpoppies__amitavghosh"
+      },
+      {
+        "title": "English, August",
+        "author": "Upamanyu Chatterjee",
+        "country": "India",
+        "year": "1988",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A young civil servant confronts provincial bureaucracy, alienation and the absurdity of official life.",
+        "sourceSection": "world:ind",
+        "workId": "englishaugust__upamanyuchatterjee"
+      },
+      {
+        "title": "Tamas",
+        "author": "Bhisham Sahni",
+        "country": "India",
+        "year": "1974",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A Hindi-language account of the fear, incitement and human costs of Partition.",
+        "sourceSection": "world:ind",
+        "workId": "tamas__bhishamsahni"
+      },
+      {
+        "title": "Nectar in a Sieve",
+        "author": "Kamala Markandaya",
+        "country": "India",
+        "year": "1954",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A tenant farmer's household struggles with hardship and rapid changes to village life.",
+        "sourceSection": "world:ind",
+        "workId": "nectarinasieve__kamalamarkandaya"
+      },
+      {
+        "title": "The Lives of Others",
+        "author": "Neel Mukherjee",
+        "country": "India",
+        "year": "2014",
+        "period": "Contemporary Fiction",
+        "cultureNote": "An extended Bengali family becomes entangled in class division and revolutionary politics.",
+        "sourceSection": "world:ind",
+        "workId": "thelivesofothers__neelmukherjee"
+      },
+      {
+        "title": "The Devil to Pay in the Backlands",
+        "author": "Joao Guimaraes Rosa",
+        "country": "Brazil",
+        "year": "1956",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A former bandit recounts the harsh Brazilian backlands in inventive, philosophically charged language.",
+        "sourceSection": "world:bra",
+        "workId": "thedeviltopayinthebacklands__joaoguimaraesrosa"
+      },
+      {
+        "title": "City of God",
+        "author": "Paulo Lins",
+        "country": "Brazil",
+        "year": "1997",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "An expansive portrayal of organized crime and inequality in a Rio de Janeiro housing project.",
+        "sourceSection": "world:bra",
+        "workId": "cityofgod__paulolins"
+      },
+      {
+        "title": "Disgrace",
+        "author": "J. M. Coetzee",
+        "country": "South Africa",
+        "year": "1999",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A disgraced academic's life on a rural farm exposes tensions in post-apartheid South Africa.",
+        "sourceSection": "world:zaf",
+        "workId": "disgrace__jmcoetzee"
+      },
+      {
+        "title": "Triomf",
+        "author": "Marlene van Niekerk",
+        "country": "South Africa",
+        "year": "1994",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "Grotesque family life in an Afrikaner suburb probes the collapse of an old political order.",
+        "sourceSection": "world:zaf",
+        "workId": "triomf__marlenevanniekerk"
+      },
+      {
+        "title": "Purple Hibiscus",
+        "author": "Chimamanda Ngozi Adichie",
+        "country": "Nigeria",
+        "year": "2003",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A Nigerian girl's family life reveals religious authoritarianism alongside political instability.",
+        "sourceSection": "world:nga",
+        "workId": "purplehibiscus__chimamandangoziadichie"
+      },
+      {
+        "title": "Americanah",
+        "author": "Chimamanda Ngozi Adichie",
+        "country": "Nigeria",
+        "year": "2013",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A Nigerian woman navigates race, love and return migration between Nigeria and the United States.",
+        "sourceSection": "world:nga",
+        "workId": "americanah__chimamandangoziadichie"
+      },
+      {
+        "title": "Savushun",
+        "author": "Simin Daneshvar",
+        "country": "Iran",
+        "year": "1969",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "An Iranian family confronts occupation, political pressure and moral conviction during World War II.",
+        "sourceSection": "world:irn",
+        "workId": "savushun__simindaneshvar"
+      },
+      {
+        "title": "The Colonel",
+        "author": "Mahmoud Dowlatabadi",
+        "country": "Iran",
+        "year": "2009",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A father facing the consequences of political upheaval becomes a witness to revolutionary violence.",
+        "sourceSection": "world:irn",
+        "workId": "thecolonel__mahmouddowlatabadi"
+      },
+      {
+        "title": "Santa Evita",
+        "author": "Tomas Eloy Martinez",
+        "country": "Argentina",
+        "year": "1995",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "The afterlife of Eva Perón's embalmed body becomes a meditation on political mythmaking.",
+        "sourceSection": "world:arg",
+        "workId": "santaevita__tomaseloymartinez"
+      },
+      {
+        "title": "Like Water for Chocolate",
+        "author": "Laura Esquivel",
+        "country": "Mexico",
+        "year": "1989",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "Food and family traditions structure a tale of forbidden love in revolutionary-era Mexico.",
+        "sourceSection": "world:mex",
+        "workId": "likewaterforchocolate__lauraesquivel"
+      },
+      {
+        "title": "The Underdogs",
+        "author": "Mariano Azuela",
+        "country": "Mexico",
+        "year": "1915",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A group of peasant fighters experiences the disillusionment and violence of the Mexican Revolution.",
+        "sourceSection": "world:mex",
+        "workId": "theunderdogs__marianoazuela"
+      },
+      {
+        "title": "If on a winter's night a traveler",
+        "author": "Italo Calvino",
+        "country": "Italy",
+        "year": "1979",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "Calvino turns an interrupted act of reading into a witty, intricate experiment in narrative form.",
+        "sourceSection": "world:ita",
+        "workId": "ifonawintersnightatraveler__italocalvino"
+      },
+      {
+        "title": "My Brilliant Friend",
+        "author": "Elena Ferrante",
+        "country": "Italy",
+        "year": "2011",
+        "period": "Contemporary Fiction",
+        "cultureNote": "Two girls growing up in Naples forge a complicated friendship amid class struggle and social change.",
+        "sourceSection": "world:ita",
+        "workId": "mybrilliantfriend__elenaferrante"
+      },
+      {
+        "title": "Moth Smoke",
+        "author": "Mohsin Hamid",
+        "country": "Pakistan",
+        "year": "2000",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A former banker's downward spiral exposes class division and social hypocrisy in Lahore.",
+        "sourceSection": "world:pak",
+        "workId": "mothsmoke__mohsinhamid"
+      },
+      {
+        "title": "The Reluctant Fundamentalist",
+        "author": "Mohsin Hamid",
+        "country": "Pakistan",
+        "year": "2007",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A Pakistani narrator addresses an American stranger in an ambiguous post-9/11 monologue.",
+        "sourceSection": "world:pak",
+        "workId": "thereluctantfundamentalist__mohsinhamid"
+      },
+      {
+        "title": "Home Fire",
+        "author": "Kamila Shamsie",
+        "country": "Pakistan",
+        "year": "2017",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A contemporary reworking of Antigone examines family loyalty, citizenship and extremism.",
+        "sourceSection": "world:pak",
+        "workId": "homefire__kamilashamsie"
+      },
+      {
+        "title": "In Other Rooms, Other Wonders",
+        "author": "Daniyal Mueenuddin",
+        "country": "Pakistan",
+        "year": "2009",
+        "period": "Contemporary Fiction",
+        "cultureNote": "Linked stories reveal the unequal dependencies of Pakistan's landowning households.",
+        "sourceSection": "world:pak",
+        "workId": "inotherroomsotherwonders__daniyalmueenuddin"
+      },
+      {
+        "title": "This Earth of Mankind",
+        "author": "Pramoedya Ananta Toer",
+        "country": "Indonesia",
+        "year": "1980",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A Javanese student's education and love life reveal the racial hierarchy of colonial Dutch rule.",
+        "sourceSection": "world:idn",
+        "workId": "thisearthofmankind__pramoedyaanantatoer"
+      },
+      {
+        "title": "Child of All Nations",
+        "author": "Pramoedya Ananta Toer",
+        "country": "Indonesia",
+        "year": "1980",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "The second Buru Quartet novel follows a young journalist's developing anticolonial consciousness.",
+        "sourceSection": "world:idn",
+        "workId": "childofallnations__pramoedyaanantatoer"
+      },
+      {
+        "title": "Footsteps",
+        "author": "Pramoedya Ananta Toer",
+        "country": "Indonesia",
+        "year": "1985",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A developing Indonesian nationalist movement emerges through journalism and political organizing.",
+        "sourceSection": "world:idn",
+        "workId": "footsteps__pramoedyaanantatoer"
+      },
+      {
+        "title": "House of Glass",
+        "author": "Pramoedya Ananta Toer",
+        "country": "Indonesia",
+        "year": "1988",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "The Buru Quartet concludes through the surveillance perspective of a colonial official.",
+        "sourceSection": "world:idn",
+        "workId": "houseofglass__pramoedyaanantatoer"
+      },
+      {
+        "title": "The Rainbow Troops",
+        "author": "Andrea Hirata",
+        "country": "Indonesia",
+        "year": "2005",
+        "period": "Contemporary Fiction",
+        "cultureNote": "Children struggle to preserve their education in the mining landscape of Belitung.",
+        "sourceSection": "world:idn",
+        "workId": "therainbowtroops__andreahirata"
+      },
+      {
+        "title": "Weep Not, Child",
+        "author": "Ngugi wa Thiong'o",
+        "country": "Kenya",
+        "year": "1964",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A child's aspirations are shaped and imperiled by Kenya's colonial Emergency.",
+        "sourceSection": "world:ken",
+        "workId": "weepnotchild__ngugiwathiongo"
+      },
+      {
+        "title": "Petals of Blood",
+        "author": "Ngugi wa Thiong'o",
+        "country": "Kenya",
+        "year": "1977",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A Kenyan community's transformation exposes post-independence inequality and exploitation.",
+        "sourceSection": "world:ken",
+        "workId": "petalsofblood__ngugiwathiongo"
+      },
+      {
+        "title": "Devil on the Cross",
+        "author": "Ngugi wa Thiong'o",
+        "country": "Kenya",
+        "year": "1982",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "An allegorical satire attacks corruption and neocolonialism, originally written in Gikuyu.",
+        "sourceSection": "world:ken",
+        "workId": "devilonthecross__ngugiwathiongo"
+      },
+      {
+        "title": "The Last Temptation of Christ",
+        "author": "Nikos Kazantzakis",
+        "country": "Greece",
+        "year": "1955",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A fictional reimagining of Christ's life tests the relationship between human desire and spiritual obligation.",
+        "sourceSection": "world:gre",
+        "workId": "thelasttemptationofchrist__nikoskazantzakis"
+      },
+      {
+        "title": "Flights",
+        "author": "Olga Tokarczuk",
+        "country": "Poland",
+        "year": "2007",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A constellation of stories and reflections on travel, anatomy and human movement.",
+        "sourceSection": "world:pol",
+        "workId": "flights__olgatokarczuk"
+      },
+      {
+        "title": "The Doll",
+        "author": "Boleslaw Prus",
+        "country": "Poland",
+        "year": "1890",
+        "period": "19th-Century & Fin-de-Siècle",
+        "cultureNote": "Prus explores social ambition and class change in nineteenth-century Warsaw.",
+        "sourceSection": "world:pol",
+        "workId": "thedoll__boleslawprus"
+      },
+      {
+        "title": "Life of Pi",
+        "author": "Yann Martel",
+        "country": "Canada",
+        "year": "2001",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A boy's improbable sea survival story raises questions about faith and storytelling.",
+        "sourceSection": "world:can",
+        "workId": "lifeofpi__yannmartel"
+      },
+      {
+        "title": "Alias Grace",
+        "author": "Margaret Atwood",
+        "country": "Canada",
+        "year": "1996",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "Atwood reimagines a historical murder trial through competing accounts of memory and culpability.",
+        "sourceSection": "world:can",
+        "workId": "aliasgrace__margaretatwood"
+      },
+      {
+        "title": "The Secret River",
+        "author": "Kate Grenville",
+        "country": "Australia",
+        "year": "2005",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A transported convict's attempt to settle in New South Wales confronts Indigenous dispossession.",
+        "sourceSection": "world:aus",
+        "workId": "thesecretriver__kategrenville"
+      },
+      {
+        "title": "The Girl with the Dragon Tattoo",
+        "author": "Stieg Larsson",
+        "country": "Sweden",
+        "year": "2005",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A mystery investigates family secrets, violence against women and abuse of authority in Sweden.",
+        "sourceSection": "world:scan",
+        "workId": "thegirlwiththedragontattoo__stieglarsson"
+      },
+      {
+        "title": "Miss Smilla's Feeling for Snow",
+        "author": "Peter Hoeg",
+        "country": "Denmark",
+        "year": "1992",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A Danish-Greenlandic woman's investigation becomes a study of colonial and cultural identity.",
+        "sourceSection": "world:scan",
+        "workId": "misssmillasfeelingforsnow__peterhoeg"
+      },
+      {
+        "title": "I Served the King of England",
+        "author": "Bohumil Hrabal",
+        "country": "Czechia",
+        "year": "1971",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A waiter's ambitions collide with occupation, war and communist Czechoslovakia.",
+        "sourceSection": "world:cze",
+        "workId": "iservedthekingofengland__bohumilhrabal"
+      },
+      {
+        "title": "Baltasar and Blimunda",
+        "author": "Jose Saramago",
+        "country": "Portugal",
+        "year": "1982",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A historical fantasia of love, the Inquisition and invention in eighteenth-century Portugal.",
+        "sourceSection": "world:por",
+        "workId": "baltasarandblimunda__josesaramago"
+      },
+      {
+        "title": "The Land at the End of the World",
+        "author": "Antonio Lobo Antunes",
+        "country": "Portugal",
+        "year": "1979",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A Portuguese army doctor's recollections expose the trauma of colonial war in Angola.",
+        "sourceSection": "world:por",
+        "workId": "thelandattheendoftheworld__antonioloboantunes"
+      },
+      {
+        "title": "Journey by Moonlight",
+        "author": "Antal Szerb",
+        "country": "Hungary",
+        "year": "1937",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A Hungarian traveler's honeymoon is overtaken by memories of youth, desire and mortality.",
+        "sourceSection": "world:hun",
+        "workId": "journeybymoonlight__antalszerb"
+      },
+      {
+        "title": "Satantango",
+        "author": "Laszlo Krasznahorkai",
+        "country": "Hungary",
+        "year": "1985",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "Villagers awaiting a charismatic figure in a decaying collective farm create a bleak comic vision of late socialism.",
+        "sourceSection": "world:hun",
+        "workId": "satantango__laszlokrasznahorkai"
+      },
+      {
+        "title": "Explosion in a Cathedral",
+        "author": "Alejo Carpentier",
+        "country": "Cuba",
+        "year": "1962",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "The French Revolution's Caribbean aftermath becomes a meditation on liberty, violence and utopia.",
+        "sourceSection": "world:cub",
+        "workId": "explosioninacathedral__alejocarpentier"
+      },
+      {
+        "title": "2666",
+        "author": "Roberto Bolano",
+        "country": "Chile",
+        "year": "2004",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A vast novel interweaves literary obsession, twentieth-century European history and violence on the Mexican border.",
+        "sourceSection": "world:chl",
+        "workId": "2666__robertobolano"
+      },
+      {
+        "title": "Distant Star",
+        "author": "Roberto Bolano",
+        "country": "Chile",
+        "year": "1996",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A Chilean poet's complicity in dictatorship explores the dark relation between aesthetics and power.",
+        "sourceSection": "world:chl",
+        "workId": "distantstar__robertobolano"
+      },
+      {
+        "title": "The God Who Begat a Jackal",
+        "author": "Nega Mezlekia",
+        "country": "Ethiopia",
+        "year": "2002",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A historical novel of early modern Ethiopia and the challenges of political transformation.",
+        "sourceSection": "world:eth",
+        "workId": "thegodwhobegatajackal__negamezlekia"
+      },
+      {
+        "title": "The Sand Child",
+        "author": "Tahar Ben Jelloun",
+        "country": "Morocco",
+        "year": "1985",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A girl raised as a boy becomes the centre of a layered exploration of storytelling and gender identity.",
+        "sourceSection": "world:mar",
+        "workId": "thesandchild__taharbenjelloun"
+      },
+      {
+        "title": "Death and the Penguin",
+        "author": "Andrey Kurkov",
+        "country": "Ukraine",
+        "year": "1996",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A Kyiv obituary writer and his pet penguin reveal the absurdities of post-Soviet political life.",
+        "sourceSection": "world:ukr",
+        "workId": "deathandthepenguin__andreykurkov"
+      },
+      {
+        "title": "The Kite Runner",
+        "author": "Khaled Hosseini",
+        "country": "Afghanistan",
+        "year": "2003",
+        "period": "Contemporary Fiction",
+        "cultureNote": "An Afghan emigrant's memories of childhood betrayal connect Kabul, exile and historical violence.",
+        "sourceSection": "world:afg",
+        "workId": "thekiterunner__khaledhosseini"
+      },
+      {
+        "title": "And the Mountains Echoed",
+        "author": "Khaled Hosseini",
+        "country": "Afghanistan",
+        "year": "2013",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A family's separation in Afghanistan echoes through linked lives and later generations.",
+        "sourceSection": "world:afg",
+        "workId": "andthemountainsechoed__khaledhosseini"
+      },
+      {
+        "title": "The Patience Stone",
+        "author": "Atiq Rahimi",
+        "country": "Afghanistan",
+        "year": "2008",
+        "period": "Contemporary Fiction",
+        "cultureNote": "An Afghan woman speaks openly to her unconscious husband in an intimate novella about silencing and freedom.",
+        "sourceSection": "world:afg",
+        "workId": "thepatiencestone__atiqrahimi"
+      },
+      {
+        "title": "Gate of the Sun",
+        "author": "Elias Khoury",
+        "country": "Lebanon",
+        "year": "1998",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A Lebanese author's interwoven Palestinian stories form an epic of exile, memory and loss.",
+        "sourceSection": "world:pal-isr",
+        "workId": "gateofthesun__eliaskhoury"
+      },
+      {
+        "title": "My Michael",
+        "author": "Amos Oz",
+        "country": "Israel",
+        "year": "1968",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A Jerusalem woman's domestic life and imagination reveal tensions in the years before the 1967 war.",
+        "sourceSection": "world:pal-isr",
+        "workId": "mymichael__amosoz"
+      },
+      {
+        "title": "No Knives in the Kitchens of This City",
+        "author": "Khaled Khalifa",
+        "country": "Syria",
+        "year": "2013",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A Syrian family's decline reflects decades of surveillance and political repression.",
+        "sourceSection": "world:syr",
+        "workId": "noknivesinthekitchensofthiscity__khaledkhalifa"
+      },
+      {
+        "title": "The Dark Side of Love",
+        "author": "Rafik Schami",
+        "country": "Syria",
+        "year": "2004",
+        "period": "Contemporary Fiction",
+        "cultureNote": "An exiled Syrian author traces two families and forbidden relationships across communal divisions.",
+        "sourceSection": "world:syr",
+        "workId": "thedarksideoflove__rafikschami"
+      },
+      {
+        "title": "Wedding of Zein",
+        "author": "Tayeb Salih",
+        "country": "Sudan",
+        "year": "1966",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "Tayeb Salih's village novella celebrates communal life and local spiritual traditions.",
+        "sourceSection": "world:sdn",
+        "workId": "weddingofzein__tayebsalih"
+      },
+      {
+        "title": "The Hostage",
+        "author": "Zayd Mutee' Dammaj",
+        "country": "Yemen",
+        "year": "1984",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A boy held as a political hostage in the pre-revolutionary Imamate witnesses arbitrary power and palace life.",
+        "origLang": "Arabic",
+        "sourceSection": "verified-publisher",
+        "workId": "thehostage__zaydmuteedammaj"
+      },
+      {
+        "title": "The Bleeding of the Stone",
+        "author": "Ibrahim al-Koni",
+        "country": "Libya",
+        "year": "1990",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "An enigmatic Tuareg desert tale links survival, wildlife and the disruption of nomadic life.",
+        "sourceSection": "world:lby",
+        "workId": "thebleedingofthestone__ibrahimalkoni"
+      },
+      {
+        "title": "Gold Dust",
+        "author": "Ibrahim al-Koni",
+        "country": "Libya",
+        "year": "1990",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A man and his camel cross the Sahara in a meditation on loyalty and survival.",
+        "sourceSection": "world:lby",
+        "workId": "golddust__ibrahimalkoni"
+      },
+      {
+        "title": "Links",
+        "author": "Nuruddin Farah",
+        "country": "Somalia",
+        "year": "2003",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A Somali exile returns to Mogadishu amid the violence and fragmentation of the early civil war.",
+        "sourceSection": "world:som",
+        "workId": "links__nuruddinfarah"
+      },
+      {
+        "title": "Gifts",
+        "author": "Nuruddin Farah",
+        "country": "Somalia",
+        "year": "1993",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A Mogadishu physician confronts the ambiguities of foreign aid, obligation and dependence.",
+        "sourceSection": "world:som",
+        "workId": "gifts__nuruddinfarah"
+      },
+      {
+        "title": "Congo Inc.",
+        "author": "In Koli Jean Bofane",
+        "country": "DR Congo",
+        "year": "2014",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A young Congolese man navigates extraction, globalization and the absurdity of the modern economy.",
+        "sourceSection": "world:drc",
+        "workId": "congoinc__inkolijeanbofane"
+      },
+      {
+        "title": "Breath, Eyes, Memory",
+        "author": "Edwidge Danticat",
+        "country": "Haiti",
+        "year": "1994",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A Haitian American girl's journey explores intergenerational trauma and family belonging.",
+        "sourceSection": "world:hti",
+        "workId": "breatheyesmemory__edwidgedanticat"
+      },
+      {
+        "title": "Masters of the Dew",
+        "author": "Jacques Roumain",
+        "country": "Haiti",
+        "year": "1944",
+        "period": "20th-Century Modern Classics",
+        "cultureNote": "A returned migrant seeks to heal a drought-stricken Haitian community divided by conflict.",
+        "sourceSection": "world:hti",
+        "workId": "mastersofthedew__jacquesroumain"
+      },
+      {
+        "title": "The Lazarus Project",
+        "author": "Aleksandar Hemon",
+        "country": "Bosnia & Herzegovina",
+        "year": "2008",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A Bosnian American writer investigates an immigrant's death, linking histories of exile and violence.",
+        "sourceSection": "world:bih",
+        "workId": "thelazarusproject__aleksandarhemon"
+      },
+      {
+        "title": "Nowhere Man",
+        "author": "Aleksandar Hemon",
+        "country": "Bosnia & Herzegovina",
+        "year": "2002",
+        "period": "Contemporary Fiction",
+        "cultureNote": "A Bosnian musician abroad confronts dislocation after his homeland descends into war.",
+        "sourceSection": "world:bih",
+        "workId": "nowhereman__aleksandarhemon"
+      },
+      {
+        "title": "The Accusation",
+        "author": "Bandi",
+        "country": "North Korea",
+        "year": "2014",
+        "period": "Contemporary Fiction",
+        "cultureNote": "Seven stories secretly written inside North Korea by Bandi and published abroad, depicting fear and daily life under the regime.",
+        "origLang": "Korean",
+        "sourceSection": "world:prk",
+        "workId": "theaccusation__bandi"
+      },
+      {
+        "title": "Friend",
+        "author": "Paek Nam-nyong",
+        "country": "North Korea",
+        "year": "1988",
+        "period": "20th-Century Modern Classics",
+        "origLang": "Korean",
+        "cultureNote": "A North Korean court judge investigates a marriage's breakdown in this rare internationally translated novel, first published in North Korea in 1988; English translation by Immanuel Kim. First published in 1988; translated into English in 2020.",
+        "sourceSection": "Columbia University Press / LTI Korea",
+        "workId": "friend__paeknamnyong",
+        "translation": "Immanuel Kim (English, 2020)"
+      }
+    ],
+    "india": [
+      {
+        "title": "Pariksha Guru",
+        "author": "Srinivas Das",
+        "year": "1882",
+        "cat": "50 Indian Fiction",
+        "origLang": "Hindi",
+        "theme": "Regional-language literature",
+        "note": "An early Hindi novel about colonial-era middle-class identity and imitation.",
+        "translation": "",
+        "langStatus": "Original language: Hindi",
+        "sourceSection": "india:hin",
+        "workId": "parikshaguru__srinivasdas"
+      },
+      {
+        "title": "Chandrakanta",
+        "author": "Devaki Nandan Khatri",
+        "year": "1888",
+        "cat": "50 Indian Fiction",
+        "origLang": "Hindi",
+        "theme": "Regional-language literature",
+        "note": "A landmark of Hindi popular fiction using enchantment and serialized storytelling.",
+        "translation": "",
+        "langStatus": "Original language: Hindi",
+        "sourceSection": "india:hin",
+        "workId": "chandrakanta__devakinandankhatri"
+      },
+      {
+        "title": "Chitralekha",
+        "author": "Bhagwati Charan Verma",
+        "year": "1934",
+        "cat": "50 Indian Fiction",
+        "origLang": "Hindi",
+        "theme": "Regional-language literature",
+        "note": "A philosophical historical novel exploring desire, sin and judgment.",
+        "translation": "",
+        "langStatus": "Original language: Hindi",
+        "sourceSection": "india:hin",
+        "workId": "chitralekha__bhagwaticharanverma"
+      },
+      {
+        "title": "Shekhar: Ek Jivani",
+        "author": "Agyeya",
+        "year": "1941",
+        "cat": "50 Indian Fiction",
+        "origLang": "Hindi",
+        "theme": "Regional-language literature",
+        "note": "An introspective modernist study of rebellion and revolutionary politics.",
+        "translation": "",
+        "langStatus": "Original language: Hindi",
+        "sourceSection": "india:hin",
+        "workId": "shekharekjivani__agyeya"
+      },
+      {
+        "title": "Gunahon Ka Devta",
+        "author": "Dharamvir Bharati",
+        "year": "1949",
+        "cat": "50 Indian Fiction",
+        "origLang": "Hindi",
+        "theme": "Regional-language literature",
+        "note": "A post-independence love story about hierarchy, restraint and longing.",
+        "translation": "",
+        "langStatus": "Original language: Hindi",
+        "sourceSection": "india:hin",
+        "workId": "gunahonkadevta__dharamvirbharati"
+      },
+      {
+        "title": "Maila Anchal",
+        "author": "Phanishwar Nath Renu",
+        "year": "1954",
+        "cat": "50 Indian Fiction",
+        "origLang": "Hindi",
+        "theme": "Regional-language literature",
+        "note": "A richly observed rural Bihar novel of dialect, caste, medicine and political change.",
+        "translation": "",
+        "langStatus": "Original language: Hindi",
+        "sourceSection": "india:hin",
+        "workId": "mailaanchal__phanishwarnathrenu"
+      },
+      {
+        "title": "Jhootha Sach",
+        "author": "Yashpal",
+        "year": "1958",
+        "cat": "50 Indian Fiction",
+        "origLang": "Hindi",
+        "theme": "Regional-language literature",
+        "note": "Yashpal's sweeping narrative of Partition, ideology and displacement.",
+        "translation": "",
+        "langStatus": "Original language: Hindi",
+        "sourceSection": "india:hin",
+        "workId": "jhoothasach__yashpal"
+      },
+      {
+        "title": "Aadha Gaon",
+        "author": "Rahi Masoom Raza",
+        "year": "1966",
+        "cat": "50 Indian Fiction",
+        "origLang": "Hindi",
+        "theme": "Regional-language literature",
+        "note": "Partition viewed from inside a North Indian Muslim village.",
+        "translation": "",
+        "langStatus": "Original language: Hindi",
+        "sourceSection": "india:hin",
+        "workId": "aadhagaon__rahimasoomraza"
+      },
+      {
+        "title": "Mitro Marjani",
+        "author": "Krishna Sobti",
+        "year": "1966",
+        "cat": "50 Indian Fiction",
+        "origLang": "Hindi",
+        "theme": "Regional-language literature",
+        "note": "A sharp comic challenge to restrictions on women's desire and speech.",
+        "translation": "",
+        "langStatus": "Original language: Hindi",
+        "sourceSection": "india:hin",
+        "workId": "mitromarjani__krishnasobti"
+      },
+      {
+        "title": "The Home and the World",
+        "author": "Rabindranath Tagore",
+        "year": "1916",
+        "cat": "50 Indian Fiction",
+        "origLang": "Bengali",
+        "theme": "Regional-language literature",
+        "note": "Tagore examines Swadeshi nationalism through its consequences for a marriage.",
+        "translation": "",
+        "langStatus": "Original language: Bengali",
+        "sourceSection": "india:ben",
+        "workId": "thehomeandtheworld__rabindranathtagore"
+      },
+      {
+        "title": "Pather Panchali",
+        "author": "Bibhutibhushan Bandyopadhyay",
+        "year": "1929",
+        "cat": "50 Indian Fiction",
+        "origLang": "Bengali",
+        "theme": "Regional-language literature",
+        "note": "A rural childhood that depicts poverty without sacrificing wonder at nature.",
+        "translation": "",
+        "langStatus": "Original language: Bengali",
+        "sourceSection": "india:ben",
+        "workId": "patherpanchali__bibhutibhushanbandyopadhyay"
+      },
+      {
+        "title": "Aranyak",
+        "author": "Bibhutibhushan Bandyopadhyay",
+        "year": "1939",
+        "cat": "50 Indian Fiction",
+        "origLang": "Bengali",
+        "theme": "Regional-language literature",
+        "note": "A land manager remembers forest clearance and his uneasy role in dispossession.",
+        "translation": "",
+        "langStatus": "Original language: Bengali",
+        "sourceSection": "india:ben",
+        "workId": "aranyak__bibhutibhushanbandyopadhyay"
+      },
+      {
+        "title": "The First Promise",
+        "author": "Ashapurna Devi",
+        "year": "1964",
+        "cat": "50 Indian Fiction",
+        "origLang": "Bengali",
+        "theme": "Regional-language literature",
+        "note": "An expansive account of domestic patriarchy and female self-determination.",
+        "translation": "",
+        "langStatus": "Original language: Bengali",
+        "sourceSection": "india:ben",
+        "workId": "thefirstpromise__ashapurnadevi"
+      },
+      {
+        "title": "Umrao Jaan Ada",
+        "author": "Mirza Hadi Ruswa",
+        "year": "1899",
+        "cat": "50 Indian Fiction",
+        "origLang": "Urdu",
+        "theme": "Regional-language literature",
+        "note": "A courtesan's account of art, power and respectability in nineteenth-century Lucknow.",
+        "translation": "",
+        "langStatus": "Original language: Urdu",
+        "sourceSection": "india:urd",
+        "workId": "umraojaanada__mirzahadiruswa"
+      },
+      {
+        "title": "The Crooked Line (Terhi Lakir)",
+        "author": "Ismat Chughtai",
+        "year": "1945",
+        "cat": "50 Indian Fiction",
+        "origLang": "Urdu",
+        "theme": "Regional-language literature",
+        "note": "A coming-of-age novel of women's desire, education and social conventions.",
+        "translation": "",
+        "langStatus": "Original language: Urdu",
+        "sourceSection": "india:urd",
+        "workId": "thecrookedlineterhilakir__ismatchughtai"
+      },
+      {
+        "title": "The Women's Courtyard (Aangan)",
+        "author": "Khadija Mastur",
+        "year": "1962",
+        "cat": "50 Indian Fiction",
+        "origLang": "Urdu",
+        "theme": "Regional-language literature",
+        "note": "Political change experienced within the women's spaces of a household.",
+        "translation": "",
+        "langStatus": "Original language: Urdu",
+        "sourceSection": "india:urd",
+        "workId": "thewomenscourtyardaangan__khadijamastur"
+      },
+      {
+        "title": "Goat Days",
+        "author": "Benyamin",
+        "year": "2008",
+        "cat": "50 Indian Fiction",
+        "origLang": "Malayalam",
+        "theme": "Regional-language literature",
+        "note": "A Gulf migrant worker's ordeal shows the vulnerability of transnational labour.",
+        "translation": "",
+        "langStatus": "Original language: Malayalam",
+        "sourceSection": "india:mal",
+        "workId": "goatdays__benyamin"
+      },
+      {
+        "title": "Hangwoman",
+        "author": "K. R. Meera",
+        "year": "2012",
+        "cat": "50 Indian Fiction",
+        "origLang": "Malayalam",
+        "theme": "Regional-language literature",
+        "note": "A woman of an executioner's family confronts spectacle and state violence.",
+        "translation": "",
+        "langStatus": "Original language: Malayalam",
+        "sourceSection": "india:mal",
+        "workId": "hangwoman__krmeera"
+      },
+      {
+        "title": "Ponniyin Selvan",
+        "author": "Kalki Krishnamurthy",
+        "year": "1954",
+        "cat": "50 Indian Fiction",
+        "origLang": "Tamil",
+        "theme": "Regional-language literature",
+        "note": "A major historical novel cycle about Chola politics and court intrigue.",
+        "translation": "",
+        "langStatus": "Original language: Tamil",
+        "sourceSection": "india:tam",
+        "workId": "ponniyinselvan__kalkikrishnamurthy"
+      },
+      {
+        "title": "The Grip of Change",
+        "author": "P. Sivakami",
+        "year": "1989",
+        "cat": "50 Indian Fiction",
+        "origLang": "Tamil",
+        "theme": "Regional-language literature",
+        "note": "A Dalit feminist novel examining caste and power within marginalized communities.",
+        "translation": "",
+        "langStatus": "Original language: Tamil",
+        "sourceSection": "india:tam",
+        "workId": "thegripofchange__psivakami"
+      },
+      {
+        "title": "Seasons of the Palm",
+        "author": "Perumal Murugan",
+        "year": "2000",
+        "cat": "50 Indian Fiction",
+        "origLang": "Tamil",
+        "theme": "Regional-language literature",
+        "note": "A bonded Dalit goatherd's experience of work and social hierarchy.",
+        "translation": "",
+        "langStatus": "Original language: Tamil",
+        "sourceSection": "india:tam",
+        "workId": "seasonsofthepalm__perumalmurugan"
+      },
+      {
+        "title": "Bharathipura",
+        "author": "U. R. Ananthamurthy",
+        "year": "1973",
+        "cat": "50 Indian Fiction",
+        "origLang": "Kannada",
+        "theme": "Regional-language literature",
+        "note": "A reformer's efforts raise uncomfortable questions about caste and who controls change.",
+        "translation": "",
+        "langStatus": "Original language: Kannada",
+        "sourceSection": "india:kan",
+        "workId": "bharathipura__urananthamurthy"
+      },
+      {
+        "title": "Cobalt Blue",
+        "author": "Sachin Kundalkar",
+        "year": "2006",
+        "cat": "50 Indian Fiction",
+        "origLang": "Marathi",
+        "theme": "Regional-language literature",
+        "note": "Sibling narratives explore queer desire and family secrecy.",
+        "translation": "",
+        "langStatus": "Original language: Marathi",
+        "sourceSection": "india:mar",
+        "workId": "cobaltblue__sachinkundalkar"
+      },
+      {
+        "title": "The Stepchild (Angaliyat)",
+        "author": "Joseph Macwan",
+        "year": "1986",
+        "cat": "50 Indian Fiction",
+        "origLang": "Gujarati",
+        "theme": "Regional-language literature",
+        "note": "A story of Vankar weavers and caste domination in rural Gujarat.",
+        "translation": "",
+        "langStatus": "Original language: Gujarati",
+        "sourceSection": "india:guj",
+        "workId": "thestepchildangaliyat__josephmacwan"
+      },
+      {
+        "title": "The Moth-Eaten Howdah of the Tusker",
+        "author": "Indira Goswami",
+        "year": "1986",
+        "cat": "50 Indian Fiction",
+        "origLang": "Assamese",
+        "theme": "Regional-language literature",
+        "note": "A decaying Vaishnavite household exposes the weight of widowhood and ritual.",
+        "translation": "",
+        "langStatus": "Original language: Assamese",
+        "sourceSection": "india:asm",
+        "workId": "themotheatenhowdahofthetusker__indiragoswami"
+      },
+      {
+        "title": "Veyi Padagalu (A Thousand Hoods)",
+        "author": "Viswanatha Satyanarayana",
+        "year": "1934",
+        "cat": "50 Indian Fiction",
+        "origLang": "Telugu",
+        "theme": "Regional-language literature",
+        "note": "An ambitious account of changing village institutions and beliefs.",
+        "translation": "",
+        "langStatus": "Original language: Telugu",
+        "sourceSection": "india:tel",
+        "workId": "veyipadagaluathousandhoods__viswanathasatyanarayana"
+      },
+      {
+        "title": "Untouchable Spring",
+        "author": "Kalyana Rao",
+        "year": "2000",
+        "cat": "50 Indian Fiction",
+        "origLang": "Telugu",
+        "theme": "Regional-language literature",
+        "note": "A Dalit family saga linking caste, labour, religion and resistance.",
+        "translation": "",
+        "langStatus": "Original language: Telugu",
+        "sourceSection": "india:tel",
+        "workId": "untouchablespring__kalyanarao"
+      },
+      {
+        "title": "Karmelin",
+        "author": "Damodar Mauzo",
+        "year": "1981",
+        "cat": "50 Indian Fiction",
+        "origLang": "Konkani",
+        "theme": "Regional-language literature",
+        "note": "A Goan woman's labour and Gulf migration reveal hidden social costs.",
+        "translation": "",
+        "langStatus": "Original language: Konkani",
+        "sourceSection": "india:kon",
+        "workId": "karmelin__damodarmauzo"
+      },
+      {
+        "title": "Paro",
+        "author": "Nagarjun",
+        "year": "1946",
+        "cat": "50 Indian Fiction",
+        "origLang": "Maithili",
+        "theme": "Regional-language literature",
+        "note": "A novel confronting mismatched marriage and constraints on women's choices.",
+        "translation": "",
+        "langStatus": "Original language: Maithili",
+        "sourceSection": "india:mai",
+        "workId": "paro__nagarjun"
+      }
+    ],
+    "science": [
+      {
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "year": 1818,
+        "era": "Early Speculative Fiction",
+        "concept": "Creation of life becomes an inquiry into responsibility and science's moral limits.",
+        "note": "Creation of life becomes an inquiry into responsibility and science's moral limits.",
+        "theme": "Early Speculative Fiction",
+        "sfThemes": [
+          "Artificial Intelligence"
+        ],
+        "sourceSection": "science:before-1900",
+        "workId": "frankenstein__maryshelley"
+      },
+      {
+        "title": "Journey to the Centre of the Earth",
+        "author": "Jules Verne",
+        "year": 1864,
+        "era": "Scientific Romance",
+        "concept": "Verne's subterranean expedition joins curiosity about geology with adventure.",
+        "note": "Verne's subterranean expedition joins curiosity about geology with adventure.",
+        "theme": "Scientific Romance",
+        "sfThemes": [
+          "Space Exploration"
+        ],
+        "sourceSection": "science:before-1900",
+        "workId": "journeytothecentreoftheearth__julesverne"
+      },
+      {
+        "title": "The Demolished Man",
+        "author": "Alfred Bester",
+        "year": 1953,
+        "era": "Golden Age",
+        "concept": "A crime story in a telepathic society examines psychology and social systems.",
+        "note": "A crime story in a telepathic society examines psychology and social systems.",
+        "theme": "Golden Age",
+        "sfThemes": [
+          "Consciousness and Mind"
+        ],
+        "sourceSection": "science:1946-1989",
+        "workId": "thedemolishedman__alfredbester"
+      },
+      {
+        "title": "The Drowned World",
+        "author": "J. G. Ballard",
+        "year": 1962,
+        "era": "New Wave",
+        "concept": "A flooded, overheated world links environmental change with psychological time.",
+        "note": "A flooded, overheated world links environmental change with psychological time.",
+        "theme": "New Wave",
+        "sfThemes": [
+          "Climate Fiction"
+        ],
+        "sourceSection": "science:1946-1989",
+        "workId": "thedrownedworld__jgballard"
+      },
+      {
+        "title": "The Dispossessed",
+        "author": "Ursula K. Le Guin",
+        "year": 1974,
+        "era": "New Wave",
+        "concept": "A physicist's journey contrasts two flawed societies and the politics of freedom.",
+        "note": "A physicist's journey contrasts two flawed societies and the politics of freedom.",
+        "theme": "New Wave",
+        "sfThemes": [
+          "Social and Political Science Fiction"
+        ],
+        "sourceSection": "science:1946-1989",
+        "workId": "thedispossessed__ursulakleguin"
+      },
+      {
+        "title": "Dawn",
+        "author": "Octavia E. Butler",
+        "year": 1987,
+        "era": "Feminist Science Fiction",
+        "concept": "Survivors of catastrophe encounter aliens whose plans complicate human autonomy.",
+        "note": "Survivors of catastrophe encounter aliens whose plans complicate human autonomy.",
+        "theme": "Feminist Science Fiction",
+        "sfThemes": [
+          "Posthumanism and Singularity"
+        ],
+        "sourceSection": "science:1946-1989",
+        "workId": "dawn__octaviaebutler"
+      },
+      {
+        "title": "Use of Weapons",
+        "author": "Iain M. Banks",
+        "year": 1990,
+        "era": "Space Opera",
+        "concept": "A non-linear narrative examines violence, identity and political intervention.",
+        "note": "A non-linear narrative examines violence, identity and political intervention.",
+        "theme": "Space Opera",
+        "sfThemes": [
+          "Social and Political Science Fiction"
+        ],
+        "sourceSection": "science:1990-2009",
+        "workId": "useofweapons__iainmbanks"
+      },
+      {
+        "title": "The Calcutta Chromosome",
+        "author": "Amitav Ghosh",
+        "year": 1995,
+        "era": "Postcolonial Speculation",
+        "concept": "A speculative mystery blends malaria research, colonial history and hidden knowledge.",
+        "note": "A speculative mystery blends malaria research, colonial history and hidden knowledge.",
+        "theme": "Postcolonial Speculation",
+        "sfThemes": [
+          "Consciousness and Mind"
+        ],
+        "sourceSection": "science:1990-2009",
+        "workId": "thecalcuttachromosome__amitavghosh"
+      },
+      {
+        "title": "Lagoon",
+        "author": "Nnedi Okorafor",
+        "year": 2014,
+        "era": "Afrofuturism",
+        "concept": "Alien contact in Lagos brings multiple perspectives together in a story of transformation.",
+        "note": "Alien contact in Lagos brings multiple perspectives together in a story of transformation.",
+        "theme": "Afrofuturism",
+        "sfThemes": [
+          "Social and Political Science Fiction"
+        ],
+        "sourceSection": "science:2010-onwards",
+        "workId": "lagoon__nnediokorafor"
+      }
+    ],
+    "novellas": [
+      {
+        "title": "Hadji Murat",
+        "author": "Leo Tolstoy",
+        "year": "1912",
+        "theme": "Existential & Absurd",
+        "note": "Tolstoy's late account of resistance and empire in the Caucasus.",
+        "form": "Novella",
+        "sourceSection": "novellas:1900-1945",
+        "workId": "hadjimurat__leotolstoy"
+      },
+      {
+        "title": "The Forged Coupon",
+        "author": "Leo Tolstoy",
+        "year": "1911",
+        "theme": "Existential & Absurd",
+        "note": "A small wrongdoing creates an expanding chain of social consequences.",
+        "form": "Novella",
+        "sourceSection": "novellas:1900-1945",
+        "workId": "theforgedcoupon__leotolstoy"
+      },
+      {
+        "title": "Family Happiness",
+        "author": "Leo Tolstoy",
+        "year": "1859",
+        "theme": "Existential & Absurd",
+        "note": "Tolstoy examines changing feelings and expectations within marriage.",
+        "form": "Novella",
+        "sourceSection": "novellas:before-1900",
+        "workId": "familyhappiness__leotolstoy"
+      },
+      {
+        "title": "The Double",
+        "author": "Fyodor Dostoevsky",
+        "year": "1846",
+        "theme": "Existential & Absurd",
+        "note": "Dostoevsky's uncanny Petersburg study of identity and humiliation.",
+        "form": "Novella",
+        "sourceSection": "novellas:before-1900",
+        "workId": "thedouble__fyodordostoevsky"
+      },
+      {
+        "title": "Poor Folk",
+        "author": "Fyodor Dostoevsky",
+        "year": "1846",
+        "theme": "Existential & Absurd",
+        "note": "An epistolary portrayal of poverty, love and wounded pride.",
+        "form": "Novella",
+        "sourceSection": "novellas:before-1900",
+        "workId": "poorfolk__fyodordostoevsky"
+      },
+      {
+        "title": "The Eternal Husband",
+        "author": "Fyodor Dostoevsky",
+        "year": "1870",
+        "theme": "Existential & Absurd",
+        "note": "Dostoevsky's unsettling story of rivalry, jealousy and guilt.",
+        "form": "Novella",
+        "sourceSection": "novellas:before-1900",
+        "workId": "theeternalhusband__fyodordostoevsky"
+      },
+      {
+        "title": "A Gentle Creature",
+        "author": "Fyodor Dostoevsky",
+        "year": "1876",
+        "theme": "Existential & Absurd",
+        "note": "A husband's monologue attempts to explain his wife's death.",
+        "form": "Novella",
+        "sourceSection": "novellas:before-1900",
+        "workId": "agentlecreature__fyodordostoevsky"
+      },
+      {
+        "title": "The Gambler",
+        "author": "Fyodor Dostoevsky",
+        "year": "1867",
+        "theme": "Existential & Absurd",
+        "note": "A compulsive gambler's hopes and humiliations revolve around roulette.",
+        "form": "Novella",
+        "sourceSection": "novellas:before-1900",
+        "workId": "thegambler__fyodordostoevsky"
+      },
+      {
+        "title": "The Fall",
+        "author": "Albert Camus",
+        "year": "1956",
+        "theme": "Existential & Absurd",
+        "note": "Camus's confessional narrative investigates hypocrisy and judgment.",
+        "form": "Novella",
+        "sourceSection": "novellas:1946-1989",
+        "workId": "thefall__albertcamus"
+      },
+      {
+        "title": "A Happy Death",
+        "author": "Albert Camus",
+        "year": "1971",
+        "theme": "Existential & Absurd",
+        "note": "An early, posthumously published Camus novel about mortality and happiness.",
+        "form": "Novella",
+        "sourceSection": "novellas:1946-1989",
+        "workId": "ahappydeath__albertcamus"
+      },
+      {
+        "title": "The Old Man and the Sea",
+        "author": "Ernest Hemingway",
+        "year": "1952",
+        "theme": "Existential & Absurd",
+        "note": "An ageing fisherman's struggle becomes a spare meditation on persistence.",
+        "form": "Novella",
+        "sourceSection": "novellas:1946-1989",
+        "workId": "theoldmanandthesea__ernesthemingway"
+      },
+      {
+        "title": "Of Mice and Men",
+        "author": "John Steinbeck",
+        "year": "1937",
+        "theme": "Existential & Absurd",
+        "note": "A tragedy of friendship and insecure lives during the Great Depression.",
+        "form": "Novella",
+        "sourceSection": "novellas:1900-1945",
+        "workId": "ofmiceandmen__johnsteinbeck"
+      },
+      {
+        "title": "The Pearl",
+        "author": "John Steinbeck",
+        "year": "1947",
+        "theme": "Existential & Absurd",
+        "note": "A miraculous discovery transforms a family's hopes into misfortune.",
+        "form": "Novella",
+        "sourceSection": "novellas:1946-1989",
+        "workId": "thepearl__johnsteinbeck"
+      },
+      {
+        "title": "The Moon Is Down",
+        "author": "John Steinbeck",
+        "year": "1942",
+        "theme": "Existential & Absurd",
+        "note": "A short wartime novel of military occupation and civil resistance.",
+        "form": "Novella",
+        "sourceSection": "novellas:1900-1945",
+        "workId": "themoonisdown__johnsteinbeck"
+      }
+    ],
+    "gems": [
+      {
+        "title": "The Morgesons",
+        "author": "Elizabeth Stoddard",
+        "year": "1862",
+        "shelf": "Rediscovered classics",
+        "origin": "",
+        "vibe": "Neglected classic",
+        "note": "Elizabeth Stoddard's novel of women's autonomy and provincial American life.",
+        "gemCategory": "Forgotten Classics",
+        "sourceSection": "forgotten:before-1900",
+        "workId": "themorgesons__elizabethstoddard"
+      },
+      {
+        "title": "Miss Marjoribanks",
+        "author": "Margaret Oliphant",
+        "year": "1866",
+        "shelf": "Rediscovered classics",
+        "origin": "",
+        "vibe": "Neglected classic",
+        "note": "Oliphant's witty account of social intelligence and provincial power.",
+        "gemCategory": "Forgotten Classics",
+        "sourceSection": "forgotten:before-1900",
+        "workId": "missmarjoribanks__margaretoliphant"
+      },
+      {
+        "title": "The Story of an African Farm",
+        "author": "Olive Schreiner",
+        "year": "1883",
+        "shelf": "Rediscovered classics",
+        "origin": "",
+        "vibe": "Neglected classic",
+        "note": "Schreiner examines gender and religion in settler colonial society.",
+        "gemCategory": "Forgotten Classics",
+        "sourceSection": "forgotten:before-1900",
+        "workId": "thestoryofanafricanfarm__oliveschreiner"
+      },
+      {
+        "title": "New Grub Street",
+        "author": "George Gissing",
+        "year": "1891",
+        "shelf": "Rediscovered classics",
+        "origin": "",
+        "vibe": "Neglected classic",
+        "note": "Gissing's study of literary labour and economic precarity.",
+        "gemCategory": "Forgotten Classics",
+        "sourceSection": "forgotten:before-1900",
+        "workId": "newgrubstreet__georgegissing"
+      },
+      {
+        "title": "The Odd Women",
+        "author": "George Gissing",
+        "year": "1893",
+        "shelf": "Rediscovered classics",
+        "origin": "",
+        "vibe": "Neglected classic",
+        "note": "A sharp portrait of women's work, independence and marriage.",
+        "gemCategory": "Forgotten Classics",
+        "sourceSection": "forgotten:before-1900",
+        "workId": "theoddwomen__georgegissing"
+      },
+      {
+        "title": "Quincas Borba",
+        "author": "Machado de Assis",
+        "year": "1891",
+        "shelf": "Rediscovered classics",
+        "origin": "",
+        "vibe": "Neglected classic",
+        "note": "Machado examines greed, delusion and social status in Brazil.",
+        "gemCategory": "Forgotten Classics",
+        "sourceSection": "forgotten:before-1900",
+        "workId": "quincasborba__machadodeassis"
+      },
+      {
+        "title": "The House Behind the Cedars",
+        "author": "Charles W. Chesnutt",
+        "year": "1900",
+        "shelf": "Rediscovered classics",
+        "origin": "",
+        "vibe": "Neglected classic",
+        "note": "Chesnutt's novel explores racial identity and passing in America.",
+        "gemCategory": "Forgotten Classics",
+        "sourceSection": "forgotten:1900-1945",
+        "workId": "thehousebehindthecedars__charleswchesnutt"
+      },
+      {
+        "title": "Red Pottage",
+        "author": "Mary Cholmondeley",
+        "year": "1899",
+        "shelf": "Rediscovered classics",
+        "origin": "",
+        "vibe": "Neglected classic",
+        "note": "Cholmondeley's critique of Victorian gender double standards.",
+        "gemCategory": "Forgotten Classics",
+        "sourceSection": "forgotten:before-1900",
+        "workId": "redpottage__marycholmondeley"
+      },
+      {
+        "title": "The Woodlanders",
+        "author": "Thomas Hardy",
+        "year": "1887",
+        "shelf": "Rediscovered classics",
+        "origin": "",
+        "vibe": "Neglected classic",
+        "note": "Hardy's Wessex novel studies class, marriage and attachments to land.",
+        "gemCategory": "Forgotten Classics",
+        "sourceSection": "forgotten:before-1900",
+        "workId": "thewoodlanders__thomashardy"
+      },
+      {
+        "title": "The Crime of Father Amaro",
+        "author": "Eça de Queirós",
+        "year": "1875",
+        "shelf": "Rediscovered classics",
+        "origin": "",
+        "vibe": "Neglected classic",
+        "note": "Eça de Queirós exposes clerical corruption and hypocrisy.",
+        "gemCategory": "Forgotten Classics",
+        "sourceSection": "forgotten:before-1900",
+        "workId": "thecrimeoffatheramaro__ecadequeiros"
+      },
+      {
+        "title": "The Blithedale Romance",
+        "author": "Nathaniel Hawthorne",
+        "year": "1852",
+        "shelf": "Rediscovered classics",
+        "origin": "",
+        "vibe": "Neglected classic",
+        "note": "Hawthorne's sceptical account of a utopian community.",
+        "gemCategory": "Forgotten Classics",
+        "sourceSection": "forgotten:before-1900",
+        "workId": "theblithedaleromance__nathanielhawthorne"
+      },
+      {
+        "title": "The Beth Book",
+        "author": "Sarah Grand",
+        "year": "1897",
+        "shelf": "Rediscovered classics",
+        "origin": "",
+        "vibe": "Neglected classic",
+        "note": "Sarah Grand charts an aspiring woman's artistic independence.",
+        "gemCategory": "Forgotten Classics",
+        "sourceSection": "forgotten:before-1900",
+        "workId": "thebethbook__sarahgrand"
+      },
+      {
+        "title": "The Unclassed",
+        "author": "George Gissing",
+        "year": "1884",
+        "shelf": "Rediscovered classics",
+        "origin": "",
+        "vibe": "Neglected classic",
+        "note": "Gissing's early study of class, poverty and the literary life.",
+        "gemCategory": "Forgotten Classics",
+        "sourceSection": "forgotten:before-1900",
+        "workId": "theunclassed__georgegissing"
+      },
+      {
+        "title": "Cousin Bazilio",
+        "author": "Eça de Queirós",
+        "year": "1878",
+        "shelf": "Rediscovered classics",
+        "origin": "",
+        "vibe": "Neglected classic",
+        "note": "Eça de Queirós satirizes Lisbon bourgeois society through domestic scandal.",
+        "gemCategory": "Forgotten Classics",
+        "sourceSection": "forgotten:before-1900",
+        "workId": "cousinbazilio__ecadequeiros"
+      }
+    ],
+    "short": [
+      {
+        "title": "The Accusation",
+        "author": "Bandi",
+        "year": "2014",
+        "country": "North Korea",
+        "theme": "Politics, Power & Resistance",
+        "form": "Short Story Collection",
+        "note": "Seven clandestine stories from inside North Korea, published abroad.",
+        "workId": "theaccusation__bandi"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "witness-literature-2026",
+        "cluster": "Humanities & Social Sciences",
+        "subject": "Witness Literature, Memoir & Political Testimony",
+        "tagline": "North Korea · genocide testimony · political imprisonment · lived histories",
+        "desc": "A carefully classified narrative nonfiction path. These memoirs and works of reportage should not be listed as novels merely because they illuminate a country's history.",
+        "pathwayScale": "14-Book Contextual Pathway",
+        "prerequisites": "Distinguish first-hand witness, oral history, memoir, journalistic reconstruction and fiction.",
+        "books": [
+          {
+            "title": "In Order to Live",
+            "author": "Yeonmi Park",
+            "year": "2015",
+            "type": "Memoir",
+            "why": "A North Korean defector recounts her childhood and escape through China.",
+            "level": "Intermediate",
+            "stage": "2. Foundations",
+            "stageRole": "Memoir",
+            "workId": "inordertolive__yeonmipark"
+          },
+          {
+            "title": "Without You, There Is No Us",
+            "author": "Suki Kim",
+            "year": "2014",
+            "type": "Reportage",
+            "why": "A journalist writes about teaching English to North Korea's privileged students.",
+            "level": "Intermediate",
+            "stage": "2. Foundations",
+            "stageRole": "Reportage",
+            "workId": "withoutyouthereisnous__sukikim"
+          },
+          {
+            "title": "Nothing to Envy",
+            "author": "Barbara Demick",
+            "year": "2009",
+            "type": "Narrative journalism",
+            "why": "Six North Koreans' lives reveal the human consequences of famine and repression.",
+            "level": "Intermediate",
+            "stage": "2. Foundations",
+            "stageRole": "Narrative journalism",
+            "workId": "nothingtoenvy__barbarademick"
+          },
+          {
+            "title": "Dear Leader",
+            "author": "Jang Jin-Sung",
+            "year": "2014",
+            "type": "Memoir",
+            "why": "A former North Korean propaganda poet recalls his position and defection.",
+            "level": "Intermediate",
+            "stage": "2. Foundations",
+            "stageRole": "Memoir",
+            "workId": "dearleader__jangjinsung"
+          },
+          {
+            "title": "Born a Crime",
+            "author": "Trevor Noah",
+            "year": "2016",
+            "type": "Memoir",
+            "why": "A memoir of childhood and racial classification in apartheid South Africa.",
+            "level": "Intermediate",
+            "stage": "2. Foundations",
+            "stageRole": "Memoir",
+            "workId": "bornacrime__trevornoah"
+          },
+          {
+            "title": "Reading Lolita in Tehran",
+            "author": "Azar Nafisi",
+            "year": "2003",
+            "type": "Memoir",
+            "why": "Literary discussion and women's intellectual lives in post-revolutionary Iran.",
+            "level": "Intermediate",
+            "stage": "2. Foundations",
+            "stageRole": "Memoir",
+            "workId": "readinglolitaintehran__azarnafisi"
+          },
+          {
+            "title": "Finding George Orwell in Burma",
+            "author": "Emma Larkin",
+            "year": "2004",
+            "type": "Literary reportage",
+            "why": "Orwell's time in Burma becomes a lens on its later military rule.",
+            "level": "Intermediate",
+            "stage": "2. Foundations",
+            "stageRole": "Literary reportage",
+            "workId": "findinggeorgeorwellinburma__emmalarkin"
+          },
+          {
+            "title": "Istanbul: Memories and the City",
+            "author": "Orhan Pamuk",
+            "year": "2003",
+            "type": "Memoir",
+            "why": "The city becomes a landscape of childhood, art and collective memory.",
+            "level": "Intermediate",
+            "stage": "2. Foundations",
+            "stageRole": "Memoir",
+            "workId": "istanbulmemoriesandthecity__orhanpamuk"
+          },
+          {
+            "title": "For Bread Alone",
+            "author": "Mohamed Choukri",
+            "year": "1973",
+            "type": "Autobiography",
+            "why": "An account of poverty, hunger and survival in northern Morocco.",
+            "level": "Intermediate",
+            "stage": "2. Foundations",
+            "stageRole": "Autobiography",
+            "workId": "forbreadalone__mohamedchoukri"
+          },
+          {
+            "title": "Dreams of Trespass",
+            "author": "Fatema Mernissi",
+            "year": "1994",
+            "type": "Memoir",
+            "why": "A feminist scholar recalls childhood life in 1940s Fez.",
+            "level": "Intermediate",
+            "stage": "2. Foundations",
+            "stageRole": "Memoir",
+            "workId": "dreamsoftrespass__fatemamernissi"
+          },
+          {
+            "title": "Cockroaches",
+            "author": "Scholastique Mukasonga",
+            "year": "2006",
+            "type": "Memoir",
+            "why": "Recollections of anti-Tutsi persecution and relatives killed in Rwanda.",
+            "level": "Intermediate",
+            "stage": "2. Foundations",
+            "stageRole": "Memoir",
+            "workId": "cockroaches__scholastiquemukasonga"
+          },
+          {
+            "title": "The Barefoot Woman",
+            "author": "Scholastique Mukasonga",
+            "year": "2008",
+            "type": "Memoir",
+            "why": "A tribute to the author's mother and a Rwandan world destroyed by genocide.",
+            "level": "Intermediate",
+            "stage": "2. Foundations",
+            "stageRole": "Memoir",
+            "workId": "thebarefootwoman__scholastiquemukasonga"
+          },
+          {
+            "title": "Shake Hands with the Devil",
+            "author": "Roméo Dallaire",
+            "year": "2003",
+            "type": "Eyewitness history",
+            "why": "A UN commander's account of the 1994 Rwandan genocide and international failures.",
+            "level": "Intermediate",
+            "stage": "2. Foundations",
+            "stageRole": "Eyewitness history",
+            "workId": "shakehandswiththedevil__romeodallaire"
+          },
+          {
+            "title": "The Voices of Marrakesh",
+            "author": "Elias Canetti",
+            "year": "1968",
+            "type": "Travel writing",
+            "why": "Canetti's account of a visit to Marrakesh organized around its sounds and people.",
+            "level": "Intermediate",
+            "stage": "2. Foundations",
+            "stageRole": "Travel writing",
+            "workId": "thevoicesofmarrakesh__eliascanetti"
+          }
+        ]
+      }
+    ]
+  },
+  "additions": {
+    "world": 89,
+    "india": 29,
+    "science": 9,
+    "novellas": 14,
+    "gems": 14,
+    "short": 1,
+    "knowledge": 14
+  }
+}
