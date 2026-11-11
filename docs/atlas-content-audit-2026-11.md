@@ -33,3 +33,9 @@ This is a selective, defensible first enrichment, not a claim that all unmatched
 
 ## Engineering acceptance
 Apply the curation patch before the existing registration of works. Preserve prior records and stable IDs, reconcile deduplicated counts from actual data, ensure no HTML/CSS/UI rendering changes, and confirm North Korea, regional Indian literature and every added collection can be searched within the existing interface.
+
+## Verified post-integration totals
+
+The source curation file contains more candidate placements than are actually added: when a candidate is already on its destination shelf, it is retained rather than duplicated. Actual data-layer totals were recalculated against the complete original embedded catalogue and November 2026 additions: **2,787 placements, 2,694 unique canonical work IDs**, **101 country/region sections**, **101 author guides**, and **53 study subjects**. Cross-listings share the same work ID.
+
+Verified collection totals: World Fiction **739**, Short Fiction **264**, Used-Bookstore Gems **364**, India Canon **173**, Science Fiction **108**, Polymath **639** textbook/memoir placements across **53** subjects; original Non-Novel Canon **500** unchanged.
