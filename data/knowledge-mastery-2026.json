@@ -1,0 +1,1273 @@
+{
+  "version": 1,
+  "mastery": [
+    {
+      "id": "math-deep",
+      "subject": "Mathematics — Complete Foundations to Graduate Mastery",
+      "domain": "1 · Mathematics & Formal Sciences"
+    },
+    {
+      "id": "eastern-nonduality",
+      "subject": "World & Comparative Philosophy — Non-Duality, Mind and Reality",
+      "domain": "11 · Philosophy, Religion & Ethics"
+    },
+    {
+      "id": "anthropology-deep",
+      "subject": "Anthropology — Humans, Cultures, Evolution and Fieldwork",
+      "domain": "8 · Anthropology & Society"
+    },
+    {
+      "id": "cs-algorithms",
+      "subject": "Computer Science & Systems Design — Programming to Architecture",
+      "domain": "7 · Computing, Technology & Engineering"
+    },
+    {
+      "id": "pm-ai-deep",
+      "subject": "AI, Product Management & Product Building — Sense to Systems",
+      "domain": "7 · Computing, Technology & Engineering"
+    },
+    {
+      "id": "mba-business-deep",
+      "subject": "MBA, Marketing, Branding & Business Management",
+      "domain": "10 · Economics, Business & Management"
+    },
+    {
+      "id": "systems-complexity",
+      "subject": "Complexity & Network Science — Systems, Dynamics and Emergence",
+      "domain": "1 · Mathematics & Formal Sciences"
+    }
+  ],
+  "domainAssignments": {
+    "1 · Mathematics & Formal Sciences": [
+      "probability-statistics",
+      "info-theory-crypto",
+      "logic-set-theory",
+      "mathematical-physics"
+    ],
+    "2 · Physics & the Universe": [
+      "physics-deep",
+      "quantum-deep",
+      "cosmology-astrobiology"
+    ],
+    "3 · Chemistry & Materials": [
+      "chemistry-materials"
+    ],
+    "4 · Biology & Life": [
+      "evolution-biology",
+      "paleontology-deep-evolution"
+    ],
+    "5 · Earth & Environment": [
+      "ecology-earth-systems",
+      "ecology-agriculture-food",
+      "cartography-spatial"
+    ],
+    "6 · Medicine, Mind & Health": [
+      "neuroscience-deep",
+      "medicine-physiology",
+      "cognitive-psych"
+    ],
+    "7 · Computing, Technology & Engineering": [
+      "ai-deep-learning",
+      "cybernetics-control",
+      "Distributed-Systems-Cloud",
+      "energy-industrial-history",
+      "ethics-of-technology-media"
+    ],
+    "8 · Anthropology & Society": [
+      "sociology-networks",
+      "witness-literature-2026"
+    ],
+    "9 · History, Geography & Politics": [
+      "world-history",
+      "classical-studies",
+      "geopolitics-strategy",
+      "law-jurisprudence",
+      "history-of-science"
+    ],
+    "10 · Economics, Business & Management": [
+      "economics-macro",
+      "game-theory-micro",
+      "organizational-leadership",
+      "quant-finance-risk",
+      "behavioral-economics",
+      "negotiation-rhetoric-conflict",
+      "entrepreneurship-venture"
+    ],
+    "11 · Philosophy, Religion & Ethics": [
+      "philosophy-epistemology",
+      "ethics-political-phil",
+      "epistemology-scientific-method",
+      "comparative-myth-religion"
+    ],
+    "12 · Language, Literature, Arts & Culture": [
+      "rhetoric-writing-craft",
+      "linguistics-philology",
+      "architecture-urbanism",
+      "design-typography",
+      "music-theory-acoustics",
+      "art-history-aesthetics",
+      "film-visual-storytelling",
+      "linguistics-translation-literary"
+    ]
+  },
+  "masteryAdditions": {
+    "math-deep": [
+      {
+        "title": "The Joy of x",
+        "author": "Steven Strogatz",
+        "year": "2012",
+        "stage": "1. Orientation",
+        "level": "Novice",
+        "stageRole": "Gateway / Reader Favourite",
+        "type": "Curated reading",
+        "why": "A playful, clear orientation to the major mathematical ideas before formal study.",
+        "selectionRole": "Gateway / Reader Favourite"
+      },
+      {
+        "title": "Basic Mathematics",
+        "author": "Serge Lang",
+        "year": "1971",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "Rebuild algebra, functions and mathematical fluency before advanced work.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "Book of Proof",
+        "author": "Richard Hammack",
+        "year": "2009",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "Teaches how to think and write rigorously using logic, induction and contradiction.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "Calculus: Early Transcendentals",
+        "author": "James Stewart",
+        "year": "Edition varies",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "A systematic undergraduate calculus foundation with substantial exercises.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "Introduction to Linear Algebra",
+        "author": "Gilbert Strang",
+        "year": "Edition varies",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "Build geometric understanding of matrices, vector spaces and linear systems.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "Understanding Analysis",
+        "author": "Stephen Abbott",
+        "year": "2001",
+        "stage": "3. Core Understanding",
+        "level": "Core",
+        "stageRole": "Core / Classic",
+        "type": "Curated reading",
+        "why": "A friendly but rigorous bridge into sequences, limits, continuity and proof.",
+        "selectionRole": "Core / Classic"
+      },
+      {
+        "title": "Nonlinear Dynamics and Chaos",
+        "author": "Steven H. Strogatz",
+        "year": "1994",
+        "stage": "4. Advanced Study",
+        "level": "Advanced",
+        "stageRole": "Advanced Study",
+        "type": "Curated reading",
+        "why": "Connects differential equations with bifurcations and nonlinear behaviour.",
+        "selectionRole": "Advanced Study"
+      },
+      {
+        "title": "Convex Optimization",
+        "author": "Stephen Boyd and Lieven Vandenberghe",
+        "year": "2004",
+        "stage": "4. Advanced Study",
+        "level": "Advanced",
+        "stageRole": "Advanced Study",
+        "type": "Curated reading",
+        "why": "Develops a disciplined approach to mathematical optimization and duality.",
+        "selectionRole": "Advanced Study"
+      }
+    ],
+    "eastern-nonduality": [
+      {
+        "title": "Philosophy: The Basics",
+        "author": "Nigel Warburton",
+        "year": "1992",
+        "stage": "1. Orientation",
+        "level": "Novice",
+        "stageRole": "Gateway / Reader Favourite",
+        "type": "Curated reading",
+        "why": "A plain-language introduction to philosophical questions and arguments before comparing traditions.",
+        "selectionRole": "Gateway / Reader Favourite"
+      },
+      {
+        "title": "The Problems of Philosophy",
+        "author": "Bertrand Russell",
+        "year": "1912",
+        "stage": "1. Orientation",
+        "level": "Novice",
+        "stageRole": "Gateway / Reader Favourite",
+        "type": "Curated reading",
+        "why": "An accessible classical introduction to knowledge, appearance and reality.",
+        "selectionRole": "Gateway / Reader Favourite"
+      },
+      {
+        "title": "An Introduction to Indian Philosophy",
+        "author": "Satischandra Chatterjee and Dhirendramohan Datta",
+        "year": "1939",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "A broad survey of Indian philosophical systems; read critically alongside modern scholarship.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "Readings in Classical Chinese Philosophy",
+        "author": "Philip J. Ivanhoe and Bryan W. Van Norden",
+        "year": "2001",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "Compare Daoist, Confucian and other classical Chinese arguments on ethical life and reality.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "Buddhist Philosophy: Essential Readings",
+        "author": "William Edelglass and Jay L. Garfield (editors)",
+        "year": "2009",
+        "stage": "3. Core Understanding",
+        "level": "Core",
+        "stageRole": "Core / Classic",
+        "type": "Curated reading",
+        "why": "Primary texts and expert commentary on non-self, causation, emptiness and Buddhist arguments.",
+        "selectionRole": "Core / Classic"
+      },
+      {
+        "title": "The Fundamental Wisdom of the Middle Way",
+        "author": "Nagarjuna; translated by Jay L. Garfield",
+        "year": "1995",
+        "stage": "3. Core Understanding",
+        "level": "Core",
+        "stageRole": "Core / Classic",
+        "type": "Curated reading",
+        "why": "An influential Madhyamaka text on emptiness and dependent origination, with commentary.",
+        "selectionRole": "Core / Classic"
+      },
+      {
+        "title": "The Embodied Mind",
+        "author": "Francisco Varela, Evan Thompson and Eleanor Rosch",
+        "year": "1991",
+        "stage": "4. Advanced Study",
+        "level": "Advanced",
+        "stageRole": "Advanced Study",
+        "type": "Curated reading",
+        "why": "Connects cognition, phenomenology and Buddhist traditions without equating their claims.",
+        "selectionRole": "Advanced Study"
+      },
+      {
+        "title": "Consciousness Explained",
+        "author": "Daniel C. Dennett",
+        "year": "1991",
+        "stage": "4. Advanced Study",
+        "level": "Advanced",
+        "stageRole": "Advanced Study",
+        "type": "Curated reading",
+        "why": "A contrasting, naturalistic philosophy of mind with a critical account of the self.",
+        "selectionRole": "Advanced Study"
+      },
+      {
+        "title": "The Philosophy of Mind: An Introduction",
+        "author": "Edward Feser",
+        "year": "2005",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "A systematic overview of major mind–body positions; read alongside alternative viewpoints.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "Philosophies of India",
+        "author": "Heinrich Zimmer; edited by Joseph Campbell",
+        "year": "1951",
+        "stage": "4. Advanced Study",
+        "level": "Advanced",
+        "stageRole": "Advanced Study",
+        "type": "Curated reading",
+        "why": "Historically influential comparative survey; read critically given its period and methods.",
+        "selectionRole": "Advanced Study"
+      }
+    ],
+    "anthropology-deep": [
+      {
+        "title": "Anthropology: What Does It Mean to Be Human?",
+        "author": "Robert H. Lavenda and Emily A. Schultz",
+        "year": "Edition varies",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "A comprehensive four-field introduction to human variation and cultural understanding.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "Small Places, Large Issues",
+        "author": "Thomas Hylland Eriksen",
+        "year": "1995",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "The most accessible systematic bridge to social and cultural anthropology.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "Essentials of Biological Anthropology",
+        "author": "Clark Spencer Larsen",
+        "year": "Edition varies",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "Cover evolution, human variation, primates and biological adaptation.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "Archaeology: Theories, Methods and Practice",
+        "author": "Colin Renfrew and Paul Bahn",
+        "year": "1991",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "Connect archaeological discoveries with method, evidence and interpretation.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "Research Methods in Anthropology",
+        "author": "H. Russell Bernard",
+        "year": "1988",
+        "stage": "4. Advanced Study",
+        "level": "Advanced",
+        "stageRole": "Advanced Study",
+        "type": "Curated reading",
+        "why": "Fieldwork, qualitative and quantitative methods, sampling and mixed-method research.",
+        "selectionRole": "Advanced Study"
+      },
+      {
+        "title": "The Interpretation of Cultures",
+        "author": "Clifford Geertz",
+        "year": "1973",
+        "stage": "3. Core Understanding",
+        "level": "Core",
+        "stageRole": "Core / Classic",
+        "type": "Curated reading",
+        "why": "A major classic of interpretive anthropology and thick description.",
+        "selectionRole": "Core / Classic"
+      },
+      {
+        "title": "Purity and Danger",
+        "author": "Mary Douglas",
+        "year": "1966",
+        "stage": "3. Core Understanding",
+        "level": "Core",
+        "stageRole": "Core / Classic",
+        "type": "Curated reading",
+        "why": "A classic account of classification, taboo, ritual and social order.",
+        "selectionRole": "Core / Classic"
+      }
+    ],
+    "cs-algorithms": [
+      {
+        "title": "Think Python",
+        "author": "Allen B. Downey",
+        "year": "2012",
+        "stage": "1. Orientation",
+        "level": "Novice",
+        "stageRole": "Gateway / Reader Favourite",
+        "type": "Curated reading",
+        "why": "Learn practical programming through small exercises and clear concepts.",
+        "selectionRole": "Gateway / Reader Favourite"
+      },
+      {
+        "title": "Grokking Algorithms",
+        "author": "Aditya Y. Bhargava",
+        "year": "2016",
+        "stage": "1. Orientation",
+        "level": "Novice",
+        "stageRole": "Gateway / Reader Favourite",
+        "type": "Curated reading",
+        "why": "Visual explanations of algorithmic reasoning before formal analysis.",
+        "selectionRole": "Gateway / Reader Favourite"
+      },
+      {
+        "title": "Computer Science: An Interdisciplinary Approach",
+        "author": "Robert Sedgewick and Kevin Wayne",
+        "year": "2016",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "Connect programming, algorithm design and science-oriented computation.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "Operating Systems: Three Easy Pieces",
+        "author": "Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau",
+        "year": "2018",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "An unusually approachable systems textbook covering virtualization, concurrency and persistence.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "Computer Networking: A Top-Down Approach",
+        "author": "James F. Kurose and Keith W. Ross",
+        "year": "Edition varies",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "Understand networks through applications, protocols and layered architecture.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "The Pragmatic Programmer",
+        "author": "Andrew Hunt and David Thomas",
+        "year": "1999",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "Practical habits for reliable code, debugging, automation and maintainability.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "A Philosophy of Software Design",
+        "author": "John Ousterhout",
+        "year": "2018",
+        "stage": "3. Core Understanding",
+        "level": "Core",
+        "stageRole": "Core / Classic",
+        "type": "Curated reading",
+        "why": "Explains abstraction, interfaces and the management of complexity in software.",
+        "selectionRole": "Core / Classic"
+      },
+      {
+        "title": "Designing Data-Intensive Applications",
+        "author": "Martin Kleppmann",
+        "year": "2017",
+        "stage": "4. Advanced Study",
+        "level": "Advanced",
+        "stageRole": "Advanced Study",
+        "type": "Curated reading",
+        "why": "The central reference for modern data systems, replication and consistency.",
+        "selectionRole": "Advanced Study"
+      },
+      {
+        "title": "Database Internals",
+        "author": "Alex Petrov",
+        "year": "2019",
+        "stage": "4. Advanced Study",
+        "level": "Advanced",
+        "stageRole": "Advanced Study",
+        "type": "Curated reading",
+        "why": "Go beneath SQL to understand indexing, storage engines and distributed databases.",
+        "selectionRole": "Advanced Study"
+      },
+      {
+        "title": "Designing Distributed Systems",
+        "author": "Brendan Burns",
+        "year": "2018",
+        "stage": "4. Advanced Study",
+        "level": "Advanced",
+        "stageRole": "Advanced Study",
+        "type": "Curated reading",
+        "why": "Reusable design patterns for reliable distributed software.",
+        "selectionRole": "Advanced Study"
+      },
+      {
+        "title": "Understanding Distributed Systems",
+        "author": "Roberto Vitillo",
+        "year": "2021",
+        "stage": "3. Core Understanding",
+        "level": "Core",
+        "stageRole": "Core / Classic",
+        "type": "Curated reading",
+        "why": "Accessible mental models for distributed systems and their failure modes.",
+        "selectionRole": "Core / Classic"
+      },
+      {
+        "title": "Site Reliability Engineering",
+        "author": "Betsy Beyer, Chris Jones, Jennifer Petoff and Niall Richard Murphy (editors)",
+        "year": "2016",
+        "stage": "4. Advanced Study",
+        "level": "Advanced",
+        "stageRole": "Advanced Study",
+        "type": "Curated reading",
+        "why": "Learn production reliability, monitoring, incident handling and system operations.",
+        "selectionRole": "Advanced Study"
+      },
+      {
+        "title": "System Design Interview: An Insider's Guide",
+        "author": "Alex Xu",
+        "year": "2020",
+        "stage": "3. Core Understanding",
+        "level": "Core",
+        "stageRole": "Core / Classic",
+        "type": "Curated reading",
+        "why": "Practical high-level architecture cases, to be read alongside deeper systems references.",
+        "selectionRole": "Core / Classic"
+      },
+      {
+        "title": "Software Engineering at Google",
+        "author": "Titus Winters, Tom Manshreck and Hyrum Wright (editors)",
+        "year": "2020",
+        "stage": "4. Advanced Study",
+        "level": "Advanced",
+        "stageRole": "Advanced Study",
+        "type": "Curated reading",
+        "why": "How large teams manage codebases, testing, reviews and technical change.",
+        "selectionRole": "Advanced Study"
+      },
+      {
+        "title": "The Mythical Man-Month",
+        "author": "Frederick P. Brooks Jr.",
+        "year": "1975",
+        "stage": "3. Core Understanding",
+        "level": "Core",
+        "stageRole": "Core / Classic",
+        "type": "Curated reading",
+        "why": "The classic investigation of why coordination costs dominate software projects.",
+        "selectionRole": "Core / Classic"
+      },
+      {
+        "title": "Architecture Patterns with Python",
+        "author": "Harry Percival and Bob Gregory",
+        "year": "2020",
+        "stage": "3. Core Understanding",
+        "level": "Core",
+        "stageRole": "Core / Classic",
+        "type": "Curated reading",
+        "why": "Translate domain models into maintainable architecture and testing practices.",
+        "selectionRole": "Core / Classic"
+      },
+      {
+        "title": "Fundamentals of Data Engineering",
+        "author": "Joe Reis and Matt Housley",
+        "year": "2022",
+        "stage": "3. Core Understanding",
+        "level": "Core",
+        "stageRole": "Core / Classic",
+        "type": "Curated reading",
+        "why": "A systems-level view of data pipelines, orchestration and data reliability.",
+        "selectionRole": "Core / Classic"
+      },
+      {
+        "title": "Computer Systems: A Programmer's Perspective",
+        "author": "Randal E. Bryant and David R. O'Hallaron",
+        "year": "2003",
+        "stage": "4. Advanced Study",
+        "level": "Advanced",
+        "stageRole": "Advanced Study",
+        "type": "Curated reading",
+        "why": "Understand machine execution, memory hierarchy and operating system interfaces.",
+        "selectionRole": "Advanced Study"
+      },
+      {
+        "title": "Designing Machine Learning Systems",
+        "author": "Chip Huyen",
+        "year": "2022",
+        "stage": "4. Advanced Study",
+        "level": "Advanced",
+        "stageRole": "Advanced Study",
+        "type": "Curated reading",
+        "why": "Build reliable data and model services in real products.",
+        "selectionRole": "Advanced Study"
+      },
+      {
+        "title": "System Design Interview – An Insider's Guide, Volume 2",
+        "author": "Alex Xu and Sahn Lam",
+        "year": "2022",
+        "stage": "5. Mastery / Research",
+        "level": "Mastery",
+        "stageRole": "Synthesis / Critical Perspective",
+        "type": "Curated reading",
+        "why": "Extend architecture practice to more complicated real-world distributed services.",
+        "selectionRole": "Synthesis / Critical Perspective"
+      }
+    ],
+    "pm-ai-deep": [
+      {
+        "title": "Inspired",
+        "author": "Marty Cagan",
+        "year": "2008",
+        "stage": "1. Orientation",
+        "level": "Novice",
+        "stageRole": "Gateway / Reader Favourite",
+        "type": "Curated reading",
+        "why": "An approachable map of product discovery, product organizations and value creation.",
+        "selectionRole": "Gateway / Reader Favourite"
+      },
+      {
+        "title": "Continuous Discovery Habits",
+        "author": "Teresa Torres",
+        "year": "2021",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "Turn customer interviews and experiment design into sustained product practice.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "Escaping the Build Trap",
+        "author": "Melissa Perri",
+        "year": "2018",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "Understand why product outcomes matter more than shipping features.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "The Design of Everyday Things",
+        "author": "Don Norman",
+        "year": "1988",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "Develop a grounded user-centred product sense, affordances and usable interfaces.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "User Story Mapping",
+        "author": "Jeff Patton",
+        "year": "2014",
+        "stage": "3. Core Understanding",
+        "level": "Core",
+        "stageRole": "Core / Classic",
+        "type": "Curated reading",
+        "why": "Turn user journeys into coherent delivery increments and meaningful scope.",
+        "selectionRole": "Core / Classic"
+      },
+      {
+        "title": "Lean Analytics",
+        "author": "Alistair Croll and Benjamin Yoskovitz",
+        "year": "2013",
+        "stage": "3. Core Understanding",
+        "level": "Core",
+        "stageRole": "Core / Classic",
+        "type": "Curated reading",
+        "why": "Use measurement and product-market evidence instead of intuition alone.",
+        "selectionRole": "Core / Classic"
+      },
+      {
+        "title": "Empowered",
+        "author": "Marty Cagan and Chris Jones",
+        "year": "2020",
+        "stage": "3. Core Understanding",
+        "level": "Core",
+        "stageRole": "Core / Classic",
+        "type": "Curated reading",
+        "why": "Build capable product teams and effective ownership of problems.",
+        "selectionRole": "Core / Classic"
+      },
+      {
+        "title": "AI Engineering",
+        "author": "Chip Huyen",
+        "year": "2025",
+        "stage": "4. Advanced Study",
+        "level": "Advanced",
+        "stageRole": "Advanced Study",
+        "type": "Curated reading",
+        "why": "Practical engineering trade-offs for foundation-model products, evaluation and deployment.",
+        "selectionRole": "Advanced Study"
+      },
+      {
+        "title": "The Cold Start Problem",
+        "author": "Andrew Chen",
+        "year": "2021",
+        "stage": "4. Advanced Study",
+        "level": "Advanced",
+        "stageRole": "Advanced Study",
+        "type": "Curated reading",
+        "why": "Network effects, product growth and the strategic difficulties of launching platforms.",
+        "selectionRole": "Advanced Study"
+      },
+      {
+        "title": "Product Roadmaps Relaunched",
+        "author": "C. Todd Lombardo, Bruce McCarthy, Evan Ryan and Michael Connors",
+        "year": "2017",
+        "stage": "3. Core Understanding",
+        "level": "Core",
+        "stageRole": "Core / Classic",
+        "type": "Curated reading",
+        "why": "Prioritize outcomes and communicate product strategy rather than compiling feature lists.",
+        "selectionRole": "Core / Classic"
+      }
+    ],
+    "systems-complexity": [
+      {
+        "title": "Thinking in Systems",
+        "author": "Donella H. Meadows",
+        "year": "2008",
+        "stage": "1. Orientation",
+        "level": "Novice",
+        "stageRole": "Gateway / Reader Favourite",
+        "type": "Curated reading",
+        "why": "The clearest introduction to stocks, flows, delays, feedback and leverage points.",
+        "selectionRole": "Gateway / Reader Favourite"
+      },
+      {
+        "title": "Complexity: A Guided Tour",
+        "author": "Melanie Mitchell",
+        "year": "2009",
+        "stage": "1. Orientation",
+        "level": "Novice",
+        "stageRole": "Gateway / Reader Favourite",
+        "type": "Curated reading",
+        "why": "A broad and thoughtful guide to networks, emergence, evolution, computation and complexity.",
+        "selectionRole": "Gateway / Reader Favourite"
+      },
+      {
+        "title": "Think Complexity",
+        "author": "Allen B. Downey",
+        "year": "2012",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "Learn complexity through executable Python experiments and simulations.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "Introduction to the Modeling and Analysis of Complex Systems",
+        "author": "Hiroki Sayama",
+        "year": "2015",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "A technical bridge linking nonlinear dynamics, networks and agent-based models.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "Linked",
+        "author": "Albert-László Barabási",
+        "year": "2002",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "An approachable encounter with hubs, preferential attachment and network structure.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "Six Degrees",
+        "author": "Duncan J. Watts",
+        "year": "2003",
+        "stage": "2. Foundations",
+        "level": "Foundations",
+        "stageRole": "Foundational Introduction",
+        "type": "Curated reading",
+        "why": "The small-world perspective on connections, diffusion and social systems.",
+        "selectionRole": "Foundational Introduction"
+      },
+      {
+        "title": "Network Science",
+        "author": "Albert-László Barabási",
+        "year": "2016",
+        "stage": "3. Core Understanding",
+        "level": "Core",
+        "stageRole": "Core / Classic",
+        "type": "Curated reading",
+        "why": "A technical textbook on network measures, models, robustness and spreading.",
+        "selectionRole": "Core / Classic"
+      },
+      {
+        "title": "Networks",
+        "author": "Mark E. J. Newman",
+        "year": "2010",
+        "stage": "4. Advanced Study",
+        "level": "Advanced",
+        "stageRole": "Advanced Study",
+        "type": "Curated reading",
+        "why": "Advanced mathematics of networks, communities, random graphs and dynamical processes.",
+        "selectionRole": "Advanced Study"
+      },
+      {
+        "title": "Complex Adaptive Systems",
+        "author": "John H. Miller and Scott E. Page",
+        "year": "2007",
+        "stage": "4. Advanced Study",
+        "level": "Advanced",
+        "stageRole": "Advanced Study",
+        "type": "Curated reading",
+        "why": "Agent-based social science, emergence, adaptation and bottom-up explanation.",
+        "selectionRole": "Advanced Study"
+      },
+      {
+        "title": "Introduction to the Theory of Complex Systems",
+        "author": "Stefan Thurner, Rudolf Hanel and Peter Klimek",
+        "year": "2018",
+        "stage": "5. Mastery / Research",
+        "level": "Mastery",
+        "stageRole": "Synthesis / Critical Perspective",
+        "type": "Curated reading",
+        "why": "Graduate synthesis across networks, stochastic dynamics, entropy and adaptation.",
+        "selectionRole": "Synthesis / Critical Perspective"
+      }
+    ]
+  },
+  "newMasterySubjects": [
+    {
+      "id": "mba-business-deep",
+      "cluster": "Mastery Pathways",
+      "subject": "MBA, Marketing, Branding & Business Management",
+      "tagline": "Business basics · finance · marketing · strategy · brand identity · advertising · pricing · sales",
+      "desc": "A condensed but substantive MBA reading path from first principles through financial literacy, markets, management, branding, growth and critical strategy.",
+      "pathwayScale": "Integrated Business Mastery",
+      "prerequisites": "Start with accessible practical introductions, then use textbooks and empirically grounded work to test the ideas.",
+      "books": [
+        {
+          "title": "The Personal MBA",
+          "author": "Josh Kaufman",
+          "year": "2010",
+          "stage": "1. Orientation",
+          "level": "Novice",
+          "stageRole": "Gateway / Reader Favourite",
+          "type": "Curated reading",
+          "why": "An accessible, big-picture explanation of the moving parts of a business.",
+          "selectionRole": "Gateway / Reader Favourite"
+        },
+        {
+          "title": "The Goal",
+          "author": "Eliyahu M. Goldratt and Jeff Cox",
+          "year": "1984",
+          "stage": "1. Orientation",
+          "level": "Novice",
+          "stageRole": "Gateway / Reader Favourite",
+          "type": "Curated reading",
+          "why": "A narrative route into constraints, flow and operations management.",
+          "selectionRole": "Gateway / Reader Favourite"
+        },
+        {
+          "title": "The Brand Gap",
+          "author": "Marty Neumeier",
+          "year": "2003",
+          "stage": "1. Orientation",
+          "level": "Novice",
+          "stageRole": "Gateway / Reader Favourite",
+          "type": "Curated reading",
+          "why": "A short visual gateway into the relationship between brands, strategy and design.",
+          "selectionRole": "Gateway / Reader Favourite"
+        },
+        {
+          "title": "Financial Intelligence",
+          "author": "Karen Berman and Joe Knight",
+          "year": "2006",
+          "stage": "1. Orientation",
+          "level": "Novice",
+          "stageRole": "Gateway / Reader Favourite",
+          "type": "Curated reading",
+          "why": "A readable explanation of income statements, balance sheets and cash flow.",
+          "selectionRole": "Gateway / Reader Favourite"
+        },
+        {
+          "title": "Made to Stick",
+          "author": "Chip Heath and Dan Heath",
+          "year": "2007",
+          "stage": "1. Orientation",
+          "level": "Novice",
+          "stageRole": "Gateway / Reader Favourite",
+          "type": "Curated reading",
+          "why": "An engaging introduction to why messages become memorable and persuasive.",
+          "selectionRole": "Gateway / Reader Favourite"
+        },
+        {
+          "title": "This Is Marketing",
+          "author": "Seth Godin",
+          "year": "2018",
+          "stage": "1. Orientation",
+          "level": "Novice",
+          "stageRole": "Gateway / Reader Favourite",
+          "type": "Curated reading",
+          "why": "A readable introduction to market empathy, positioning and value creation.",
+          "selectionRole": "Gateway / Reader Favourite"
+        },
+        {
+          "title": "Marketing Management",
+          "author": "Philip Kotler, Kevin Lane Keller and Alexander Chernev",
+          "year": "Edition varies",
+          "stage": "2. Foundations",
+          "level": "Foundations",
+          "stageRole": "Foundational Introduction",
+          "type": "Curated reading",
+          "why": "A systematic overview of segmentation, targeting, marketing mix, research and channels.",
+          "selectionRole": "Foundational Introduction"
+        },
+        {
+          "title": "Financial Accounting",
+          "author": "Robert Libby, Patricia A. Libby and Frank Hodge",
+          "year": "Edition varies",
+          "stage": "2. Foundations",
+          "level": "Foundations",
+          "stageRole": "Foundational Introduction",
+          "type": "Curated reading",
+          "why": "Build reliable understanding of accounting statements and financial reporting.",
+          "selectionRole": "Foundational Introduction"
+        },
+        {
+          "title": "Principles of Corporate Finance",
+          "author": "Richard Brealey, Stewart Myers and Franklin Allen",
+          "year": "Edition varies",
+          "stage": "2. Foundations",
+          "level": "Foundations",
+          "stageRole": "Foundational Introduction",
+          "type": "Curated reading",
+          "why": "The central framework for valuation, investments, financing and risk.",
+          "selectionRole": "Foundational Introduction"
+        },
+        {
+          "title": "The Practice of Management",
+          "author": "Peter F. Drucker",
+          "year": "1954",
+          "stage": "2. Foundations",
+          "level": "Foundations",
+          "stageRole": "Foundational Introduction",
+          "type": "Curated reading",
+          "why": "A foundational picture of organizations, managerial responsibility and objectives.",
+          "selectionRole": "Foundational Introduction"
+        },
+        {
+          "title": "Managerial Economics",
+          "author": "Paul G. Keat and Philip K. Y. Young",
+          "year": "Edition varies",
+          "stage": "2. Foundations",
+          "level": "Foundations",
+          "stageRole": "Foundational Introduction",
+          "type": "Curated reading",
+          "why": "Apply microeconomic logic to decisions under scarcity and competition.",
+          "selectionRole": "Foundational Introduction"
+        },
+        {
+          "title": "Operations Management",
+          "author": "Nigel Slack and Alistair Brandon-Jones",
+          "year": "Edition varies",
+          "stage": "2. Foundations",
+          "level": "Foundations",
+          "stageRole": "Foundational Introduction",
+          "type": "Curated reading",
+          "why": "A comprehensive operations and process-management foundation.",
+          "selectionRole": "Foundational Introduction"
+        },
+        {
+          "title": "Business Model Generation",
+          "author": "Alexander Osterwalder and Yves Pigneur",
+          "year": "2010",
+          "stage": "2. Foundations",
+          "level": "Foundations",
+          "stageRole": "Foundational Introduction",
+          "type": "Curated reading",
+          "why": "Visual frameworks for understanding how businesses create and capture value.",
+          "selectionRole": "Foundational Introduction"
+        },
+        {
+          "title": "Strategic Brand Management",
+          "author": "Kevin Lane Keller and Vanitha Swaminathan",
+          "year": "Edition varies",
+          "stage": "2. Foundations",
+          "level": "Foundations",
+          "stageRole": "Foundational Introduction",
+          "type": "Curated reading",
+          "why": "Systematic theory and management of brand equity and positioning.",
+          "selectionRole": "Foundational Introduction"
+        },
+        {
+          "title": "Good Strategy Bad Strategy",
+          "author": "Richard P. Rumelt",
+          "year": "2011",
+          "stage": "3. Core Understanding",
+          "level": "Core",
+          "stageRole": "Core / Classic",
+          "type": "Curated reading",
+          "why": "Strategy as diagnosis, guiding policy and coherent action.",
+          "selectionRole": "Core / Classic"
+        },
+        {
+          "title": "How Brands Grow",
+          "author": "Byron Sharp",
+          "year": "2010",
+          "stage": "3. Core Understanding",
+          "level": "Core",
+          "stageRole": "Core / Classic",
+          "type": "Curated reading",
+          "why": "An evidence-oriented account of brand penetration, reach and mental availability.",
+          "selectionRole": "Core / Classic"
+        },
+        {
+          "title": "7 Powers",
+          "author": "Hamilton Helmer",
+          "year": "2016",
+          "stage": "3. Core Understanding",
+          "level": "Core",
+          "stageRole": "Core / Classic",
+          "type": "Curated reading",
+          "why": "Understand the sources of lasting business advantage.",
+          "selectionRole": "Core / Classic"
+        },
+        {
+          "title": "Influence",
+          "author": "Robert B. Cialdini",
+          "year": "1984",
+          "stage": "3. Core Understanding",
+          "level": "Core",
+          "stageRole": "Core / Classic",
+          "type": "Curated reading",
+          "why": "A classic framework for persuasion principles and consumer behaviour.",
+          "selectionRole": "Core / Classic"
+        },
+        {
+          "title": "Ogilvy on Advertising",
+          "author": "David Ogilvy",
+          "year": "1983",
+          "stage": "3. Core Understanding",
+          "level": "Core",
+          "stageRole": "Core / Classic",
+          "type": "Curated reading",
+          "why": "Influential advertising craft and creative persuasion, to read in historical context.",
+          "selectionRole": "Core / Classic"
+        },
+        {
+          "title": "SPIN Selling",
+          "author": "Neil Rackham",
+          "year": "1988",
+          "stage": "3. Core Understanding",
+          "level": "Core",
+          "stageRole": "Core / Classic",
+          "type": "Curated reading",
+          "why": "Research-driven methods for diagnosis and long-cycle B2B selling.",
+          "selectionRole": "Core / Classic"
+        },
+        {
+          "title": "Confessions of the Pricing Man",
+          "author": "Hermann Simon",
+          "year": "2015",
+          "stage": "3. Core Understanding",
+          "level": "Core",
+          "stageRole": "Core / Classic",
+          "type": "Curated reading",
+          "why": "A practical entry into economic value, pricing architecture and profit.",
+          "selectionRole": "Core / Classic"
+        },
+        {
+          "title": "The Lean Startup",
+          "author": "Eric Ries",
+          "year": "2011",
+          "stage": "3. Core Understanding",
+          "level": "Core",
+          "stageRole": "Core / Classic",
+          "type": "Curated reading",
+          "why": "Experimentation, assumptions and validated learning in new businesses.",
+          "selectionRole": "Core / Classic"
+        },
+        {
+          "title": "High Output Management",
+          "author": "Andrew S. Grove",
+          "year": "1983",
+          "stage": "3. Core Understanding",
+          "level": "Core",
+          "stageRole": "Core / Classic",
+          "type": "Curated reading",
+          "why": "Practical decision-making and managerial leverage in organizations.",
+          "selectionRole": "Core / Classic"
+        },
+        {
+          "title": "Competitive Strategy",
+          "author": "Michael E. Porter",
+          "year": "1980",
+          "stage": "3. Core Understanding",
+          "level": "Core",
+          "stageRole": "Core / Classic",
+          "type": "Curated reading",
+          "why": "A classic analysis of industry forces and competitive positioning.",
+          "selectionRole": "Core / Classic"
+        },
+        {
+          "title": "Designing Brand Identity",
+          "author": "Alina Wheeler and Rob Meyerson",
+          "year": "2024",
+          "stage": "4. Advanced Study",
+          "level": "Advanced",
+          "stageRole": "Advanced Study",
+          "type": "Curated reading",
+          "why": "A broad professional guide to creating coherent and recognizable brand systems.",
+          "selectionRole": "Advanced Study"
+        },
+        {
+          "title": "Building Distinctive Brand Assets",
+          "author": "Jenni Romaniuk",
+          "year": "2018",
+          "stage": "4. Advanced Study",
+          "level": "Advanced",
+          "stageRole": "Advanced Study",
+          "type": "Curated reading",
+          "why": "A research-based treatment of symbols, colors and mental recognition.",
+          "selectionRole": "Advanced Study"
+        },
+        {
+          "title": "The Long and the Short of It",
+          "author": "Les Binet and Peter Field",
+          "year": "2013",
+          "stage": "4. Advanced Study",
+          "level": "Advanced",
+          "stageRole": "Advanced Study",
+          "type": "Curated reading",
+          "why": "Evidence-based arguments about long-term brand building and short-term activation.",
+          "selectionRole": "Advanced Study"
+        },
+        {
+          "title": "Marketing Research",
+          "author": "Naresh K. Malhotra",
+          "year": "Edition varies",
+          "stage": "4. Advanced Study",
+          "level": "Advanced",
+          "stageRole": "Advanced Study",
+          "type": "Curated reading",
+          "why": "Core research design, sampling and inference for customer decisions.",
+          "selectionRole": "Advanced Study"
+        },
+        {
+          "title": "Distribution Channels",
+          "author": "Julian Dent",
+          "year": "2008",
+          "stage": "4. Advanced Study",
+          "level": "Advanced",
+          "stageRole": "Advanced Study",
+          "type": "Curated reading",
+          "why": "Design and economics of indirect routes to market and partner management.",
+          "selectionRole": "Advanced Study"
+        },
+        {
+          "title": "The Strategy and Tactics of Pricing",
+          "author": "Thomas T. Nagle and Georg Müller",
+          "year": "Edition varies",
+          "stage": "4. Advanced Study",
+          "level": "Advanced",
+          "stageRole": "Advanced Study",
+          "type": "Curated reading",
+          "why": "Connect value, price structure, negotiation and profitability.",
+          "selectionRole": "Advanced Study"
+        },
+        {
+          "title": "The Innovator's Dilemma",
+          "author": "Clayton M. Christensen",
+          "year": "1997",
+          "stage": "4. Advanced Study",
+          "level": "Advanced",
+          "stageRole": "Advanced Study",
+          "type": "Curated reading",
+          "why": "Why firms can fail during disruptive technological change despite competent management.",
+          "selectionRole": "Advanced Study"
+        },
+        {
+          "title": "Marketing Metrics",
+          "author": "Paul W. Farris, Neil T. Bendle, Phillip E. Pfeifer and David J. Reibstein",
+          "year": "2006",
+          "stage": "4. Advanced Study",
+          "level": "Advanced",
+          "stageRole": "Advanced Study",
+          "type": "Curated reading",
+          "why": "A quantitative reference for marketing performance and managerial decisions.",
+          "selectionRole": "Advanced Study"
+        },
+        {
+          "title": "Organizational Culture and Leadership",
+          "author": "Edgar H. Schein",
+          "year": "1985",
+          "stage": "4. Advanced Study",
+          "level": "Advanced",
+          "stageRole": "Advanced Study",
+          "type": "Curated reading",
+          "why": "How organizational assumptions, norms and routines sustain behaviours.",
+          "selectionRole": "Advanced Study"
+        },
+        {
+          "title": "Thinking in Systems",
+          "author": "Donella H. Meadows",
+          "year": "2008",
+          "stage": "5. Mastery / Research",
+          "level": "Mastery",
+          "stageRole": "Synthesis / Critical Perspective",
+          "type": "Curated reading",
+          "why": "Explore business problems as interacting feedback structures.",
+          "selectionRole": "Synthesis / Critical Perspective"
+        },
+        {
+          "title": "Business Dynamics",
+          "author": "John D. Sterman",
+          "year": "2000",
+          "stage": "5. Mastery / Research",
+          "level": "Mastery",
+          "stageRole": "Synthesis / Critical Perspective",
+          "type": "Curated reading",
+          "why": "A rigorous modelling reference for complex managerial systems.",
+          "selectionRole": "Synthesis / Critical Perspective"
+        },
+        {
+          "title": "The Pyramid Principle",
+          "author": "Barbara Minto",
+          "year": "1987",
+          "stage": "5. Mastery / Research",
+          "level": "Mastery",
+          "stageRole": "Synthesis / Critical Perspective",
+          "type": "Curated reading",
+          "why": "Build structured business communication and executive reasoning.",
+          "selectionRole": "Synthesis / Critical Perspective"
+        },
+        {
+          "title": "The Halo Effect",
+          "author": "Phil Rosenzweig",
+          "year": "2007",
+          "stage": "5. Mastery / Research",
+          "level": "Mastery",
+          "stageRole": "Synthesis / Critical Perspective",
+          "type": "Curated reading",
+          "why": "Critical examination of popular business research and causal overconfidence.",
+          "selectionRole": "Synthesis / Critical Perspective"
+        },
+        {
+          "title": "The Crux",
+          "author": "Richard P. Rumelt",
+          "year": "2022",
+          "stage": "5. Mastery / Research",
+          "level": "Mastery",
+          "stageRole": "Synthesis / Critical Perspective",
+          "type": "Curated reading",
+          "why": "Diagnose the central strategic obstacle before committing to action.",
+          "selectionRole": "Synthesis / Critical Perspective"
+        }
+      ]
+    }
+  ]
+}

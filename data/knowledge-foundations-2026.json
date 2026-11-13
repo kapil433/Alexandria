@@ -1,0 +1,1215 @@
+{
+  "version": 1,
+  "newSubjects": [
+    {
+      "id": "physics-foundations",
+      "cluster": "2 · Physics & the Universe",
+      "subject": "Physics Foundations — Matter, Motion, Energy and Fields",
+      "tagline": "Mechanics · thermodynamics · waves · electromagnetism",
+      "desc": "Begin with accessible explanations, progress to systematic foundations, major classics, advanced approaches and criticism in physics foundations — matter, motion, energy and fields.",
+      "pathwayScale": "Foundations to Advanced",
+      "prerequisites": "Begin with the Orientation readings; technical texts require practice and background knowledge.",
+      "books": [
+        {
+          "title": "Conceptual Physics",
+          "author": "Paul G. Hewitt",
+          "year": "1987",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "The most approachable conceptual gateway to the physical laws without mathematical overload."
+        },
+        {
+          "title": "The Character of Physical Law",
+          "author": "Richard P. Feynman",
+          "year": "1965",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "A vivid explanation of the style and power of physical explanation."
+        },
+        {
+          "title": "Fundamentals of Physics",
+          "author": "David Halliday, Robert Resnick and Jearl Walker",
+          "year": "Edition-dependent",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "A problem-solving foundation across mechanics, electricity, waves and modern physics."
+        },
+        {
+          "title": "University Physics with Modern Physics",
+          "author": "Hugh D. Young and Roger A. Freedman",
+          "year": "Edition-dependent",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "A calculus-based foundation for studying physics systematically."
+        },
+        {
+          "title": "Six Easy Pieces",
+          "author": "Richard P. Feynman",
+          "year": "1994",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "Concise explanations of atoms, energy, gravitation and quantum ideas."
+        },
+        {
+          "title": "An Introduction to Thermal Physics",
+          "author": "Daniel V. Schroeder",
+          "year": "2000",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "A clear statistical-physics introduction to energy, entropy and temperature."
+        },
+        {
+          "title": "Classical Mechanics",
+          "author": "John R. Taylor",
+          "year": "2005",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "The bridge from introductory mechanics to analytic reasoning and dynamical systems."
+        },
+        {
+          "title": "Introduction to Electrodynamics",
+          "author": "David J. Griffiths",
+          "year": "1981",
+          "stage": "4. Advanced Study",
+          "stageRole": "Advanced Study",
+          "selectionRole": "Advanced Study",
+          "level": "Advanced",
+          "type": "Field reading",
+          "why": "A rigorous, carefully paced treatment of electric and magnetic fields."
+        },
+        {
+          "title": "The Feynman Lectures on Physics",
+          "author": "Richard P. Feynman, Robert Leighton and Matthew Sands",
+          "year": "1963",
+          "stage": "4. Advanced Study",
+          "stageRole": "Advanced Study",
+          "selectionRole": "Advanced Study",
+          "level": "Advanced",
+          "type": "Field reading",
+          "why": "A profound conceptual second pass after standard problem-solving."
+        },
+        {
+          "title": "Relativity: The Special and General Theory",
+          "author": "Albert Einstein",
+          "year": "1916",
+          "stage": "5. Mastery / Research",
+          "stageRole": "Synthesis / Critical Perspective",
+          "selectionRole": "Synthesis / Critical Perspective",
+          "level": "Mastery",
+          "type": "Field reading",
+          "why": "Read the original conceptual exposition and compare it with current physics."
+        }
+      ]
+    },
+    {
+      "id": "chemistry-foundations",
+      "cluster": "3 · Chemistry & Materials",
+      "subject": "Chemistry Foundations — Atoms to Molecular Systems",
+      "tagline": "Atoms · bonding · reactions · organic chemistry · physical chemistry",
+      "desc": "Begin with accessible explanations, progress to systematic foundations, major classics, advanced approaches and criticism in chemistry foundations — atoms to molecular systems.",
+      "pathwayScale": "Foundations to Advanced",
+      "prerequisites": "Begin with the Orientation readings; technical texts require practice and background knowledge.",
+      "books": [
+        {
+          "title": "The Disappearing Spoon",
+          "author": "Sam Kean",
+          "year": "2010",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "Memorable stories from the periodic table make the elements interesting."
+        },
+        {
+          "title": "The Elements: A Visual Exploration of Every Known Atom in the Universe",
+          "author": "Theodore Gray",
+          "year": "2009",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "Visual and historical orientation to the chemical elements."
+        },
+        {
+          "title": "Chemistry: The Central Science",
+          "author": "Theodore L. Brown and collaborators",
+          "year": "Edition-dependent",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "A systematic introduction to atomic structure, reactions, equilibrium and thermodynamics."
+        },
+        {
+          "title": "Chemical Principles",
+          "author": "Peter Atkins, Loretta Jones and Leroy Laverman",
+          "year": "Edition-dependent",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "A structured foundation connecting chemical mechanisms with physical laws."
+        },
+        {
+          "title": "The Periodic Kingdom",
+          "author": "Peter Atkins",
+          "year": "1995",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "A concise conceptual tour of the periodic table and chemical relationships."
+        },
+        {
+          "title": "Organic Chemistry",
+          "author": "Jonathan Clayden, Nick Greeves and Stuart Warren",
+          "year": "2001",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "A mechanistic, problem-solving introduction to carbon chemistry."
+        },
+        {
+          "title": "Physical Chemistry",
+          "author": "Peter Atkins and Julio de Paula",
+          "year": "Edition-dependent",
+          "stage": "4. Advanced Study",
+          "stageRole": "Advanced Study",
+          "selectionRole": "Advanced Study",
+          "level": "Advanced",
+          "type": "Field reading",
+          "why": "The thermodynamic, quantum and kinetic foundations of chemistry."
+        },
+        {
+          "title": "The Alchemy of Air",
+          "author": "Thomas Hager",
+          "year": "2008",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "The Haber–Bosch process connects chemistry with food, industry and war."
+        },
+        {
+          "title": "The Elements of Chemistry",
+          "author": "Antoine Lavoisier",
+          "year": "1789",
+          "stage": "5. Mastery / Research",
+          "stageRole": "Synthesis / Critical Perspective",
+          "selectionRole": "Synthesis / Critical Perspective",
+          "level": "Mastery",
+          "type": "Field reading",
+          "why": "A foundational chemistry classic best read with historical context."
+        },
+        {
+          "title": "Stuff Matters",
+          "author": "Mark Miodownik",
+          "year": "2013",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "An engaging bridge between materials science, technology and daily life."
+        }
+      ]
+    },
+    {
+      "id": "general-biology-foundations",
+      "cluster": "4 · Biology & Life",
+      "subject": "Biology Foundations — Cells, Evolution and Living Systems",
+      "tagline": "Cells · genetics · ecology · evolution · organismal biology",
+      "desc": "Begin with accessible explanations, progress to systematic foundations, major classics, advanced approaches and criticism in biology foundations — cells, evolution and living systems.",
+      "pathwayScale": "Foundations to Advanced",
+      "prerequisites": "Begin with the Orientation readings; technical texts require practice and background knowledge.",
+      "books": [
+        {
+          "title": "The Song of the Cell",
+          "author": "Siddhartha Mukherjee",
+          "year": "2022",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "A narrative guide to the discovery of cells and their role in life and medicine."
+        },
+        {
+          "title": "Your Inner Fish",
+          "author": "Neil Shubin",
+          "year": "2008",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "An engaging gateway to evolutionary history using familiar human anatomy."
+        },
+        {
+          "title": "Campbell Biology",
+          "author": "Lisa A. Urry and collaborators",
+          "year": "Edition-dependent",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "A broad survey spanning molecules, cells, organisms, evolution and ecosystems."
+        },
+        {
+          "title": "The Vital Question",
+          "author": "Nick Lane",
+          "year": "2015",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "Explores the energetic conditions that may have enabled complex cells."
+        },
+        {
+          "title": "The Gene: An Intimate History",
+          "author": "Siddhartha Mukherjee",
+          "year": "2016",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "History and concepts of heredity, genetics and its ethical consequences."
+        },
+        {
+          "title": "On the Origin of Species",
+          "author": "Charles Darwin",
+          "year": "1859",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "The classic statement of natural selection, to read with modern evidence."
+        },
+        {
+          "title": "The Selfish Gene",
+          "author": "Richard Dawkins",
+          "year": "1976",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "A gene-centred explanation of selection, important and debated."
+        },
+        {
+          "title": "Evolution",
+          "author": "Douglas J. Futuyma",
+          "year": "Edition-dependent",
+          "stage": "4. Advanced Study",
+          "stageRole": "Advanced Study",
+          "selectionRole": "Advanced Study",
+          "level": "Advanced",
+          "type": "Field reading",
+          "why": "A full scientific textbook on evolutionary biology and evidence."
+        },
+        {
+          "title": "The Diversity of Life",
+          "author": "Edward O. Wilson",
+          "year": "1992",
+          "stage": "4. Advanced Study",
+          "stageRole": "Advanced Study",
+          "selectionRole": "Advanced Study",
+          "level": "Advanced",
+          "type": "Field reading",
+          "why": "Biodiversity, ecosystems, and the moral challenges of conservation."
+        },
+        {
+          "title": "The Major Transitions in Evolution",
+          "author": "John Maynard Smith and Eörs Szathmáry",
+          "year": "1995",
+          "stage": "5. Mastery / Research",
+          "stageRole": "Synthesis / Critical Perspective",
+          "selectionRole": "Synthesis / Critical Perspective",
+          "level": "Mastery",
+          "type": "Field reading",
+          "why": "A deep look at how life evolved new levels of organisation."
+        }
+      ]
+    },
+    {
+      "id": "earth-science-foundations",
+      "cluster": "5 · Earth & Environment",
+      "subject": "Earth Science — Geology, Climate, Oceans and Deep Time",
+      "tagline": "Geology · climate · oceans · planetary systems",
+      "desc": "Begin with accessible explanations, progress to systematic foundations, major classics, advanced approaches and criticism in earth science — geology, climate, oceans and deep time.",
+      "pathwayScale": "Foundations to Advanced",
+      "prerequisites": "Begin with the Orientation readings; technical texts require practice and background knowledge.",
+      "books": [
+        {
+          "title": "A Short History of Nearly Everything",
+          "author": "Bill Bryson",
+          "year": "2003",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "A readable orientation to Earth, life and scientific discoveries."
+        },
+        {
+          "title": "Underland",
+          "author": "Robert Macfarlane",
+          "year": "2019",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "A lyrical exploration of deep time and the world beneath our feet."
+        },
+        {
+          "title": "Earth: An Introduction to Physical Geology",
+          "author": "Edward J. Tarbuck and Frederick K. Lutgens",
+          "year": "Edition-dependent",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "A foundational geology and Earth-processes textbook."
+        },
+        {
+          "title": "The Earth System",
+          "author": "Lee R. Kump, James F. Kasting and Robert G. Crane",
+          "year": "1999",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "Connect geology, climate, chemistry and biology as interacting systems."
+        },
+        {
+          "title": "Global Warming: Understanding the Forecast",
+          "author": "David Archer",
+          "year": "2007",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "Understand the physical mechanisms behind climate change."
+        },
+        {
+          "title": "Annals of the Former World",
+          "author": "John McPhee",
+          "year": "1998",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "An extraordinary narrative history of North American geology."
+        },
+        {
+          "title": "The Ocean of Life",
+          "author": "Callum Roberts",
+          "year": "2012",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "A broad ecological explanation of oceans and threats to marine life."
+        },
+        {
+          "title": "How to Build a Habitable Planet",
+          "author": "Charles H. Langmuir and Wally Broecker",
+          "year": "2012",
+          "stage": "4. Advanced Study",
+          "stageRole": "Advanced Study",
+          "selectionRole": "Advanced Study",
+          "level": "Advanced",
+          "type": "Field reading",
+          "why": "Integrated geochemical and Earth-system treatment of habitability."
+        },
+        {
+          "title": "The Sixth Extinction",
+          "author": "Elizabeth Kolbert",
+          "year": "2014",
+          "stage": "4. Advanced Study",
+          "stageRole": "Advanced Study",
+          "selectionRole": "Advanced Study",
+          "level": "Advanced",
+          "type": "Field reading",
+          "why": "Modern biodiversity loss considered in geological perspective."
+        },
+        {
+          "title": "The Uninhabitable Earth",
+          "author": "David Wallace-Wells",
+          "year": "2019",
+          "stage": "5. Mastery / Research",
+          "stageRole": "Synthesis / Critical Perspective",
+          "selectionRole": "Synthesis / Critical Perspective",
+          "level": "Mastery",
+          "type": "Field reading",
+          "why": "A forceful, debated climate-risk account; read alongside scientific assessments."
+        }
+      ]
+    },
+    {
+      "id": "engineering-infrastructure",
+      "cluster": "7 · Computing, Technology & Engineering",
+      "subject": "Engineering & Infrastructure — How Civilization Works",
+      "tagline": "Structures · roads · grids · shipping · maintenance · engineering decisions",
+      "desc": "Begin with accessible explanations, progress to systematic foundations, major classics, advanced approaches and criticism in engineering & infrastructure — how civilization works.",
+      "pathwayScale": "Foundations to Advanced",
+      "prerequisites": "Begin with the Orientation readings; technical texts require practice and background knowledge.",
+      "books": [
+        {
+          "title": "How Infrastructure Works",
+          "author": "Deb Chachra",
+          "year": "2023",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "A gateway to the systems that make modern collective life possible."
+        },
+        {
+          "title": "The Works: Anatomy of a City",
+          "author": "Kate Ascher",
+          "year": "2005",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "An illustrated tour of urban networks, water, waste, transport and power."
+        },
+        {
+          "title": "Engineering: A Very Short Introduction",
+          "author": "David Blockley",
+          "year": "2012",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "A short, systematic entry to engineering reasoning and practice."
+        },
+        {
+          "title": "Structures: Or Why Things Don't Fall Down",
+          "author": "J. E. Gordon",
+          "year": "1978",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "Intuitive mechanics of beams, buildings, materials and structural failure."
+        },
+        {
+          "title": "The Box",
+          "author": "Marc Levinson",
+          "year": "2006",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "How container shipping reshaped the world's economies and transport networks."
+        },
+        {
+          "title": "The Grid",
+          "author": "Gretchen Bakke",
+          "year": "2016",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "An anthropological and technical account of electrical infrastructure."
+        },
+        {
+          "title": "To Engineer Is Human",
+          "author": "Henry Petroski",
+          "year": "1985",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "Classic examples of engineering failure as a source of learning."
+        },
+        {
+          "title": "The Design of Everyday Things",
+          "author": "Don Norman",
+          "year": "1988",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "The human and interface dimension of designing technical systems."
+        },
+        {
+          "title": "How the World Really Works",
+          "author": "Vaclav Smil",
+          "year": "2022",
+          "stage": "4. Advanced Study",
+          "stageRole": "Advanced Study",
+          "selectionRole": "Advanced Study",
+          "level": "Advanced",
+          "type": "Field reading",
+          "why": "An evidence-oriented discussion of modern energy, materials, food and global systems."
+        },
+        {
+          "title": "The Existential Pleasures of Engineering",
+          "author": "Samuel C. Florman",
+          "year": "1976",
+          "stage": "5. Mastery / Research",
+          "stageRole": "Synthesis / Critical Perspective",
+          "selectionRole": "Synthesis / Critical Perspective",
+          "level": "Mastery",
+          "type": "Field reading",
+          "why": "A reflective defence and critique of engineering as a human pursuit."
+        }
+      ]
+    },
+    {
+      "id": "political-science-foundations",
+      "cluster": "9 · History, Geography & Politics",
+      "subject": "Political Science — Institutions, Power and Governance",
+      "tagline": "Democracy · states · institutions · political change",
+      "desc": "Begin with accessible explanations, progress to systematic foundations, major classics, advanced approaches and criticism in political science — institutions, power and governance.",
+      "pathwayScale": "Foundations to Advanced",
+      "prerequisites": "Begin with the Orientation readings; technical texts require practice and background knowledge.",
+      "books": [
+        {
+          "title": "Politics",
+          "author": "Andrew Heywood",
+          "year": "1997",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "A systematic but readable first overview of political questions and institutions."
+        },
+        {
+          "title": "The Dictator's Handbook",
+          "author": "Bruce Bueno de Mesquita and Alastair Smith",
+          "year": "2011",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "A provocative, accessible model of incentives and political survival."
+        },
+        {
+          "title": "On Democracy",
+          "author": "Robert A. Dahl",
+          "year": "1998",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "A clear framework for democratic institutions, participation and their limits."
+        },
+        {
+          "title": "Comparative Politics",
+          "author": "Daniele Caramani (editor)",
+          "year": "Edition-dependent",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "A comprehensive academic introduction to comparing governments and political systems."
+        },
+        {
+          "title": "The Origins of Political Order",
+          "author": "Francis Fukuyama",
+          "year": "2011",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "Historical explanations for state formation, rule of law and accountability."
+        },
+        {
+          "title": "How Democracies Die",
+          "author": "Steven Levitsky and Daniel Ziblatt",
+          "year": "2018",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "How democratic norms and institutions can erode gradually."
+        },
+        {
+          "title": "Seeing Like a State",
+          "author": "James C. Scott",
+          "year": "1998",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "The harms of centralized simplification and failures of political planning."
+        },
+        {
+          "title": "Why Nations Fail",
+          "author": "Daron Acemoglu and James A. Robinson",
+          "year": "2012",
+          "stage": "4. Advanced Study",
+          "stageRole": "Advanced Study",
+          "selectionRole": "Advanced Study",
+          "level": "Advanced",
+          "type": "Field reading",
+          "why": "A widely read institutional theory of inequality and development, with critics."
+        },
+        {
+          "title": "The Narrow Corridor",
+          "author": "Daron Acemoglu and James A. Robinson",
+          "year": "2019",
+          "stage": "4. Advanced Study",
+          "stageRole": "Advanced Study",
+          "selectionRole": "Advanced Study",
+          "level": "Advanced",
+          "type": "Field reading",
+          "why": "State capacity and liberty understood as an evolving balance."
+        },
+        {
+          "title": "The Logic of Political Survival",
+          "author": "Bruce Bueno de Mesquita and collaborators",
+          "year": "2003",
+          "stage": "5. Mastery / Research",
+          "stageRole": "Synthesis / Critical Perspective",
+          "selectionRole": "Synthesis / Critical Perspective",
+          "level": "Mastery",
+          "type": "Field reading",
+          "why": "A more formal model of coalition politics, institutional incentives and leadership."
+        }
+      ]
+    },
+    {
+      "id": "world-religions",
+      "cluster": "11 · Philosophy, Religion & Ethics",
+      "subject": "World Religions — History, Texts and Lived Traditions",
+      "tagline": "Hinduism · Buddhism · Christianity · Islam · Judaism · comparative religion",
+      "desc": "Begin with accessible explanations, progress to systematic foundations, major classics, advanced approaches and criticism in world religions — history, texts and lived traditions.",
+      "pathwayScale": "Foundations to Advanced",
+      "prerequisites": "Begin with the Orientation readings; technical texts require practice and background knowledge.",
+      "books": [
+        {
+          "title": "The World's Religions",
+          "author": "Huston Smith",
+          "year": "1958",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "An accessible survey of major religious traditions; complement with insider perspectives."
+        },
+        {
+          "title": "A History of God",
+          "author": "Karen Armstrong",
+          "year": "1993",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "Historical changes in Jewish, Christian and Islamic conceptions of divinity."
+        },
+        {
+          "title": "An Introduction to Hinduism",
+          "author": "Gavin Flood",
+          "year": "1996",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "A systematic introduction to Hindu history, thought, practice and traditions."
+        },
+        {
+          "title": "The Foundations of Buddhism",
+          "author": "Rupert Gethin",
+          "year": "1998",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "A clear academic introduction to the early and later Buddhist traditions."
+        },
+        {
+          "title": "Islam: A Short History",
+          "author": "Karen Armstrong",
+          "year": "2000",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "An approachable historical orientation, to follow with specialist scholarship."
+        },
+        {
+          "title": "Judaism: A Very Short Introduction",
+          "author": "Norman Solomon",
+          "year": "1996",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "Concise introduction to Jewish traditions, texts, practice and history."
+        },
+        {
+          "title": "The Varieties of Religious Experience",
+          "author": "William James",
+          "year": "1902",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "A classic psychological and philosophical approach to religious life."
+        },
+        {
+          "title": "The Sacred and the Profane",
+          "author": "Mircea Eliade",
+          "year": "1957",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "An influential history-of-religions classic, whose generalizations deserve criticism."
+        },
+        {
+          "title": "Genealogies of Religion",
+          "author": "Talal Asad",
+          "year": "1993",
+          "stage": "4. Advanced Study",
+          "stageRole": "Advanced Study",
+          "selectionRole": "Advanced Study",
+          "level": "Advanced",
+          "type": "Field reading",
+          "why": "A critical intervention on the concept of religion and its colonial modernity."
+        },
+        {
+          "title": "The Myth of Disenchantment",
+          "author": "Jason Ānanda Josephson-Storm",
+          "year": "2017",
+          "stage": "5. Mastery / Research",
+          "stageRole": "Synthesis / Critical Perspective",
+          "selectionRole": "Synthesis / Critical Perspective",
+          "level": "Mastery",
+          "type": "Field reading",
+          "why": "Reconsiders the assumption that science simply replaced magic and enchantment."
+        }
+      ]
+    },
+    {
+      "id": "public-health-epidemiology",
+      "cluster": "6 · Medicine, Mind & Health",
+      "subject": "Public Health & Epidemiology — Populations, Disease and Systems",
+      "tagline": "Epidemiology · global health · outbreaks · prevention · health institutions",
+      "desc": "Begin with accessible explanations, progress to systematic foundations, major classics, advanced approaches and criticism in public health & epidemiology — populations, disease and systems.",
+      "pathwayScale": "Foundations to Advanced",
+      "prerequisites": "Begin with the Orientation readings; technical texts require practice and background knowledge.",
+      "books": [
+        {
+          "title": "The Ghost Map",
+          "author": "Steven Johnson",
+          "year": "2006",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "A famous cholera outbreak offers an approachable entry to epidemiological reasoning."
+        },
+        {
+          "title": "Everything Is Tuberculosis",
+          "author": "John Green",
+          "year": "2025",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "Disease understood through medicine, stigma, poverty and global inequality."
+        },
+        {
+          "title": "Epidemiology",
+          "author": "Leon Gordis",
+          "year": "Edition-dependent",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "A standard introductory text on study designs, association and bias."
+        },
+        {
+          "title": "Epidemiology: An Introduction",
+          "author": "Kenneth J. Rothman",
+          "year": "2002",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "A rigorous introductory approach to the logic of epidemiological inference."
+        },
+        {
+          "title": "The Great Influenza",
+          "author": "John M. Barry",
+          "year": "2004",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "The 1918 pandemic as a history of medicine and political response."
+        },
+        {
+          "title": "The Checklist Manifesto",
+          "author": "Atul Gawande",
+          "year": "2009",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "Medical safety, systems design and the consequences of reliable processes."
+        },
+        {
+          "title": "Being Mortal",
+          "author": "Atul Gawande",
+          "year": "2014",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "Clinical institutions and the meaning of care near the end of life."
+        },
+        {
+          "title": "The Health Gap",
+          "author": "Michael Marmot",
+          "year": "2015",
+          "stage": "4. Advanced Study",
+          "stageRole": "Advanced Study",
+          "selectionRole": "Advanced Study",
+          "level": "Advanced",
+          "type": "Field reading",
+          "why": "A major account of social determinants of health."
+        },
+        {
+          "title": "The Spirit Level",
+          "author": "Richard Wilkinson and Kate Pickett",
+          "year": "2009",
+          "stage": "4. Advanced Study",
+          "stageRole": "Advanced Study",
+          "selectionRole": "Advanced Study",
+          "level": "Advanced",
+          "type": "Field reading",
+          "why": "A debated empirical account of inequality and population outcomes."
+        },
+        {
+          "title": "Public Health: What It Is and How It Works",
+          "author": "Bernard J. Turnock",
+          "year": "1997",
+          "stage": "5. Mastery / Research",
+          "stageRole": "Synthesis / Critical Perspective",
+          "selectionRole": "Synthesis / Critical Perspective",
+          "level": "Mastery",
+          "type": "Field reading",
+          "why": "Institutional and practical foundations of public-health practice."
+        }
+      ]
+    },
+    {
+      "id": "human-geography",
+      "cluster": "5 · Earth & Environment",
+      "subject": "Human Geography — Place, Migration and Spatial Power",
+      "tagline": "Geography · space · urbanism · mobility",
+      "desc": "Begin with accessible explanations, progress to systematic foundations, major classics, advanced approaches and criticism in human geography — place, migration and spatial power.",
+      "pathwayScale": "Foundations to Advanced",
+      "prerequisites": "Begin with the Orientation readings; technical texts require practice and background knowledge.",
+      "books": [
+        {
+          "title": "Prisoners of Geography",
+          "author": "Tim Marshall",
+          "year": "2015",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "A popular gateway into geographical constraints; read critically for determinism."
+        },
+        {
+          "title": "The Address Book",
+          "author": "Deirdre Mask",
+          "year": "2020",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "Addresses reveal hidden systems of identity, geography and state authority."
+        },
+        {
+          "title": "Human Geography: Places and Regions in Global Context",
+          "author": "Paul L. Knox and Sallie A. Marston",
+          "year": "Edition-dependent",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "A comprehensive undergraduate foundation in human geography."
+        },
+        {
+          "title": "The Power of Place",
+          "author": "Harm de Blij",
+          "year": "2009",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "Explores geography's role in uneven opportunity and world affairs."
+        },
+        {
+          "title": "The Death and Life of Great American Cities",
+          "author": "Jane Jacobs",
+          "year": "1961",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "The urban classic about street life, diversity and neighbourhood functioning."
+        },
+        {
+          "title": "How to Lie with Maps",
+          "author": "Mark Monmonier",
+          "year": "1991",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "Cartographic literacy and the choices embedded in maps."
+        },
+        {
+          "title": "For Space",
+          "author": "Doreen Massey",
+          "year": "2005",
+          "stage": "4. Advanced Study",
+          "stageRole": "Advanced Study",
+          "selectionRole": "Advanced Study",
+          "level": "Advanced",
+          "type": "Field reading",
+          "why": "A philosophical argument that places and spaces are relational."
+        },
+        {
+          "title": "The Geography of Thought",
+          "author": "Richard E. Nisbett",
+          "year": "2003",
+          "stage": "4. Advanced Study",
+          "stageRole": "Advanced Study",
+          "selectionRole": "Advanced Study",
+          "level": "Advanced",
+          "type": "Field reading",
+          "why": "A debated psychological study of culture and cognition."
+        },
+        {
+          "title": "Space and Place",
+          "author": "Yi-Fu Tuan",
+          "year": "1977",
+          "stage": "4. Advanced Study",
+          "stageRole": "Advanced Study",
+          "selectionRole": "Advanced Study",
+          "level": "Advanced",
+          "type": "Field reading",
+          "why": "A foundational humanistic geography text on experience and landscape."
+        },
+        {
+          "title": "The New Geography of Jobs",
+          "author": "Enrico Moretti",
+          "year": "2012",
+          "stage": "5. Mastery / Research",
+          "stageRole": "Synthesis / Critical Perspective",
+          "selectionRole": "Synthesis / Critical Perspective",
+          "level": "Mastery",
+          "type": "Field reading",
+          "why": "Economic geography and the unequal distribution of innovation and opportunity."
+        }
+      ]
+    },
+    {
+      "id": "economics-foundations",
+      "cluster": "10 · Economics, Business & Management",
+      "subject": "Economics Foundations — Markets, Incentives and Institutions",
+      "tagline": "Economic literacy · markets · institutions · development",
+      "desc": "Begin with accessible explanations, progress to systematic foundations, major classics, advanced approaches and criticism in economics foundations — markets, incentives and institutions.",
+      "pathwayScale": "Foundations to Advanced",
+      "prerequisites": "Begin with the Orientation readings; technical texts require practice and background knowledge.",
+      "books": [
+        {
+          "title": "The Undercover Economist",
+          "author": "Tim Harford",
+          "year": "2005",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "A readable first explanation of incentives and trade-offs in daily life."
+        },
+        {
+          "title": "Naked Economics",
+          "author": "Charles Wheelan",
+          "year": "2002",
+          "stage": "1. Orientation",
+          "stageRole": "Gateway / Reader Favourite",
+          "selectionRole": "Gateway / Reader Favourite",
+          "level": "Novice",
+          "type": "Field reading",
+          "why": "An accessible introduction to economic institutions and basic reasoning."
+        },
+        {
+          "title": "The Economy 2.0",
+          "author": "CORE Econ",
+          "year": "2023",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "A free, contemporary and evidence-led introduction to economics."
+        },
+        {
+          "title": "Economics: The User's Guide",
+          "author": "Ha-Joon Chang",
+          "year": "2014",
+          "stage": "2. Foundations",
+          "stageRole": "Foundational Introduction",
+          "selectionRole": "Foundational Introduction",
+          "level": "Foundations",
+          "type": "Field reading",
+          "why": "A comparative entry to economic schools and their different assumptions."
+        },
+        {
+          "title": "The Worldly Philosophers",
+          "author": "Robert L. Heilbroner",
+          "year": "1953",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "A history of economists and the changing social questions they tried to answer."
+        },
+        {
+          "title": "The Wealth of Nations",
+          "author": "Adam Smith",
+          "year": "1776",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "A classic argument on division of labour, markets and political economy."
+        },
+        {
+          "title": "Poor Economics",
+          "author": "Abhijit Banerjee and Esther Duflo",
+          "year": "2011",
+          "stage": "3. Core Understanding",
+          "stageRole": "Core / Classic",
+          "selectionRole": "Core / Classic",
+          "level": "Core",
+          "type": "Field reading",
+          "why": "Development policy evaluated through concrete experiments and evidence."
+        },
+        {
+          "title": "Economics Rules",
+          "author": "Dani Rodrik",
+          "year": "2015",
+          "stage": "4. Advanced Study",
+          "stageRole": "Advanced Study",
+          "selectionRole": "Advanced Study",
+          "level": "Advanced",
+          "type": "Field reading",
+          "why": "A practical philosophy of economic models and their limitations."
+        },
+        {
+          "title": "Capital in the Twenty-First Century",
+          "author": "Thomas Piketty",
+          "year": "2013",
+          "stage": "4. Advanced Study",
+          "stageRole": "Advanced Study",
+          "selectionRole": "Advanced Study",
+          "level": "Advanced",
+          "type": "Field reading",
+          "why": "A major evidence-based argument about wealth, inequality and history."
+        },
+        {
+          "title": "Macroeconomics",
+          "author": "Olivier Blanchard",
+          "year": "1997",
+          "stage": "5. Mastery / Research",
+          "stageRole": "Synthesis / Critical Perspective",
+          "selectionRole": "Synthesis / Critical Perspective",
+          "level": "Mastery",
+          "type": "Field reading",
+          "why": "A formal reference for output, inflation, employment and macroeconomic policy."
+        }
+      ]
+    }
+  ]
+}
