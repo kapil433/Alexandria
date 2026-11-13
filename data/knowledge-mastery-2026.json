@@ -35,6 +35,16 @@
       "id": "systems-complexity",
       "subject": "Complexity & Network Science — Systems, Dynamics and Emergence",
       "domain": "1 · Mathematics & Formal Sciences"
+    },
+    {
+      "id": "rhetoric-writing-craft",
+      "subject": "Writing Craft, Rhetoric & Storytelling",
+      "domain": "12 · Language, Literature, Arts & Culture"
+    },
+    {
+      "id": "entrepreneurship-venture",
+      "subject": "Entrepreneurship, Venture Building & Company Creation",
+      "domain": "10 · Economics, Business & Management"
     }
   ],
   "domainAssignments": {
