@@ -15,7 +15,7 @@ Alexandria is an interactive digital library bringing together world literature,
 - Individualized author guides
 - Polymath learning pathways and mental models
 
-The atlas contains **2,787 catalogue placements** representing **2,694 canonical work IDs**, with intentional overlap across collections. These are catalogue IDs, not independently verified bibliographic editions.
+The atlas contains **3,330 catalogue placements** representing **3,038 canonical work IDs**, with intentional overlap across collections. These are catalogue IDs, not independently verified bibliographic editions.
 
 ## Refinements
 
@@ -48,7 +48,7 @@ https://kapil433.github.io/Alexandria/
 This is a curated reading atlas, not a repository of book texts. Publication and edition details may differ; links to third-party works are informational.
 ## Reading Atlas editorial enrichment (November 2026)
 
-The `content-atlas-curation-2026-11` branch includes a bibliography-only enrichment from Reading Atlas's 3D catalogue manifest. This changes **catalogue data only**, not Alexandria's interface or reading tools.
+The November 2026 Reading Atlas consolidation included a bibliography-only enrichment from Reading Atlas's 3D catalogue manifest. This changes **catalogue data only**, not Alexandria's interface or reading tools.
 
 - World Fiction: 739 placements across 101 country/regional sections (including North Korea).
 - India Canon: 173 placements, strengthening Hindi, Bengali, Urdu, Tamil, Telugu and other regional literatures.
@@ -58,4 +58,17 @@ The `content-atlas-curation-2026-11` branch includes a bibliography-only enrichm
 - Interdisciplinary pathways: 53 subjects, including a correctly categorized witness-literature and memoir pathway.
 - Author guides: 101, unchanged.
 
-The overall catalogue contains **2,787 placements and 2,694 canonical work IDs**, including intentional cross-listing. Exact title/author comparisons and unresolved candidates are recorded in `docs/atlas-source-comparison-2026-11.json`. Curated additions and provenance are in `data/atlas-curation-2026-11.json`; see `docs/atlas-content-audit-2026-11.md` for editorial limitations.
+That earlier consolidation contained **2,787 placements and 2,694 canonical work IDs** before the subsequent Knowledge Library expansion, including intentional cross-listing. Exact title/author comparisons and unresolved candidates are recorded in `docs/atlas-source-comparison-2026-11.json`. Curated additions and provenance are in `data/atlas-curation-2026-11.json`; see `docs/atlas-content-audit-2026-11.md` for editorial limitations.
+
+## Knowledge Library — four layers (November 2026)
+
+Alexandria now provides **75 Knowledge subjects and 1,182 curated Knowledge book placements** grouped into four complementary layers, using the established app layout, cards, progress tracking and reading studio:
+
+1. **Seven mastery programmes (228 placements):** Mathematics; World & Comparative Philosophy with an emphasis on non-duality; Anthropology; Computer Science & Systems Design; AI, Product Management & Building; MBA, Marketing, Branding & Management; and Complexity & Network Science.
+2. **Understand the World (57 subjects, 604 placements):** twelve broad scientific and intellectual domains spanning the natural sciences, social sciences, philosophy, politics, technology, design, business and arts. Ten new introductory foundations include Physics, Chemistry, Biology, Earth Science, Engineering, Political Science, Religion, Public Health, Human Geography and Economics.
+3. **Great Nonfiction Library:** 250 distinct curated nonfiction books across eight editorial shelves, including cross-disciplinary titles such as *Gödel, Escher, Bach*.
+4. **Recent & Highly Recommended Nonfiction:** 100 nonfiction selections grouped as 2024 (30), 2025 (33) and 2026 (37), with a dated selection snapshot, critical-list or prize-source links, and source recognition recorded with each entry.
+
+**Overall after this change: 3,330 placements, 3,038 canonical work IDs, 75 Knowledge subjects, 101 country/region sections and 101 author guides.** Placements are not unique titles. A title can appear in more than one subject using its canonical work ID; some imported records retain source-specific bibliographic ID variants and require continued manual verification.
+
+The [Knowledge Curation Audit](docs/knowledge-library-2026.md) describes the editorial method and caveats. Source datasets are versioned under `data/`. Run `node scripts/check-knowledge-library.cjs` for the regression suite. This project contains bibliographic descriptions and recommendations, not book texts. Site design, CSS and personal reading-data storage have not been redesigned.
