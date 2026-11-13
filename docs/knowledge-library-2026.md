@@ -14,8 +14,8 @@ This revision retains all 53 subjects and preserves their original work records,
 
 | Layer | Subjects | Book placements |
 | --- | ---: | ---: |
-| Seven mastery pathways | 7 | 228 |
-| Understand the World | 57 | 604 |
+| Nine mastery pathways | 9 | 278 |
+| Understand the World | 55 | 554 |
 | Great Nonfiction Library | 8 | 250 |
 | Recent Nonfiction — 2024–2026 | 3 | 100 |
 | **Knowledge total** | **75** | **1,182** |
@@ -31,6 +31,8 @@ This revision retains all 53 subjects and preserves their original work records,
 - Computer Science & Systems Design — 30 books
 - World & Comparative Philosophy, Non-Duality emphasis — 34 books
 - MBA, Marketing, Branding & Business Management — 38 books
+- Writing Craft, Rhetoric & Storytelling — 25 books
+- Entrepreneurship, Venture Building & Company Creation — 25 books
 
 These reuse the existing five educational stages: Orientation, Foundations, Core Understanding, Advanced Study and Mastery/Research. Stage order has been verified programmatically.
 
@@ -66,7 +68,7 @@ Use the six roles as selection heuristics, not inflexible quotas: Gateway, Reade
 ## 4. Files
 
 - `index.html` — embedded catalogue expansion, stage-aware paths and subnav filters; pre-existing CSS and compressed catalogue unchanged.
-- `data/knowledge-mastery-2026.json` — seven mastery pathways, content additions and domain classification.
+- `data/knowledge-mastery-2026.json` — nine mastery pathways (including Writing and Entrepreneurship), content additions and domain classification.
 - `data/knowledge-foundations-2026.json` — ten foundational subject pathways.
 - `data/great-nonfiction-2026.json` — 250 curated enduring nonfiction works.
 - `data/recent-nonfiction-2026.json` — 100 dated recent nonfiction selections with linked shortlist/editorial evidence.
@@ -74,6 +76,16 @@ Use the six roles as selection heuristics, not inflexible quotas: Gateway, Reade
 
 ## 5. QA and limitations
 
-Verified via data-bootstrap evaluation: 75 subjects, 1,182 Knowledge placements, seven mastery pathways, 250 Great Nonfiction selections without repeated work IDs, 100 recent nonfiction entries, 3,330 placements and 3,038 canonical IDs. All included books have title, author, work ID, explanatory text and one of the five existing stages. The embedded application JavaScript compiles; CSS and the original compressed catalogue are unchanged.
+Verified via data-bootstrap evaluation: 75 subjects, 1,182 Knowledge placements, nine mastery pathways, 250 Great Nonfiction selections without repeated work IDs, 100 recent nonfiction entries, 3,330 placements and 3,038 canonical IDs. All included books have title, author, work ID, explanatory text and one of the five existing stages. The embedded application JavaScript compiles; CSS and the original compressed catalogue are unchanged.
 
 **Remaining work:** Individual edition-level bibliographic verification is not exhaustive, especially for translated classics, composite entries inherited from older curricula and the recent-release lists. Some title/author variants may remain distinct canonical IDs. External citation links and recommendations are a dated snapshot, not live price, availability or current-award claims. Browser-based visual and device performance testing has not been independently completed. Do not conflate the in-code audit with a complete scholarly bibliographic review.
+
+## Classification-only correction — November 2026
+
+Writing Craft, Rhetoric & Storytelling and Entrepreneurship, Venture Building & Company Creation have been promoted from *Explore Knowledge* to *Mastery*, retaining their existing 25 books apiece and original academic domains.
+
+The Knowledge catalogue remains **75 subjects / 1,182 book placements**, with **nine Mastery pathways (278 placements)**, **55 Explore subjects (554 placements)**, **eight Great Nonfiction shelves (250)** and **three Recent Nonfiction shelves (100)**. This is a reclassification, not content expansion.
+
+The 12 academic domains remain a separate metadata dimension, not alternative reading-depth categories. The application offers the academic domain filter only within Mastery or Explore; editorial reading shelves do not masquerade as academic disciplines. Switching Knowledge layers resets incompatible domain, stage and search filters. All existing book titles, authors, annotations, stages, work IDs, and reading-state storage are preserved.
+
+See [Knowledge taxonomy change audit](knowledge-taxonomy-nine-mastery-2026-11.md) for verification and migration details.
