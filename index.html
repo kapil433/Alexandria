@@ -641,7 +641,7 @@
             Explore literature. Follow ideas. Build understanding.
           </h1>
           <p class="alx-text-secondary text-sm sm:text-base leading-relaxed">
-            Welcome to <strong>Alexandria</strong>—an interactive literary and intellectual atlas uniting world fiction across 101 country and regional traditions, short stories and novellas, rediscovered secondhand bookshop gems, essays and poetry, chronological science fiction, 101 author reading guides, and 53 progressive polymath study pathways with a personal synthesis and mental-model studio.
+            Welcome to <strong>Alexandria</strong>—an interactive literary and intellectual atlas uniting world fiction across 101 country and regional traditions, short stories and novellas, rediscovered secondhand bookshop gems, essays and poetry, chronological science fiction, 101 author reading guides, and 75 curated Knowledge subjects with a personal synthesis and mental-model studio.
           </p>
           <p class="text-xs alx-text-muted">Catalogue counts distinguish unique works from cross-listed entries. Edition-dependent page estimates have been removed; publication details and external links should be checked against your chosen edition.</p>
           <div class="flex flex-wrap items-center gap-3 pt-2">
@@ -1034,13 +1034,13 @@
 
     <!-- ======================================================================
          3. KNOWLEDGE & POLYMATH CURRICULUM VIEW (#knowledge/*)
-         53 Subjects · 625 Books · 5-Stage Progressive Learning Ladders
+         75 Subjects · 1,182 Reading Placements · Seven Mastery Pathways
          ====================================================================== -->
     <section id="view-knowledge" class="hidden space-y-6">
       <div class="alx-surface rounded-2xl p-5 space-y-4">
         <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-4">
           <div>
-            <span class="alx-badge" id="knowledge-count-badge">53 Subjects · 625 Books · 7 Deep (25-Book) &amp; 45 Core (10-Book) Pathways</span>
+            <span class="alx-badge" id="knowledge-count-badge">75 Subjects · 1,182 Books · 7 Deep (25-Book) &amp; 45 Core (10-Book) Pathways</span>
             <h1 class="font-serif-editorial text-2xl sm:text-4xl font-bold mt-1">Polymath Knowledge Curriculum</h1>
             <p class="text-xs sm:text-sm alx-text-secondary max-w-3xl">
               Every discipline is structured as a 5-stage intellectual ladder: <strong>1. Orientation → 2. Foundations → 3. Core Understanding → 4. Advanced Study → 5. Mastery / Research</strong>.
@@ -1713,6 +1713,12 @@
       for(const entry of lib.foundations)addSubject(entry,"world",entry.cluster);
       for(const entry of lib.great)addSubject(entry,"great-nonfiction","13 · Great Nonfiction Library");
       for(const entry of lib.recent)addSubject(entry,"recent-nonfiction","14 · Recent Nonfiction · 2024–2026");
+      // Preserve the original order within each learning stage, but never put foundational
+      // or gateway additions after graduate-level books in the mastery reading routes.
+      const stages=["1. Orientation","2. Foundations","3. Core Understanding","4. Advanced Study","5. Mastery / Research"];
+      for(const pathway of DATA.polymath51.filter(s=>s.knowledgeLayer==="mastery")) {
+        pathway.books.sort((a,b)=>stages.indexOf(a.stage)-stages.indexOf(b.stage));
+      }
     }
 
     const NOV_2026_AUDIT = DATA.meta.auditSummary;
