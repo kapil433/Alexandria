@@ -56,7 +56,7 @@ Dr. B. R. Ambedkar is guide **#102**, following the existing three-stage guide f
 ## Implementation and limitations
 
 - The original CSS, overall interface design and compressed base catalogue remain unchanged.
-- Explore subjects are numbered and displayed in ReadingAtlas order. Within each, book cards show source numbers, author, explanatory note and a source-informed connection.
+- Explore subjects are numbered and displayed in ReadingAtlas order. Within each, book cards show consecutive positions in the selected subject, author, explanatory note and a source-informed connection. Book numbers remain stable when searching or filtering by stage; original source positions are retained as provenance.
 - The protected three collection book arrays were checked for exact equality against the old `main` snapshot.
 - `scripts/check-readingatlas-explore.cjs` checks source order, selected book metadata, guide schema, and collection totals.
 - Browser/device testing, all translation editions, and every ISBN are not independently verified. The source archive is an editorial record, not an external book-text library.

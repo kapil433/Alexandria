@@ -3683,6 +3683,8 @@
         </button>
       `).join("");
 
+      // Display each book's position in the selected subject, stable across filters;
+      // sourcePosition is provenance in the larger ReadingAtlas list and may skip numbers.
       const booksToShow = activeSubj.books.filter(b => {
         if (stageFilter !== "ALL" && b.stage !== stageFilter) return false;
         if (q && !(activeSubj.subject.toLowerCase().includes(q)) && !(b.title.toLowerCase().includes(q) || b.author.toLowerCase().includes(q) || (b.why || "").toLowerCase().includes(q))) return false;
@@ -3719,7 +3721,7 @@
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                 ${booksToShow.map(b => `
                   <div class="space-y-2">
-                    <div class="text-xs font-semibold alx-accent-text">${String(b.sourcePosition||activeSubj.books.indexOf(b)+1).padStart(2,"0")} · ${escapeHtml(b.kind || b.type || "Nonfiction")}</div>
+                    <div class="text-xs font-semibold alx-accent-text">${String(activeSubj.books.indexOf(b)+1).padStart(2,"0")} · ${escapeHtml(b.kind || b.type || "Nonfiction")}</div>
                     ${renderBookCardHTML(b, {topBadge:b.level || "Essential Read"})}
                     ${b.bridge ? `<p class="text-xs alx-text-secondary leading-relaxed rounded-lg alx-subtle p-3"><strong>Why it connects:</strong> ${escapeHtml(b.bridge)}</p>` : ""}
                   </div>
