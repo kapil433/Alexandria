@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "subject": "Author guide — Dr. B. R. Ambedkar",
+  "verifiedAt": "2026-11-16",
+  "sourceUrls": [
+    "https://drambedkarwritings.gov.in/content/",
+    "https://www.mea.gov.in/books-writings-of-ambedkar.htm",
+    "https://www.mea.gov.in/ambedkar.htm"
+  ],
+  "guide": {
+    "id": 102,
+    "slug": "br-ambedkar",
+    "name": "Dr. B. R. Ambedkar",
+    "country": "India",
+    "era": "1891–1956",
+    "genre": "Social Philosophy, Law, Economics & Political Thought",
+    "bio": "Bhimrao Ramji Ambedkar was an economist, jurist, constitutional thinker, and leader of the anti-caste movement in India. He chaired the Constituent Assembly's Drafting Committee and wrote extensively on caste, political representation, democracy, monetary economics, and Buddhism.",
+    "autobiography": "Waiting for a Visa (autobiographical episodes; written in the 1930s, published posthumously); see also his speeches and correspondence in the collected Writings and Speeches.",
+    "startBook": "Begin with Annihilation of Caste (1936) for his critique of caste hierarchy and social reform; then read Castes in India: Their Mechanism, Genesis and Development (1916) to encounter his earlier comparative analysis.",
+    "middleWorks": [
+      "Who Were the Shudras? (1946) and The Untouchables (1948) — historical arguments about caste, to be studied critically alongside subsequent scholarship.",
+      "States and Minorities (1947) and selected Constituent Assembly speeches — political safeguards, rights, constitutional design and social democracy.",
+      "The Problem of the Rupee: Its Origin and Its Solution (1923) — currency, monetary institutions and Ambedkar's early economic research.",
+      "Thoughts on Linguistic States (1955) and Pakistan or the Partition of India (revised 1940s editions) — nationhood, language, federalism and minority representation."
+    ],
+    "endBook": "Conclude with The Buddha and His Dhamma (published posthumously in 1957), alongside Buddha or Karl Marx and selected late speeches, to examine Ambedkar's Navayāna Buddhist ethical and social philosophy.",
+    "translationGuide": "Edition Guide: Most major prose works were originally written in English. Compare accessible standalone editions with the Government of Maharashtra / Dr. Ambedkar Foundation's Dr. Babasaheb Ambedkar: Writings and Speeches volumes. Note original dates, later revisions, and editorial differences; The Buddha and His Dhamma was published posthumously.",
+    "companionBooks": "For autobiography, read Waiting for a Visa; for biography and context consult Eleanor Zelliot, Ambedkar's World; Christophe Jaffrelot, Dr Ambedkar and Untouchability; and Aakash Singh Rathore, Becoming Babasaheb. Compare later caste scholarship and constitutional interpretations rather than treating any one interpretation as conclusive.",
+    "pathway": [
+      "Annihilation of Caste & Castes in India",
+      "Who Were the Shudras? · States and Minorities · The Problem of the Rupee",
+      "The Buddha and His Dhamma · Buddha or Karl Marx"
+    ],
+    "tradition": "Anti-Caste Thought · Constitutionalism · Social Democracy · Navayāna Buddhism",
+    "techniques": "Uses historical and comparative analysis, social critique, legal argument, institutional design and economic reasoning. Trace changes across early academic papers, constitutional interventions, and later Buddhist works."
+  }
+}

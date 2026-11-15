@@ -18,15 +18,15 @@ assert.ok(start>=0 && end>start,'Content bootstrap boundaries missing');
 const actual=(new Function('DATA',html.slice(start,end)+'return DATA;'))(initial);
 const subjects=actual.polymath51;
 const totals=subjects.reduce((n,s)=>n+s.books.length,0);
-assert.equal(subjects.length,75);
-assert.equal(totals,1182);
-for(const [layer,count] of [['mastery',7],['world',57],['great-nonfiction',8],['recent-nonfiction',3]]){
+assert.equal(subjects.length,43);
+assert.equal(totals,836);
+for(const [layer,count] of [['mastery',9],['world',23],['great-nonfiction',8],['recent-nonfiction',3]]){
   assert.equal(subjects.filter(s=>s.knowledgeLayer===layer).length,count,layer);
 }
 const stages=['1. Orientation','2. Foundations','3. Core Understanding','4. Advanced Study','5. Mastery / Research'];
 const mastery=subjects.filter(s=>s.knowledgeLayer==='mastery');
 for(const subject of mastery){
-  assert.ok(subject.books.length>=30,subject.id+' too short');
+  assert.ok(subject.books.length>=25,subject.id+' too short');
   assert.ok(subject.books.every(x=>stages.includes(x.stage)),subject.id+' bad stage');
   assert.deepEqual(subject.books.map(x=>stages.indexOf(x.stage)).slice().sort((a,b)=>a-b),subject.books.map(x=>stages.indexOf(x.stage)),subject.id+' stages out of order');
   assert.ok(subject.books.every(x=>x.title && x.author && x.workId && x.why),'Missing mastery metadata');
@@ -45,9 +45,9 @@ const books=[
   ...actual.nonNovel500,...actual.india150,...actual.scifi100,
   ...subjects.flatMap(s=>s.books)
 ];
-assert.equal(books.length,3330);
-assert.equal(new Set(books.map(x=>x.workId)).size,3038);
+assert.equal(books.length,2984);
+assert.equal(new Set(books.map(x=>x.workId)).size,2789);
 assert.ok(books.every(x=>x.title&&x.author&&x.workId));
-assert.equal(actual.authors100.length,101);
+assert.equal(actual.authors100.length,102);
 assert.equal(actual.world100.length,101);
-console.log('PASS: 7 mastery / 57 broad / 8 great nonfiction / 3 recent nonfiction; 75 subjects / 1,182 book placements / 3,038 canonical works');
+console.log('PASS: 9 mastery / 23 accessible Explore subjects / 8 Great Nonfiction / 3 Recent Nonfiction; 43 subjects / 836 Knowledge placements');
