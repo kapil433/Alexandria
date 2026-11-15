@@ -21,12 +21,12 @@ const layers = {
   great: sub.filter(s=>s.knowledgeLayer==='great-nonfiction'),
   recent: sub.filter(s=>s.knowledgeLayer==='recent-nonfiction')
 };
-assert.equal(sub.length,75);
-assert.equal(sub.reduce((n,s)=>n+s.books.length,0),1182);
+assert.equal(sub.length,43);
+assert.equal(sub.reduce((n,s)=>n+s.books.length,0),836);
 assert.deepEqual(Object.fromEntries(Object.entries(layers).map(([k,v])=>[k,v.length])),
- {mastery:9,world:55,great:8,recent:3});
+ {mastery:9,world:23,great:8,recent:3});
 assert.deepEqual(Object.fromEntries(Object.entries(layers).map(([k,v])=>[k,v.reduce((n,s)=>n+s.books.length,0)])),
- {mastery:278,world:554,great:250,recent:100});
+ {mastery:278,world:208,great:250,recent:100});
 for(const [id,count,domain] of [
   ['rhetoric-writing-craft',25,'12 · Language, Literature, Arts & Culture'],
   ['entrepreneurship-venture',25,'10 · Economics, Business & Management']
@@ -37,7 +37,7 @@ for(const [id,count,domain] of [
  assert.equal(match.books.length,count);
  assert.equal(new Set(match.books.map(b=>b.workId)).size,count);
 }
-assert.equal(new Set(layers.world.map(s=>s.knowledgeDomain)).size,12);
+assert.equal(new Set(layers.world.map(s=>s.knowledgeDomain)).size,4);
 assert.ok(html.includes('id="poly-scale-filter" onchange="setKnowledgeLayerFilter(this.value)"'));
 assert.ok(html.includes('if (!clusters.includes(STATE.polyCluster)) STATE.polyCluster = "ALL"'));
 assert.ok(html.includes('STATE.routeKnowledgeLayer !== subDest'));
@@ -45,6 +45,6 @@ assert.ok(html.includes('stageSelect.value = "ALL"'));
 assert.ok(html.includes('search.value = ""'));
 const all=[...original.world100.flatMap(s=>s.books),...original.short250,...original.gems350,
  ...original.nonNovel500,...original.india150,...original.scifi100,...sub.flatMap(s=>s.books)];
-assert.equal(all.length,3330);
-assert.equal(new Set(all.map(b=>b.workId)).size,3038);
-console.log('PASS: Nine mastery paths and 55 Explore subjects; 75 total / 1,182 books; no changes to canonical catalog totals.');
+assert.equal(all.length,2984);
+assert.equal(new Set(all.map(b=>b.workId)).size,2789);
+console.log('PASS: Nine mastery paths, 23 ReadingAtlas-inspired Explore subjects, and unchanged Great/Recent Nonfiction; 43 Knowledge subjects');
