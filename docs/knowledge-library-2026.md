@@ -89,3 +89,21 @@ The Knowledge catalogue remains **75 subjects / 1,182 book placements**, with **
 The 12 academic domains remain a separate metadata dimension, not alternative reading-depth categories. The application offers the academic domain filter only within Mastery or Explore; editorial reading shelves do not masquerade as academic disciplines. Switching Knowledge layers resets incompatible domain, stage and search filters. All existing book titles, authors, annotations, stages, work IDs, and reading-state storage are preserved.
 
 See [Knowledge taxonomy change audit](knowledge-taxonomy-nine-mastery-2026-11.md) for verification and migration details.
+
+## Current Explore Knowledge simplification — 16 November 2026
+
+**The earlier 75-subject/1,182-placement figures above describe the historical expansion, not the current visible Knowledge catalogue.**
+
+| Layer | Subjects/shelves | Current placements |
+| --- | ---: | ---: |
+| Mastery | 9 | 278 |
+| Explore Knowledge | 23 | 208 |
+| Great Nonfiction | 8 | 250 |
+| Recent Nonfiction | 3 | 100 |
+| **Total Knowledge** | **43** | **836** |
+
+The current Explore collection uses the 22 ReadingAtlas nonfiction subject headings and their original sequence. It selects 5–10 accessible works per topic, retains the original relative order, and displays a subject-number and book-number with source explanation and a connection-to-subject note. Taste, Comedy, Color & Everyday Aesthetics is appended as the twenty-third, with ten works. The old Explore catalogue is archived, not discarded from the embedded script.
+
+Mastery, Great Nonfiction, and Recent Nonfiction book arrays were explicitly compared against the baseline and are unchanged. The original compressed catalogue and CSS are also unchanged. An Ambedkar reading guide is added as author number 102, using the established guide schema.
+
+Source crosswalk and QA details: `docs/readingatlas-explore-2026.md`.
