@@ -3713,7 +3713,20 @@
         </div>
 
         <div class="space-y-6">
-          ${stagesOrder.map(stg => {
+          ${activeSubj.knowledgeLayer === "world" ? `
+            <div class="space-y-3">
+              <div class="text-xs alx-text-muted">Read in the original ReadingAtlas order. Each explanation tells you what the book teaches and how it connects to the subject.</div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+                ${booksToShow.map(b => `
+                  <div class="space-y-2">
+                    <div class="text-xs font-semibold alx-accent-text">${String(b.sourcePosition||activeSubj.books.indexOf(b)+1).padStart(2,"0")} · ${escapeHtml(b.kind || b.type || "Nonfiction")}</div>
+                    ${renderBookCardHTML(b, {topBadge:b.level || "Essential Read"})}
+                    ${b.bridge ? `<p class="text-xs alx-text-secondary leading-relaxed rounded-lg alx-subtle p-3"><strong>Why it connects:</strong> ${escapeHtml(b.bridge)}</p>` : ""}
+                  </div>
+                `).join("")}
+              </div>
+            </div>
+          ` : stagesOrder.map(stg => {
             const stgBooks = booksToShow.filter(b => b.stage === stg);
             if (stgBooks.length === 0) return "";
             return `
